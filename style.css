@@ -1,0 +1,650 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.logoo {
+    border-radius: 2px;
+}
+
+.highlight {
+    color: orange;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li {
+    padding: 5px 3px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: white;
+    color: #6b6b6b;
+    border: 1px solid #ccc;
+}
+.aa{
+    size: 6px;
+    color: white;
+    border-radius: 5px;
+    background-color: #6c63ff;
+}
+.signup-btn {
+    background-color: #6c63ff;
+    color: white;
+    border: 1px solid #6c63ff;
+}
+
+.signup-btn:hover, .login-btn:hover,.aa:hover {
+    background-color: #5751d9;
+    color: white;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style-type: none;
+    padding: 10px 0;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    z-index: 10;
+}
+
+.dropdown-menu li a {
+    padding: 6px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.course-bar {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.course-items {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
+.course-items span {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.course-items span:hover {
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .course-items {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .course-items span {
+        font-size: 16px;
+    }
+}
+
+/* Main Section */
+.main-section {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 40px;
+    margin: -30px 0px 3px;
+    background-color: white;
+    margin-top: 20px;
+    min-height: 300px;
+}
+.spec{
+    height: 250px;;
+    width: 138.3;
+    color: #6674cc;
+    font: 50px barlow;
+}
+.content {
+    padding-left: 20%;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #6c63ff;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.explore-btn {
+    background-color: #6674cc;
+    color: #ffffff;
+    font: 18px inter;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+    background-color: #5751d9;
+}
+
+.image-container {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.instructor-img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-bar {
+        padding: 15px 20px;
+    }
+
+    .nav-bar nav ul {
+        gap: 20px;
+    }
+
+    .main-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .image-container {
+        margin-top: 30px;
+    }
+}
+.banner-section {
+    padding-top: 10px;
+    background-color: #5c67d7;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+
+.banner-container {
+    height: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Promo Section */
+.promo-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.new-batch {
+    color: #5c67d7;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.explore-button {
+    display: inline-block;
+    background-color: #5c67d7;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.explore-button i {
+    margin-left: 8px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+
+
+/* Latest Updates Section */
+.latest-updates {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #5c67d7(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.latest-updates h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #333;
+}
+
+.sub-heading {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.updates-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.update-card {
+    background-color:  #6c63ff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.update-card h3 {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.image-cont {
+    text-align: right;
+}
+
+.image-cont img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+.update-card:hover{
+    background-color: #5c67d7;
+    color: white;
+    transform: translateY(-5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .updates-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* advantage section */
+
+.containername {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+para {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    padding-top: 5px;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+    min-width: 500px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.social-links a {
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-links span {
+    margin-top: 10px;
+}
+.social-links a:hover {
+    transform: translateY(-10px);
+    color: #007bff; /* Change text color on hover */
+}
+
+.social-links img:hover {
+    transform: scale(1.2); /* Increase icon size on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* learning section */
+.learning-section {
+    background-color: var(#ded30854);
+    border-radius: 15px;
+    padding: 40px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.learning-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.learning-header h2 {
+    font-size: 2.2rem;
+    color:greenyellow;
+}
+
+.learning-header h2 span {
+    color:greenyellow;
+}
+
+.see-all {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.arrows {
+    display: flex;
+    gap: 10px;
+}
+
+.arrow {
+    background-color: #162533;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learning-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    color: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+}
+
+/* Unique Styles for the Membership and Certification Section */
+#membership-certification-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.custom-card-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.custom-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+.custom-card-left {
+    background-color: #d0ecff; /* Light blue */
+}
+
+.custom-card-right {
+    background-color: #fdd1b5; /* Light peach */
+}
+
+.custom-card-content {
+    max-width: 60%;
+}
+
+.custom-card-content h3 {
+    font-size: 1.8rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.custom-card-content p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.custom-card-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.custom-card-button-left {
+    background-color: #008cdd;
+    color: white;
+}
+
+.custom-card-button-right {
+    background-color: #f06c00;
+    color: white;
+}
+
+.custom-card-button:hover {
+    opacity: 0.9;
+}
+
+.custom-card-image {
+    width: 30%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .custom-card {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .custom-card-content, .custom-card-image {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .custom-card-image {
+        margin-top: 20px;
+    }
+}
