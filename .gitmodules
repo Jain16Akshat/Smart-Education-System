@@ -1,3 +1,3 @@
-[submodule "Smart-Education-System"]
+https://github.com/Jain16Akshat/Smart-Education-System.git[submodule "Smart-Education-System"]
   path = Smart-Education-System
   url = https://github.com/yourusername/Smart-Education-System.git
