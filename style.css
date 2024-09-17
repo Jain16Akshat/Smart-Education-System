@@ -648,3 +648,75 @@ para {
         margin-top: 20px;
     }
 }
+
+/* course details */
+
+.career-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.high {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.highlightt {
+    color: #24b24a;
+}
+
+.containernnn {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cardneee {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.cardneee h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.box {
+    background-color: #eaf5e9;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);  /* Added black shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px); /* Adds a lift effect on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Intensifies shadow on hover */
+}
+
+.box:nth-child(2n) {
+    background-color: #dcecf6;
+}
+
+.box:nth-child(3n) {
+    background-color: #fcf7dd;
+}
+
+.box:nth-child(4n) {
+    background-color: #fde7de;
+}
+
+strong {
+    font-weight: bold;
+}
