@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +10,50 @@ body {
     background-color: #f5f5f5;
     color: #333;
 }
+.header-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green; /* Green background similar to the image */
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
+
+/* Left side links */
+.left-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.left-links a:hover {
+    color: #ddd;
+}
+
+/* Right side icons */
+.right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-family: FontAwesome, sans-serif;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.icon:hover {
+    color: #ddd;
+}
+
+/* Moon icon styling */
+.moon {
+    font-size: 22px;
+}
 
 /* Navigation Bar */
 .nav-bar {
@@ -20,6 +64,7 @@ body {
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: relative;
+    padding-bottom: 10px;padding-top: 5px;
 }
 
 .logoo {
@@ -76,18 +121,18 @@ button {
 .aa{
     size: 6px;
     border-radius: 5px;
-    background-color: #6c63ff;
+    background-color: green;
     color: white;
 
 }
 .signup-btn {
-    background-color: #6c63ff;
+    background-color: green;
     color: white;
-    border: 1px solid #6c63ff;
+    border: 1px solid green;
 }
 
 .signup-btn:hover, .login-btn:hover,.aa:hover {
-    background-color: #5751d9;
+    background-color: lightgreen;
     color: white;
 }
 
@@ -125,13 +170,17 @@ button {
 }
 
 .course-items {
-    height: 30px;
+
+    height: 100%;
     display: flex;
     justify-content: center;
     gap: 3px;
+    background-color: #162533;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .course-items span {
+    color: white;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -675,9 +724,9 @@ para {
 .cardneee {
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
     width: 45%;
+    box-shadow: -12px 12px 0px black;
 }
 
 .cardneee h2 {
@@ -721,3 +770,115 @@ para {
 strong {
     font-weight: bold;
 }
+
+/* footer */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 220px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #00aeef;
+  }
+  
+  /* Social Media and App Store Buttons */
+  .social-media {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .social-media img {
+    width: 32px;
+    height: 32px;
+  }
+  .twitter{
+    background-color: black;
+    color: #000;
+    border-radius: 1px;
+  }
+  
+  .app-store-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .app-store-buttons a {
+    margin: 0 10px;
+  }
+  
+  .app-store-buttons img {
+    height: 50px;
+    width: auto;
+  }
+  
+  /* Footer bottom section */
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+  }
+  
+  .footer-bottom ul {
+    list-style: none;
+    padding: 10px 0;
+  }
+  
+  .footer-bottom ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-bottom ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .footer-bottom ul li a:hover {
+    color: #00aeef;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 10px;
+  }
