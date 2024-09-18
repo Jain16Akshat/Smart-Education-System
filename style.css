@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
+    background: linear-gradient(135deg, #48CFCB, #f5f5f5);
     color: #333;
 }
 .header-toolbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: green; /* Green background similar to the image */
+    background-color: #229799; /* Green background similar to the image */
     padding: 10px 20px;
     color: white;
     font-size: 16px;
@@ -29,7 +29,7 @@ body {
 }
 
 .left-links a:hover {
-    color: #ddd;
+    color: #f5f5f5;
 }
 
 /* Right side icons */
@@ -47,7 +47,7 @@ body {
 }
 
 .icon:hover {
-    color: #ddd;
+    color: #f5f5f5;
 }
 
 /* Moon icon styling */
@@ -95,7 +95,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #424242;
     font-size: 18px;
     font-weight: bold;
 }
@@ -115,7 +115,7 @@ button {
 
 .login-btn {
     background-color: white;
-    color: #6b6b6b;
+    color: #424242;
     border: 1px solid #ccc;
 }
 .aa{
@@ -528,6 +528,7 @@ para {
 /* learning section */
 .learning-section {
     background-color: var(#ded30854);
+    border: 1px solid 071952 ;
     border-radius: 15px;
     padding: 40px;
     width: 100%;
