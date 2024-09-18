@@ -10,201 +10,104 @@ body {
     background-color: #f5f5f5;
     color: #333;
 }
-.header-toolbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: green; /* Green background similar to the image */
-    padding: 10px 20px;
-    color: white;
-    font-size: 16px;
-}
-
-/* Left side links */
-.left-links a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.left-links a:hover {
-    color: #ddd;
-}
-
-/* Right side icons */
-.right-icons {
-    display: flex;
-    align-items: center;
-}
-
-.icon {
-    font-family: FontAwesome, sans-serif;
-    margin-left: 15px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-.icon:hover {
-    color: #ddd;
-}
-
-/* Moon icon styling */
-.moon {
-    font-size: 22px;
-}
 
 /* Navigation Bar */
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px 0 20px;
-    background-color: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.top-banner {
+    background-color: #4b2ac7;
+    color: white;
+    text-align: center;
+    padding: 10px;
     position: relative;
-    padding-bottom: 10px;padding-top: 5px;
+    font-size: 40px; /* Increased font size */
+    font-weight: bold; /* Bold text */
 }
-
-.logoo {
-    border-radius: 2px;
+.bannerr{
+    size: 5px;
 }
-
-.highlight {
-    color: orange;
-}
-
-.nav-right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 40px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-}
-
-nav ul li {
-    padding: 5px 3px;
-    position: relative;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
+.top-banner strong {
     font-weight: bold;
 }
 
-.auth-buttons {
-    display: flex;
-    gap: 20px;
+#coupon {
+    background-color: #1a1a1a;
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-size: 18px; /* Increased size for the coupon */
+    font-weight: bold; /* Bold coupon code */
+    display: inline-block;
+    margin-left: 5px;
 }
 
-button {
-    padding: 10px 25px;
-    border: none;
-    border-radius: 5px;
+.close-banner {
+    position: absolute;
+    right: 20px;
+    top: 10px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px; /* Bigger close button */
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #1b1b1b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    font-size: 28px; /* Slightly bigger logo */
+    color: #4a66ff;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 26px; /* Bigger logo text */
+}
+
+.logo-text strong {
+    color: #4a66ff;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; /* Increased font size for nav links */
+}
+
+.nav-links li a:hover {
+    color: #7d7d7d;
 }
 
 .login-btn {
-    background-color: white;
-    color: #6b6b6b;
-    border: 1px solid #ccc;
-}
-.aa{
-    size: 6px;
+    background-color: #4a66ff;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    font-size: 18px; /* Slightly larger login button */
     border-radius: 5px;
-    background-color: green;
-    color: white;
-
-}
-.signup-btn {
-    background-color: green;
-    color: white;
-    border: 1px solid green;
-}
-
-.signup-btn:hover, .login-btn:hover,.aa:hover {
-    background-color: lightgreen;
-    color: white;
-}
-
-/* Dropdown */
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: white;
-    border: 1px solid #ccc;
-    list-style-type: none;
-    padding: 10px 0;
-    top: 100%;
-    left: 0;
-    width: 150px;
-    z-index: 10;
-}
-
-.dropdown-menu li a {
-    padding: 6px;
-    display: block;
-    text-decoration: none;
-    color: #333;
-}
-
-.dropdown-menu li a:hover {
-    background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-.course-bar {
-    text-align: center;
-    margin-top: 5px;
-}
-
-.course-items {
-
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 3px;
-    background-color: #162533;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.course-items span {
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
     cursor: pointer;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease;
 }
 
-.course-items span:hover {
-    background-color: white;
-    border-radius: 8px;
+.login-btn:hover {
+    background-color: #3a50cc;
 }
-
-/* Responsive */
-@media (max-width: 768px) {
-    .course-items {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .course-items span {
-        font-size: 16px;
-    }
-}
-
 /* Main Section */
 .main-section {
     height: 500px;
