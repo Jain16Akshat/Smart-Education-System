@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://www.tutorialspoint.com/index.htm -->
+<html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes, maximum-scale=1">
+<title>Quality Tutorials, Video Courses, and eBooks - TutorialsPoint</title>
+<meta name="Description" content="Learn the latest technologies and programming languages including CodeWhisperer, Google Assistant, Dall-E, Business Intelligence, Claude AI, SwiftUI, Smart Grid Technology, Prompt Engineering, Generative AI, Python, DSA, C, C++, Java, PHP, Machine Learning, Data science etc.">
+<meta name="Keywords" content="CodeWhisperer, Google Assistant, Dall-E, Business Intelligence, Claude AI, SwiftUI, Smart, Grid, Technology, SQL, MySQL, FastAPI, Snowflake, Pyramid, Falcon, XlsxWriter, WebDriverIO, Pygame, HTML, Python, CSS, SQL, JavaScript, How to, PHP, Java, C++, jQuery, Bootstrap, C#, XML, MySQL, NodeJS, React, Angular, R, AI, Git, Data Science, Code Game, Tutorials, Programming, Web Development, Training, Learning, Quiz, Courses, Lessons, References, Examples, Source code, Demos, Tips">
+<meta property="og:image" content="https://www.tutorialspoint.com/images/tp_logo_436.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="436">
+<meta property="og:image:height" content="228">
+<meta property="og:description" content="Learn the latest technologies and programming languages including CodeWhisperer, Google Assistant, Dall-E, Business Intelligence, Claude AI, SwiftUI, Smart Grid Technology, Prompt Engineering, Generative AI, Python, DSA, C, C++, Java, PHP, Machine Learning, Data science etc.">
+<style type="text/css">:host,:root{--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Pro";--fa-font-regular:normal 400 1em/1 "Font Awesome 6 Pro";--fa-font-light:normal 300 1em/1 "Font Awesome 6 Pro";--fa-font-thin:normal 100 1em/1 "Font Awesome 6 Pro";--fa-font-duotone:normal 900 1em/1 "Font Awesome 6 Duotone";--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands";--fa-font-sharp-solid:normal 900 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-regular:normal 400 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-light:normal 300 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-thin:normal 100 1em/1 "Font Awesome 6 Sharp";--fa-font-sharp-duotone-solid:normal 900 1em/1 "Font Awesome 6 Sharp Duotone"}svg:not(:host).svg-inline--fa,svg:not(:root).svg-inline--fa{overflow:visible;box-sizing:content-box}.svg-inline--fa{display:var(--fa-display,inline-block);height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-2xs{vertical-align:.1em}.svg-inline--fa.fa-xs{vertical-align:0}.svg-inline--fa.fa-sm{vertical-align:-.0714285705em}.svg-inline--fa.fa-lg{vertical-align:-.2em}.svg-inline--fa.fa-xl{vertical-align:-.25em}.svg-inline--fa.fa-2xl{vertical-align:-.3125em}.svg-inline--fa.fa-pull-left{margin-right:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-pull-right{margin-left:var(--fa-pull-margin,.3em);width:auto}.svg-inline--fa.fa-li{width:var(--fa-li-width,2em);top:.25em}.svg-inline--fa.fa-fw{width:var(--fa-fw-width,1.25em)}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{transform-origin:center center}.fa-layers-text{left:50%;top:50%;transform:translate(-50%,-50%);transform-origin:center center}.fa-layers-counter{background-color:var(--fa-counter-background-color,#ff253a);border-radius:var(--fa-counter-border-radius,1em);box-sizing:border-box;color:var(--fa-inverse,#fff);line-height:var(--fa-counter-line-height,1);max-width:var(--fa-counter-max-width,5em);min-width:var(--fa-counter-min-width,1.5em);overflow:hidden;padding:var(--fa-counter-padding,.25em .5em);right:var(--fa-right,0);text-overflow:ellipsis;top:var(--fa-top,0);transform:scale(var(--fa-counter-scale,.25));transform-origin:top right}.fa-layers-bottom-right{bottom:var(--fa-bottom,0);right:var(--fa-right,0);top:auto;transform:scale(var(--fa-layers-scale,.25));transform-origin:bottom right}.fa-layers-bottom-left{bottom:var(--fa-bottom,0);left:var(--fa-left,0);right:auto;top:auto;transform:scale(var(--fa-layers-scale,.25));transform-origin:bottom left}.fa-layers-top-right{top:var(--fa-top,0);right:var(--fa-right,0);transform:scale(var(--fa-layers-scale,.25));transform-origin:top right}.fa-layers-top-left{left:var(--fa-left,0);right:auto;top:var(--fa-top,0);transform:scale(var(--fa-layers-scale,.25));transform-origin:top left}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-2xs{font-size:.625em;line-height:.1em;vertical-align:.225em}.fa-xs{font-size:.75em;line-height:.0833333337em;vertical-align:.125em}.fa-sm{font-size:.875em;line-height:.0714285718em;vertical-align:.0535714295em}.fa-lg{font-size:1.25em;line-height:.05em;vertical-align:-.075em}.fa-xl{font-size:1.5em;line-height:.0416666682em;vertical-align:-.125em}.fa-2xl{font-size:2em;line-height:.03125em;vertical-align:-.1875em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:var(--fa-li-margin,2.5em);padding-left:0}.fa-ul>li{position:relative}.fa-li{left:calc(-1 * var(--fa-li-width,2em));position:absolute;text-align:center;width:var(--fa-li-width,2em);line-height:inherit}.fa-border{border-color:var(--fa-border-color,#eee);border-radius:var(--fa-border-radius,.1em);border-style:var(--fa-border-style,solid);border-width:var(--fa-border-width,.08em);padding:var(--fa-border-padding,.2em .25em .15em)}.fa-pull-left{float:left;margin-right:var(--fa-pull-margin,.3em)}.fa-pull-right{float:right;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-bounce{animation-name:fa-bounce;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-timing-function:var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1))}.fa-fade{animation-name:fa-fade;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-beat-fade{animation-name:fa-beat-fade;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-timing-function:var(--fa-animation-timing,cubic-bezier(.4,0,.6,1))}.fa-flip{animation-name:fa-flip;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-timing-function:var(--fa-animation-timing,ease-in-out)}.fa-shake{animation-name:fa-shake;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-timing-function:var(--fa-animation-timing,linear)}.fa-spin{animation-name:fa-spin;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,2s);animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-timing-function:var(--fa-animation-timing,linear)}.fa-spin-reverse{--fa-animation-direction:reverse}.fa-pulse,.fa-spin-pulse{animation-name:fa-spin;animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-timing-function:var(--fa-animation-timing,steps(8))}@media (prefers-reduced-motion:reduce){.fa-beat,.fa-beat-fade,.fa-bounce,.fa-fade,.fa-flip,.fa-pulse,.fa-shake,.fa-spin,.fa-spin-pulse{animation-delay:-1ms;animation-duration:1ms;animation-iteration-count:1;transition-delay:0s;transition-duration:0s}}@keyframes fa-beat{0%,90%{transform:scale(1)}45%{transform:scale(var(--fa-beat-scale,1.25))}}@keyframes fa-bounce{0%{transform:scale(1,1) translateY(0)}10%{transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}30%{transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}50%{transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}57%{transform:scale(1,1) translateY(var(--fa-bounce-rebound,-.125em))}64%{transform:scale(1,1) translateY(0)}100%{transform:scale(1,1) translateY(0)}}@keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}@keyframes fa-beat-fade{0%,100%{opacity:var(--fa-beat-fade-opacity,.4);transform:scale(1)}50%{opacity:1;transform:scale(var(--fa-beat-fade-scale,1.125))}}@keyframes fa-flip{50%{transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}@keyframes fa-shake{0%{transform:rotate(-15deg)}4%{transform:rotate(15deg)}24%,8%{transform:rotate(-18deg)}12%,28%{transform:rotate(18deg)}16%{transform:rotate(-22deg)}20%{transform:rotate(22deg)}32%{transform:rotate(-12deg)}36%{transform:rotate(12deg)}100%,40%{transform:rotate(0)}}@keyframes fa-spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.fa-rotate-90{transform:rotate(90deg)}.fa-rotate-180{transform:rotate(180deg)}.fa-rotate-270{transform:rotate(270deg)}.fa-flip-horizontal{transform:scale(-1,1)}.fa-flip-vertical{transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{transform:scale(-1,-1)}.fa-rotate-by{transform:rotate(var(--fa-rotate-angle,0))}.fa-stack{display:inline-block;vertical-align:middle;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;z-index:var(--fa-stack-z-index,auto)}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:var(--fa-inverse,#fff)}.fa-sr-only,.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.fa-sr-only-focusable:not(:focus),.sr-only-focusable:not(:focus){position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fa-duotone.fa-inverse,.fad.fa-inverse{color:var(--fa-inverse,#fff)}</style><link rel="icon" href="https://www.tutorialspoint.com/images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.tutorialspoint.com/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.tutorialspoint.com/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.tutorialspoint.com/images/favicon-16x16.png">
+<link rel="canonical" href="https://www.tutorialspoint.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./image_files/css2" rel="stylesheet">
+<link rel="stylesheet" href="./image_files/home.css">
+<link rel="stylesheet" href="./image_files/swiper-bundle.min.css">
+<script src="./image_files/973535300821278" async=""></script><script async="" src="./image_files/fbevents.js.download"></script><script src="./image_files/swiper-bundle.min.js.download"></script>
+<script src="./image_files/all.min.js.download"></script>
+
+<script src="./image_files/cmp.min.js.download" data-cfasync="false"></script>
+<script async="" src="./image_files/sa.min.js.download"></script>
+<script>
+  window.ezstandalone = window.ezstandalone || {};
+  ezstandalone.cmd = ezstandalone.cmd || [];
+</script>
+<style>.categories-menu:has(.category-button:nth-of-type(1)[aria-selected=true]) .categories-menu-section:nth-of-type(1) { display: flex; };</style><style>.categories-menu:has(.category-button:nth-of-type(2)[aria-selected=true]) .categories-menu-section:nth-of-type(2) { display: flex; };</style><style>.categories-menu:has(.category-button:nth-of-type(3)[aria-selected=true]) .categories-menu-section:nth-of-type(3) { display: flex; };</style><style>.categories-menu:has(.category-button:nth-of-type(4)[aria-selected=true]) .categories-menu-section:nth-of-type(4) { display: flex; };</style><style>.categories-menu:has(.category-button:nth-of-type(5)[aria-selected=true]) .categories-menu-section:nth-of-type(5) { display: flex; };</style><style>.categories-menu:has(.category-button:nth-of-type(6)[aria-selected=true]) .categories-menu-section:nth-of-type(6) { display: flex; };</style><style>.categories-menu:has(.category-button:nth-of-type(7)[aria-selected=true]) .categories-menu-section:nth-of-type(7) { display: flex; };</style><style>.categories-menu:has(.category-button:nth-of-type(8)[aria-selected=true]) .categories-menu-section:nth-of-type(8) { display: flex; };</style><style>.categories-menu:has(.category-button:nth-of-type(9)[aria-selected=true]) .categories-menu-section:nth-of-type(9) { display: flex; };</style><style id="googleidentityservice_button_styles">.qJTHM{-webkit-user-select:none;color:#202124;direction:ltr;-webkit-touch-callout:none;font-family:"Roboto-Regular",arial,sans-serif;-webkit-font-smoothing:antialiased;font-weight:400;margin:0;overflow:hidden;-webkit-text-size-adjust:100%}.ynRLnc{left:-9999px;position:absolute;top:-9999px}.L6cTce{display:none}.bltWBb{word-break:break-all}.hSRGPd{color:#1a73e8;cursor:pointer;font-weight:500;text-decoration:none}.Bz112c-W3lGp{height:16px;width:16px}.Bz112c-E3DyYd{height:20px;width:20px}.Bz112c-r9oPif{height:24px;width:24px}.Bz112c-uaxL4e{-webkit-border-radius:10px;border-radius:10px}.LgbsSe-Bz112c{display:block}.S9gUrf-YoZ4jf,.S9gUrf-YoZ4jf *{border:none;margin:0;padding:0}.fFW7wc-ibnC6b>.aZ2wEe>div{border-color:#4285f4}.P1ekSe-ZMv3u>div:nth-child(1){background-color:#1a73e8!important}.P1ekSe-ZMv3u>div:nth-child(2),.P1ekSe-ZMv3u>div:nth-child(3){background-image:linear-gradient(to right,rgba(255,255,255,.7),rgba(255,255,255,.7)),linear-gradient(to right,#1a73e8,#1a73e8)!important}.haAclf{display:inline-block}.nsm7Bb-HzV7m-LgbsSe{-webkit-border-radius:4px;border-radius:4px;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:background-color .218s,border-color .218s;transition:background-color .218s,border-color .218s;-webkit-user-select:none;-webkit-appearance:none;background-color:#fff;background-image:none;border:1px solid #dadce0;color:#3c4043;cursor:pointer;font-family:"Google Sans",arial,sans-serif;font-size:14px;height:40px;letter-spacing:0.25px;outline:none;overflow:hidden;padding:0 12px;position:relative;text-align:center;vertical-align:middle;white-space:nowrap;width:auto}@media screen and (-ms-high-contrast:active){.nsm7Bb-HzV7m-LgbsSe{border:2px solid windowText;color:windowText}}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe{font-size:14px;height:32px;letter-spacing:0.25px;padding:0 10px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe{font-size:11px;height:20px;letter-spacing:0.3px;padding:0 8px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe{padding:0;width:40px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe{width:32px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe{width:20px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK{-webkit-border-radius:20px;border-radius:20px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.pSzOP-SxQuSe{-webkit-border-radius:16px;border-radius:16px}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.purZT-SxQuSe{-webkit-border-radius:10px;border-radius:10px}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc{border:none;color:#fff}.nsm7Bb-HzV7m-LgbsSe.MFS4be-v3pZbf-Ia7Qfc{background-color:#1a73e8}.nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc{background-color:#202124;color:#e8eaed}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:18px;margin-right:8px;min-width:18px;width:18px}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:14px;min-width:14px;width:14px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{height:10px;min-width:10px;width:10px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin-left:8px;margin-right:-4px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin:0;padding:10px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{padding:8px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c{padding:4px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-top-left-radius:3px;border-top-left-radius:3px;-webkit-border-bottom-left-radius:3px;border-bottom-left-radius:3px;display:-webkit-box;display:-webkit-flex;display:flex;justify-content:center;-webkit-align-items:center;align-items:center;background-color:#fff;height:36px;margin-left:-10px;margin-right:12px;min-width:36px;width:36px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c,.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c{margin:0;padding:0}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{height:28px;margin-left:-8px;margin-right:10px;min-width:28px;width:28px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{height:16px;margin-left:-6px;margin-right:8px;min-width:16px;width:16px}.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-radius:3px;border-radius:3px;margin-left:2px;margin-right:0;padding:0}.nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-radius:18px;border-radius:18px}.nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-radius:14px;border-radius:14px}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-radius:8px;border-radius:8px}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-flex-direction:row;flex-direction:row;justify-content:space-between;-webkit-flex-wrap:nowrap;flex-wrap:nowrap;height:100%;position:relative;width:100%}.nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX{justify-content:center}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId{-webkit-flex-grow:1;flex-grow:1;font-family:"Google Sans",arial,sans-serif;font-weight:500;overflow:hidden;text-overflow:ellipsis;vertical-align:top}.nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-BPrWId{font-weight:300}.nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX .nsm7Bb-HzV7m-LgbsSe-BPrWId{-webkit-flex-grow:0;flex-grow:0}.nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-MJoBVe{-webkit-transition:background-color .218s;transition:background-color .218s;bottom:0;left:0;position:absolute;right:0;top:0}.nsm7Bb-HzV7m-LgbsSe:hover,.nsm7Bb-HzV7m-LgbsSe:focus{-webkit-box-shadow:none;box-shadow:none;border-color:#d2e3fc;outline:none}.nsm7Bb-HzV7m-LgbsSe:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,.nsm7Bb-HzV7m-LgbsSe:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(66,133,244,.04)}.nsm7Bb-HzV7m-LgbsSe:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(66,133,244,.1)}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(255,255,255,.24)}.nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe{background:rgba(255,255,255,.32)}.nsm7Bb-HzV7m-LgbsSe .n1UuX-DkfjY{-webkit-border-radius:50%;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:flex;height:20px;margin-left:-4px;margin-right:8px;min-width:20px;width:20px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId{font-family:"Roboto";font-size:12px;text-align:left}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .ssJRIf,.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .fmcmS{overflow:hidden;text-overflow:ellipsis}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;color:#5f6368;fill:#5f6368;font-size:11px;font-weight:400}.nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff{color:#e8eaed;fill:#e8eaed}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .Bz112c{height:18px;margin:-3px -3px -3px 2px;min-width:18px;width:18px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-top-left-radius:0;border-top-left-radius:0;-webkit-border-bottom-left-radius:0;border-bottom-left-radius:0;-webkit-border-top-right-radius:3px;border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;border-bottom-right-radius:3px;margin-left:12px;margin-right:-10px}.nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf{-webkit-border-radius:18px;border-radius:18px}.L5Fo6c-sM5MNb{border:0;display:block;left:0;position:relative;top:0}.L5Fo6c-bF1uUb{-webkit-border-radius:4px;border-radius:4px;bottom:0;cursor:pointer;left:0;position:absolute;right:0;top:0}.L5Fo6c-bF1uUb:focus{border:none;outline:none}sentinel{}</style><link id="googleidentityservice" type="text/css" media="all" rel="stylesheet" href="./image_files/style"><script src="./image_files/boise.js.download" async=""></script><script src="./image_files/abilene.js.download" async=""></script><script src="./image_files/et.js.download" async=""></script><script src="./image_files/jellyfish.js.download" async=""></script><script async="" type="text/javascript" src="./image_files/f.txt"></script><script src="./image_files/tuscon.js.download" async=""></script><script src="./image_files/kenai.js.download" async=""></script><script src="./image_files/portland.js.download" async=""></script><script src="./image_files/dall.js.download" async=""></script><script src="./image_files/augusta.js.download"></script><script src="./image_files/banger.js.download" async=""></script><script src="./image_files/kenai.js.download" async=""></script><script src="./image_files/mulvane.js.download" async=""></script><script src="./image_files/wichita.js.download" async=""></script><script src="./image_files/raleigh.js.download" async=""></script><script src="./image_files/vista.js.download" async=""></script><script src="./image_files/nmash.js.download"></script><script src="./image_files/olathe.js.download" async=""></script><script src="./image_files/chanute.js.download" async=""></script><script src="./image_files/vitals.js.download" async=""></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9uiHDzQFAhqALUhTgTYJcz9XrGH2y0/9AORwCSapUO/f7Uh7ysIzyszNkuWDLqNYg8446Uj48XIstBW1qv/wAQAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3Mjc4MjcxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9R+gkZL3TWq+Z7RJ2L0c7ZN7FZD5z4mHmVvjrPitg/EMz9P3j5d3W7Vw5ZR9jtJGmWKltM4BO3smNzpCgwYuwwAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3Mjc4MjcxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="./image_files/f(1).txt" async=""></script><script async="" src="./image_files/103512698"></script><script async="" src="./image_files/AGSKWxVRh3MArvKLZHGOoebq9sstAmhiPTeogiSlOqYcYGojvUDkseYEqJk09JVHmoZoVMN4EprJihVOgrhjMrah01K2CkYPnI3x73utAbsH-azf8CBr9BxdiMWcGve5nZLEeBhp_fS63A=="></script><script esp-signal="true" src="./image_files/encrypted-tag-g.js.download"></script><script esp-signal="true" src="./image_files/ob.js.download"></script><script async="" src="./image_files/AGSKWxUioqdtEOQl-lIoBUNGRw4qPz3aDgAP0-3XrOQsc4vqj7OwpE0Oi2OiT5FgAHHcDwgGMTltXlCqE81hTkXo3CfBYRlLpwhhC3WmwTzYdMOyvctxxhF3XBVLHkcDFfDnaVH9laZPHg=="></script><meta http-equiv="origin-trial" content="AxjhRadLCARYRJawRjMjq4U8V8okQvSnrBIJWdMajuEkN3/DfVAcLcFhMVrUWnOXagwlI8dQD84FwJDGj9ohqAYAAABveyJvcmlnaW4iOiJodHRwczovL2dvb2dsZWFkc2VydmljZXMuY29tOjQ0MyIsImZlYXR1cmUiOiJGZXRjaExhdGVyQVBJIiwiZXhwaXJ5IjoxNzI1NDA3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script async="" src="./image_files/AGSKWxXqutEhlmu6l1avDfLqfX5QoRSywHx5qKpl2Zyaf_16OxUc56H3CPwBqf4ic29rhwq_K2rt3w-rxN4o3O0GwUaEUsXIuaP7xb4SE4QVKt0fndjKOMr_Yw51xr-KQAsKuQJEiQCb_g=="></script></head>
+<body>
+<div class="accent-header">
+   <nav class="accent-nav library-accent-nav">
+   <div class="accent-nav__content">
+      <ul class="accent-nav__list">
+         <li class="accent-nav__item">
+            <a class="accent-nav__link" href="https://www.tutorialspoint.com/index.htm" title="Home"><svg class="svg-inline--fa fa-house" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="house" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M298.6 12L288 2.7 277.4 12 5.4 252l21.2 24L64 243l0 253 0 16 16 0 416 0 16 0 0-16 0-253 37.4 33 21.2-24L298.6 12zM96 480l0-265.3L288 45.3 480 214.7 480 480l-112 0 0-176 0-16-16 0-128 0-16 0 0 16 0 176L96 480zm144 0l0-160 96 0 0 160-96 0z"></path></svg><!-- <i class="fa-sharp fa-light fa-home"></i> --> Home</a>
+         </li>
+         <li class="accent-nav__item">
+            <a class="accent-nav__link" href="https://www.tutorialspoint.com/codingground.htm" title="Coding Ground"><svg class="svg-inline--fa fa-code" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="code" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M381.5 4l-4.7 15.3-144 464L228 498.5l30.6 9.5 4.7-15.3 144-464L412 13.5 381.5 4zM160.7 105.4l-11.7 11L13 244.4 .7 256 13 267.7l136 128 11.7 11 21.9-23.3-11.7-11L47.3 256 171 139.6l11.7-11-21.9-23.3zm296.7 23.9l12 10.6c27.8 24.7 47.5 44 67.4 63.5c0 0 0 0 0 0c16.8 16.4 33.7 32.9 55.5 52.8L469 372.3l-11.7 11 21.9 23.3 11.7-11 136-128 12.7-12L626.6 244c-27.8-24.7-47.5-44-67.4-63.5c0 0 0 0 0 0C539.2 161 519 141.3 490.6 116l-12-10.6-21.3 23.9z"></path></svg><!-- <i class="fa-sharp fa-light fa-code"></i> -->Coding Ground</a>
+         </li>
+         <li class="accent-nav__item">
+            <a class="accent-nav__link" href="https://www.tutorialspoint.com/job_search.php" title="Jobs"><svg class="svg-inline--fa fa-suitcase" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="suitcase" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M144 0L128 0l0 16 0 80L32 96 0 96l0 32L0 448l0 32 32 0 448 0 32 0 0-32 0-320 0-32-32 0-96 0 0-80 0-16L368 0 144 0zM352 96L160 96l0-64 192 0 0 64zM144 128l224 0 16 0 0 320-256 0 0-320 16 0zM32 128l64 0 0 320-64 0 0-320zM480 448l-64 0 0-320 64 0 0 320z"></path></svg><!-- <i class="fa-sharp fa-light fa-suitcase"></i> --> Jobs</a>
+         </li>
+         <li class="accent-nav__item">
+            <a class="accent-nav__link" href="https://www.tutorialspoint.com/whiteboard.htm" title="Whiteboard"><svg class="svg-inline--fa fa-chalkboard" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="chalkboard" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M48 32L32 32l0 16 0 368 32 0L64 64l448 0 0 352 32 0 0-368 0-16-16 0L48 32zM224 352l0 16 0 80L16 448 0 448l0 32 16 0 544 0 16 0 0-32-16 0-144 0 0-80 0-16-16 0-160 0-16 0zm32 32l128 0 0 56-128 0 0-56z"></path></svg><!-- <i class="fa-sharp fa-light fa-chalkboard"></i> -->Whiteboard</a>
+         </li>
+         <li class="accent-nav__item">
+            <a class="accent-nav__link" href="https://www.tutorialspoint.com/online_dev_tools.htm" title="Tools"><svg class="svg-inline--fa fa-screwdriver-wrench" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="screwdriver-wrench" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M160 160l0-48L67 42.3 42.3 67 112 160l48 0zm32 0l0 9.4 99.3 99.3 14.1-14.1L328 232l22.6 22.6L489.4 393.4 512 416l-22.6 22.6-50.7 50.7L416 512l-22.6-22.6L254.6 350.6 232 328l22.6-22.6 14.1-14.1L169.4 192l-9.4 0-64 0L0 64 64 0 192 96l0 64zM416 466.7L466.7 416 328 277.3 277.3 328 416 466.7zM22.6 377.4L166.1 233.9l22.6 22.6L45.3 400 112 466.7 218.7 360l22.6 22.6L134.6 489.4 112 512 89.4 489.4 22.6 422.6 0 400l22.6-22.6zM480 160c0-10.7-1.3-21.1-3.8-31l-53.6 53.6-9.4 9.4L400 192l-48 0-32 0 0-32 0-48 0-13.3 9.4-9.4L383 35.8c-9.9-2.5-20.3-3.8-31-3.8c-46.5 0-87.2 24.8-109.6 61.8L216.7 74.5C245.1 29.7 295.1 0 352 0c19.9 0 38.9 3.6 56.5 10.3c10.6 4 20.7 9.1 30.1 15.2L415.3 48.7 352 112l0 16 0 32 32 0 16 0 63.3-63.3 23.3-23.3c6.1 9.4 11.2 19.5 15.2 30.1c6.6 17.6 10.3 36.6 10.3 56.5c0 57.2-30 107.3-75.1 135.6l-23.4-23.4C453.1 250.5 480 208.4 480 160zM120 414.6L97.4 392 120 369.4 142.6 392 120 414.6z"></path></svg><!-- <i class="fa-sharp fa-light fa-tools"></i> -->Tools</a>
+         </li>
+         <li class="accent-nav__item">
+            <a class="accent-nav__link" href="https://www.tutorialspoint.com/articles/index.php" title="Articles"><svg class="svg-inline--fa fa-pen-to-square" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="pen-to-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M128 384l6.3-33.7L152 256 385.4 22.6 408 0l22.6 22.6 58.7 58.7L512 104l-22.6 22.6L256 360l-94.3 17.7L128 384zm112.4-53.6L410.1 160.7l-58.7-58.7L181.6 271.6l-13.6 72.3 72.3-13.6zM432.7 138.1L466.7 104 408 45.3 373.9 79.3l58.7 58.7zM0 64l16 0 192 0 16 0 0 32-16 0L32 96l0 384 384 0 0-176 0-16 32 0 0 16 0 192 0 16-16 0L16 512 0 512l0-16L0 80 0 64z"></path></svg><!-- <i class="fa-sharp fa-light fa-pen-to-square"></i> -->Articles</a>
+         </li>
+         <li class="accent-nav__item">
+            <a class="accent-nav__link" href="https://www.tutorialspoint.com/articles/write-and-earn.php"><svg class="svg-inline--fa fa-money-check-dollar-pen" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="money-check-dollar-pen" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M32 96l512 0 0 92.9 4.9-4.9L576 156.9 576 96l0-32-32 0L32 64 0 64 0 96 0 416l0 32 32 0 295.8 0 5-32L32 416 32 96zM256 288l0 32 128 0 0-32-128 0zm224-96l-224 0 0 32 224 0 0-32zM160 144l-32 0 0 16 0 9.3c-6.5 1.1-12.7 2.9-18.3 5.4c-14.1 6.4-25.9 18.1-28.8 34.7c-1.6 9.5-.7 18.5 3.1 26.6c3.8 7.9 9.7 13.7 15.9 17.9c11.1 7.5 25.8 11.9 37.7 15.5c0 0 0 0 0 0s0 0 0 0l2 .6c13.8 4.2 23.9 7.5 30.5 12.3c2.9 2.1 4.3 4 5.1 5.7c.7 1.6 1.3 4.3 .5 9c-.9 5-3.8 9-10.3 11.8c-7 3-17.7 4.3-31 2.2c-6.4-1-17.6-4.8-27.1-8.1c0 0 0 0 0 0s0 0 0 0c-2.2-.7-4.2-1.4-6.1-2.1l-15.2-5.1L75.8 326.1l15.2 5.1c1.3 .4 2.8 1 4.6 1.6c0 0 0 0 0 0s0 0 0 0s0 0 0 0c8.9 3 23 7.9 32.4 9.6l0 9.6 0 16 32 0 0-16 0-8.9c6.3-.9 12.3-2.5 17.9-4.9c14.7-6.3 26.3-18.3 29.3-35.7c1.7-9.7 .9-18.9-2.7-27.2c-3.6-8.2-9.3-14.3-15.6-18.8c-11.6-8.4-27.2-13.1-39.5-16.9c0 0 0 0 0 0l-.6-.2c-13.9-4.2-24.3-7.4-31-12c-3-2-4.3-3.8-5-5.1c-.6-1.2-1.2-3.3-.5-7.4c.6-3.6 3.3-7.8 10.5-11c7.3-3.3 18-4.9 30.9-2.9c4.4 .7 18.1 3.4 22.1 4.4l15.5 4.1 8.2-30.9-15.5-4.1c-5.1-1.4-18.2-3.9-24.1-4.9l0-9.6 0-16zM553.3 269.3l41.5 41.5L572 333.5 530.5 292l22.8-22.8zM398 424.5L507.9 314.6l41.5 41.5L439.5 466l-49.1 7.7 7.7-49.1zM617.4 288.1L553.3 224 368 409.3l-10.8 69.5L352 512l33.2-5.2L454.7 496 617.4 333.3 640 310.7l-22.6-22.6z"></path></svg><!-- <i class="fa-sharp fa-light fa-money-check-dollar-pen"></i> -->Write and Earn</a>
+         </li>
+      </ul>
+   </div>
+   <button class="accent-nav__toggle" aria-expanded="false"> Menu <svg xmlns="https://www.w3.org/2000/svg" width="13" height="8" viewBox="0 0 13 8" fill="none"><path d="M1.12891 1.33594L6.40994 6.62214L11.691 1.33594" stroke="white" stroke-width="1.79664" stroke-linecap="round" stroke-linejoin="round"></path></svg></button><a href="https://www.tutorialspoint.com/market/login.jsp" class="accent-nav__login-button"> Login</a>
+   <ul class="flex-group accent-nav__right-list">
+      <li class="accent-nav__item">
+         <button class="accent-nav__button theme-toggle" aria-expanded="false" href="/index.htm"><span class="sr-only">Switch theme</span></button>
+      </li>
+      <li>
+         <a class="accent-nav__social-link" rel="nofollow" target="_blank" href="https://www.facebook.com/tutorialspointindia"><svg class="svg-inline--fa fa-facebook" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"></path></svg><!-- <i class="fa-sharp fa-light fa-brands fa-facebook"></i> --></a>
+      </li>
+      <li>
+         <a class="accent-nav__social-link" target="_blank" href="https://www.instagram.com/tutorialspoint_/" rel="nofollow"><svg class="svg-inline--fa fa-instagram" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fa-sharp fa-light fa-brands fa-instagram"></i> --></a>
+      </li>
+      <li>
+         <a class="accent-nav__social-link" target="_blank" href="https://twitter.com/tutorialspoint" rel="nofollow"><svg class="svg-inline--fa fa-twitter" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fa-sharp fa-light fa-brands fa-twitter"></i> --></a>
+      </li>
+      <li>
+         <a class="accent-nav__social-link" target="_blank" href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" rel="nofollow"><svg class="svg-inline--fa fa-youtube" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg><!-- <i class="fa-sharp fa-light fa-brands fa-youtube"></i> --></a>
+      </li>
+      <li>
+         <a class="accent-nav__social-link" target="_blank" href="https://www.linkedin.com/company/tutorialspoint/" rel="nofollow"><svg class="svg-inline--fa fa-linkedin" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg><!-- <i class="fa-sharp fa-light fa-brands fa-linkedin"></i> --></a>
+      </li>
+   </ul>
+   </nav>
+</div>
+<header class="header show"><a href="https://www.tutorialspoint.com/" title="Tutorials point">
+      <svg class="logo-desktop" xmlns="http://www.w3.org/2000/svg" width="226" height="42" viewBox="0 0 226 42" fill="none">
+      <path class="logo-desktop-path" d="M76.2136 13.8408V27.7576H72.3845V26.1045C71.3229 27.3193 69.7701 27.9689 68.0642 27.9689C64.5731 27.9689 62.1172 26.0042 62.1172 21.7103V13.8461H66.1523V21.1135C66.1523 23.4426 67.1874 24.4778 68.9726 24.4778C70.7577 24.4778 72.1785 23.2895 72.1785 20.7279V13.8461H76.2136V13.8408Z" fill="#40A944"></path>
+      <path class="logo-desktop-path" d="M89.1484 20.7959C89.1484 16.6077 92.3807 13.6289 96.8066 13.6289C101.233 13.6289 104.438 16.6024 104.438 20.7959C104.438 24.9894 101.233 27.9629 96.8066 27.9629C92.3807 27.9629 89.1484 24.9894 89.1484 20.7959ZM100.351 20.7959C100.351 18.3928 98.8242 16.9404 96.8066 16.9404C94.7891 16.9404 93.2363 18.3876 93.2363 20.7959C93.2363 23.2043 94.7891 24.6514 96.8066 24.6514C98.8242 24.6514 100.351 23.2043 100.351 20.7959Z" fill="#40A944"></path>
+      <path class="logo-desktop-path" d="M115.28 13.6348V17.3582C114.942 17.3318 114.683 17.3054 114.377 17.3054C112.153 17.3054 110.68 18.5202 110.68 21.1873V27.7575H106.645V13.8407H110.5V15.6787C111.482 14.3319 113.141 13.6348 115.285 13.6348H115.28Z" fill="#40A944"></path>
+      <path class="logo-desktop-path" d="M117.695 13.8408H121.73V27.7576H117.695V13.8408Z" fill="#40A944"></path>
+      <path class="logo-desktop-path" d="M139.119 13.8402V27.757H135.263V26.1514C134.255 27.3661 132.781 27.9629 130.917 27.9629C126.987 27.9629 123.961 25.169 123.961 20.7959C123.961 16.4228 126.987 13.6289 130.917 13.6289C132.623 13.6289 134.07 14.1729 135.079 15.3084V13.8349H139.114L139.119 13.8402ZM135.163 20.7959C135.163 18.3928 133.61 16.9404 131.619 16.9404C129.628 16.9404 128.049 18.3876 128.049 20.7959C128.049 23.2043 129.602 24.6514 131.619 24.6514C133.637 24.6514 135.163 23.2043 135.163 20.7959Z" fill="#40A944"></path>
+      <path class="logo-desktop-path" d="M146.402 8.5625H142.367V27.7555H146.402V8.5625Z" fill="#40A944"></path>
+      <path class="logo-desktop-path" d="M149.141 26.4622L150.487 23.5679C151.729 24.3707 153.619 24.9147 155.325 24.9147C157.19 24.9147 157.887 24.4235 157.887 23.6471C157.887 21.3708 149.479 23.7 149.479 18.1385C149.479 15.4978 151.861 13.6387 155.917 13.6387C157.829 13.6387 159.952 14.077 161.272 14.8534L159.925 17.7266C158.552 16.9502 157.184 16.6914 155.917 16.6914C154.105 16.6914 153.329 17.2618 153.329 17.9854C153.329 20.3673 161.737 18.0646 161.737 23.5468C161.737 26.1347 159.334 27.9674 155.167 27.9674C152.811 27.9674 150.435 27.3231 149.141 26.4675V26.4622Z" fill="#40A944"></path>
+      <path class="logo-desktop-path" d="M178.226 20.9541C178.226 25.0948 175.332 27.8835 171.45 27.8835C169.279 27.8835 167.415 26.9539 166.279 25.1952V32.7742H164.441V14.1515H166.2V16.8398C167.315 15.0283 169.2 14.0459 171.45 14.0459C175.332 14.0459 178.226 16.8398 178.226 20.9541ZM176.388 20.9541C176.388 17.8011 174.191 15.6515 171.318 15.6515C168.445 15.6515 166.248 17.7958 166.248 20.9541C166.248 24.1125 168.418 26.2568 171.318 26.2568C174.218 26.2568 176.388 24.1336 176.388 20.9541Z" fill="var(--clr-text)"></path>
+      <path class="logo-desktop-path" d="M180.129 20.9541C180.129 16.919 183.076 14.0459 187.058 14.0459C191.041 14.0459 193.966 16.919 193.966 20.9541C193.966 24.9892 191.046 27.8835 187.058 27.8835C183.071 27.8835 180.129 24.9892 180.129 20.9541ZM192.102 20.9541C192.102 17.7747 189.953 15.6515 187.058 15.6515C184.164 15.6515 181.988 17.7747 181.988 20.9541C181.988 24.1336 184.159 26.2568 187.058 26.2568C189.958 26.2568 192.102 24.1336 192.102 20.9541Z" fill="var(--clr-text)"></path>
+      <path class="logo-desktop-path" d="M196.754 14.1523H198.592V27.7575H196.754V14.1523Z" fill="var(--clr-text)"></path>
+      <path class="logo-desktop-path" d="M215.288 19.8661V27.7567H213.45V20.051C213.45 17.1778 211.95 15.7043 209.362 15.7043C206.442 15.7043 204.604 17.5159 204.604 20.6161V27.7567H202.766V14.1515H204.524V16.6602C205.507 15.0071 207.345 14.0459 209.695 14.0459C213.006 14.0459 215.283 15.9578 215.283 19.8661H215.288Z" fill="var(--clr-text)"></path>
+      <path class="logo-desktop-path" d="M59.3346 24.2389C58.8699 24.5769 58.2731 24.7565 57.6815 24.7565C56.5935 24.7565 55.9756 24.1122 55.9756 22.9185V17.2568H59.4139V14.1512H55.9756V10.2852L51.9405 11.2411V14.1512H50.2188V17.2568H51.9405V22.9714C51.9405 26.2829 53.8313 27.9624 57.1375 27.9624C58.3523 27.9624 59.567 27.6772 60.3962 27.0804L59.3346 24.2336V24.2389Z" fill="#40A944"></path>
+      <path class="logo-desktop-path" d="M87.2878 24.2389C86.823 24.5769 86.2262 24.7565 85.6347 24.7565C84.5467 24.7565 83.9287 24.1122 83.9287 22.9185V17.2568H87.367V14.1512H83.9287V10.2852L79.8936 11.2411V14.1512H78.1719V17.2568H79.8936V22.9714C79.8936 26.2829 81.7844 27.9624 85.0907 27.9624C86.3054 27.9624 87.5202 27.6772 88.3494 27.0804L87.2878 24.2336V24.2389Z" fill="#40A944"></path>
+      <path class="logo-desktop-path" d="M119.713 11.8222C120.827 11.8222 121.73 10.9189 121.73 9.80465C121.73 8.69039 120.827 7.78711 119.713 7.78711C118.599 7.78711 117.695 8.69039 117.695 9.80465C117.695 10.9189 118.599 11.8222 119.713 11.8222Z" fill="#40A944"></path>
+      <path class="logo-desktop-path" d="M197.674 11.8222C198.788 11.8222 199.691 10.9189 199.691 9.80465C199.691 8.69039 198.788 7.78711 197.674 7.78711C196.56 7.78711 195.656 8.69039 195.656 9.80465C195.656 10.9189 196.56 11.8222 197.674 11.8222Z" fill="#40A944"></path>
+      <path class="logo-desktop-path" d="M225.15 25.6071C224.633 26.0719 223.909 26.3043 223.133 26.3043C221.606 26.3043 220.803 25.4223 220.803 23.822V15.699H224.918V14.1462H220.803V10.2168L218.965 11.1728V14.1462H217.043V15.699H218.965V23.9223C218.965 26.4311 220.386 27.8782 222.948 27.8782C224.009 27.8782 225.097 27.5666 225.794 26.9222L225.15 25.6019V25.6071Z" fill="var(--clr-text)"></path>
+      <path d="M27.3002 39.5829C33.1626 39.4561 38.4072 35.87 40.8842 30.5568C42.3208 27.4829 43.0444 24.013 42.8542 20.3582C42.2785 9.30395 33.1521 0.394029 22.082 0.0718569C9.95038 -0.282005 0 9.44655 0 21.5043C0 30.7099 5.80439 38.5583 13.9485 41.6004C13.1721 40.7871 12.6017 39.7941 12.2531 38.6217C11.7091 36.8101 11.725 34.6711 12.2954 32.2046L15.2319 19.8881H9.16343L10.1564 15.5837L10.4257 14.4429H16.5259L16.6368 13.9411L18.0628 7.76175L26.9727 6.05582L25.1506 13.9411L23.8408 19.8881L20.8197 33.2609C20.3602 35.2626 20.5398 36.8101 21.3743 37.8928C21.3743 37.8928 22.6207 39.6832 27.3002 39.5829ZM29.4128 13.4605C31.8951 12.9904 34.0288 15.1242 33.5588 17.6065C33.2947 18.9902 32.1803 20.1099 30.7912 20.374C28.3089 20.8441 26.1752 18.7103 26.6453 16.228C26.9093 14.8443 28.0237 13.7246 29.4128 13.4605Z" fill="#40A944"></path>
+      </svg>
+      <svg class="logo-mobile" xmlns="http://www.w3.org/2000/svg" width="43" height="42" viewBox="0 0 43 42" fill="none"><path d="M27.3002 39.5829C33.1626 39.4561 38.4072 35.87 40.8842 30.5568C42.3208 27.4829 43.0444 24.013 42.8542 20.3582C42.2785 9.30395 33.1521 0.394029 22.082 0.0718569C9.95038 -0.282005 0 9.44655 0 21.5043C0 30.7099 5.80439 38.5583 13.9485 41.6004C13.1721 40.7871 12.6017 39.7941 12.2531 38.6217C11.7091 36.8101 11.725 34.6711 12.2954 32.2046L15.2319 19.8881H9.16343L10.1564 15.5837L10.4257 14.4429H16.5259L16.6368 13.9411L18.0628 7.76175L26.9727 6.05582L25.1506 13.9411L23.8408 19.8881L20.8197 33.2609C20.3602 35.2626 20.5398 36.8101 21.3743 37.8928C21.3743 37.8928 22.6207 39.6832 27.3002 39.5829ZM29.4128 13.4605C31.8951 12.9904 34.0288 15.1242 33.5588 17.6065C33.2947 18.9902 32.1803 20.1099 30.7912 20.374C28.3089 20.8441 26.1752 18.7103 26.6453 16.228C26.9093 14.8443 28.0237 13.7246 29.4128 13.4605Z" fill="#40A944"></path></svg>
+   </a>
+   <nav class="nav">
+   <ul class="nav__list">
+   <li class="nav__item dropdown">
+   <button aria-expanded="false" aria-controls="category" class="flex-group dropdown__toggle button-reset" style="--gap: .5rem;"><svg class="svg-inline--fa fa-grid-2" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="grid-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M64 64l0 128 128 0 0-128L64 64zM32 32l32 0 128 0 32 0 0 32 0 128 0 32-32 0L64 224l-32 0 0-32L32 64l0-32zM64 320l0 128 128 0 0-128L64 320zM32 288l32 0 128 0 32 0 0 32 0 128 0 32-32 0L64 480l-32 0 0-32 0-128 0-32zM448 64L320 64l0 128 128 0 0-128zM320 32l128 0 32 0 0 32 0 128 0 32-32 0-128 0-32 0 0-32 0-128 0-32 32 0zm0 288l0 128 128 0 0-128-128 0zm-32-32l32 0 128 0 32 0 0 32 0 128 0 32-32 0-128 0-32 0 0-32 0-128 0-32z"></path></svg><!-- <i class="fa-sharp fa-light fa-grid-2"></i> -->
+   <span class="flex-group" style="--gap: 0.25rem;">
+   <span>Category</span>
+   <svg class="chevron" width="16" height="16" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M9.52246 5.06689L6.08496 8.50439L2.64746 5.06689" stroke="var(--clr-text)" stroke-linecap="round" stroke-linejoin="round"></path>
+   </svg>
+   </span>
+   </button>
+   <div class="dropdown__list-wrapper">
+   <div class=" categories-menu">
+   <div class="">
+   <ul>
+      <li class="category-button" aria-selected="true" role="tab">AI, ML, and Data Science<svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --></li>
+      <li class="category-button" role="tab">Programming Languages<svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --></li>
+      <li class="category-button" role="tab">Web Development Languages<svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --></li>
+      <li class="category-button" role="tab">DevOps<svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --></li>
+      <li class="category-button" role="tab">Databases<svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --></li>
+      <li class="category-button" role="tab">Computer Science Subjects<svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --></li>
+      <li class="category-button" role="tab">Python Technologies<svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --></li>
+      <li class="category-button" role="tab">Software Testing<svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --></li>
+      <li class="category-button" role="tab">Cyber Security<svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --></li>
+      <li class=""><a href="https://www.tutorialspoint.com/tutorialslibrary.htm" class="button w100 mt-2" title="All Categories"><svg class="svg-inline--fa fa-cubes" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="cubes" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M288 4.9l5.4 1.9 136 48.5L440 59.2l0 11.3 0 142.4 125.4 44.7 10.6 3.8 0 11.3 0 162.1 0 10.7-9.9 4.1-136 56.3-6.1 2.5-6.1-2.5L288 452.1 158.1 505.8l-6.1 2.5-6.1-2.5L9.9 449.6 0 445.5l0-10.7L0 272.6l0-11.3 10.6-3.8L136 212.8l0-142.4 0-11.3 10.6-3.8 136-48.5L288 4.9zM408 106.3L304 146.2l0 103.8 104-37.1 0-106.5zM272 146.2L168 106.3l0 106.5 104 37.1 0-103.8zm32 277.9l112 46.3 0-121.8L304 308.2l0 115.9zm144 39.7l96-39.7 0-115.2-96 39.2 0 115.7zM272 308.2L160 348.6l0 121.8 112-46.3 0-115.9zM32 424.1l96 39.7 0-115.7L32 308.9l0 115.2zM288 38.9L181.1 77 288 118 394.9 77 288 38.9zM152 241.1L44.6 279.4l99.8 40.8 114.1-41.1L152 241.1zm379.4 38.3L424 241.1l-106.5 38 114.1 41.1 99.8-40.8z"></path></svg><!-- <i class="fa-sharp fa-light fa-cubes"></i> --> All Categories </a></li>
+   </ul>
+
+   <div class="categories-menu-content">
+   <div class="categories-menu-sections-wrapper">
+
+   <!-- AI, ML Data Science -->
+   <div class="categories-menu-section">
+      <button class="button button--neutral categories-menu-section__back-button">
+          <svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --> Back
+      </button>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/artificial_intelligence/index.htm">Artificial Intelligence</a></li>
+         <li><a href="https://www.tutorialspoint.com/machine_learning/index.htm">Machine Learning</a></li>
+         <li><a href="https://www.tutorialspoint.com/machine_learning_with_python/index.htm">ML With Python</a></li>
+         <li><a href="https://www.tutorialspoint.com/data_science/index.htm">Data Science</a></li>
+         <li><a href="https://www.tutorialspoint.com/statistics/index.htm">Statistics</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/natural_language_processing/index.htm">NLP</a></li>
+         <li><a href="https://www.tutorialspoint.com/artificial_neural_network/index.htm">Neural Networks</a></li>
+         <li><a href="https://www.tutorialspoint.com/tensorflow/index.htm">TensorFlow</a></li>
+         <li><a href="https://www.tutorialspoint.com/pytorch/index.htm">PyTorch</a></li>
+         <li><a href="https://www.tutorialspoint.com/matplotlib/index.htm">Matplotlib</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/numpy/index.htm">NumPy</a></li>
+         <li><a href="https://www.tutorialspoint.com/python_pandas/index.htm">Pandas</a></li>
+         <li><a href="https://www.tutorialspoint.com/scipy/index.htm">SciPy</a></li>
+         <li><a href="https://www.tutorialspoint.com/big_data_analytics/index.htm">Big Data Analytics</a></li>
+         <li><a href="https://www.tutorialspoint.com/machine_learning_tutorials.htm" class="w100">See all</a></li>
+      </ul>
+   </div>
+
+   <!-- Programming Languages -->
+   <div class="categories-menu-section">
+      <button class="button button--neutral categories-menu-section__back-button">
+          <svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --> Back
+      </button>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/python/index.htm">Python</a></li>
+         <li><a href="https://www.tutorialspoint.com/java/index.htm">Java</a></li>
+         <li><a href="https://www.tutorialspoint.com/cplusplus/index.htm">C++</a></li>
+         <li><a href="https://www.tutorialspoint.com/cprogramming/index.htm">C</a></li>
+         <li><a href="https://www.tutorialspoint.com/php/index.htm">PHP</a></li>
+         <li><a href="https://www.tutorialspoint.com/go/index.htm">Go</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/kotlin/index.htm">Kotlin</a></li>
+         <li><a href="https://www.tutorialspoint.com/r/index.htm">R</a></li>
+         <li><a href="https://www.tutorialspoint.com/asp.net/index.htm">ASP.Net</a></li>
+         <li><a href="https://www.tutorialspoint.com/csharp/index.htm">C#.Net</a></li>
+         <li><a href="https://www.tutorialspoint.com/vb.net/index.htm">VB.Net</a></li>
+         <li><a href="https://www.tutorialspoint.com/scala/index.htm">Scala</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/swift/index.htm">Swift</a></li>
+         <li><a href="https://www.tutorialspoint.com/perl/index.htm">Perl</a></li>
+         <li><a href="https://www.tutorialspoint.com/ruby/index.htm">Ruby</a></li>
+         <li><a href="https://www.tutorialspoint.com/rust/index.htm">Rust</a></li>
+         <li><a href="https://www.tutorialspoint.com/lua/index.htm">Lua</a></li>
+         <li><a href="https://www.tutorialspoint.com/computer_programming_tutorials.htm" class="w100">See all</a></li>
+      </ul>
+   </div>
+
+   <!-- Web Development Languages -->
+   <div class="categories-menu-section">
+      <button class="button button--neutral categories-menu-section__back-button">
+          <svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --> Back
+      </button>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/html/index.htm">HTML</a></li>
+         <li><a href="https://www.tutorialspoint.com/css/index.htm">CSS</a></li>
+         <li><a href="https://www.tutorialspoint.com/javascript/index.htm">JavaScript</a></li>
+         <li><a href="https://www.tutorialspoint.com/jquery/index.htm">jQuery</a></li>
+         <li><a href="https://www.tutorialspoint.com/reactjs/index.htm">ReactJs</a></li>
+         <li><a href="https://www.tutorialspoint.com/nodejs/index.htm">NodeJs</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/wordpress/index.htm">Wordpress</a></li>
+         <li><a href="https://www.tutorialspoint.com/angularjs/index.htm">AngularJs</a></li>
+         <li><a href="https://www.tutorialspoint.com/php/index.htm">PHP</a></li>
+         <li><a href="https://www.tutorialspoint.com/django/index.htm">Django</a></li>
+         <li><a href="https://www.tutorialspoint.com/json/index.htm">JSON</a></li>
+         <li><a href="https://www.tutorialspoint.com/codeigniter/index.htm">Codeigniter</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/typescript/index.htm">TypeScript</a></li>
+         <li><a href="https://www.tutorialspoint.com/ajax/index.htm">Ajax</a></li>
+         <li><a href="https://www.tutorialspoint.com/bootstrap/index.htm">Bootstrap</a></li>
+         <li><a href="https://www.tutorialspoint.com/sass/index.htm">Sass</a></li>
+         <li><a href="https://www.tutorialspoint.com/appml/index.htm">AppML</a></li>
+         <li><a href="https://www.tutorialspoint.com/web_development_tutorials.htm" class="w100">See all</a></li>
+      </ul>
+   </div>
+
+   <!-- DevOPS -->
+   <div class="categories-menu-section">
+      <button class="button button--neutral categories-menu-section__back-button">
+          <svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --> Back
+      </button>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/git/index.htm">GIT</a></li>
+         <li><a href="https://www.tutorialspoint.com/amazon_web_services/index.htm">AWS</a></li>
+         <li><a href="https://www.tutorialspoint.com/docker/index.htm">Docker</a></li>
+         <li><a href="https://www.tutorialspoint.com/kubernetes/index.htm">Kubernetes</a></li>
+         <li><a href="https://www.tutorialspoint.com/microsoft_azure/index.htm">Azure</a></li>
+         <li><a href="https://www.tutorialspoint.com/gitlab/index.htm">Gitlab</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/jira/index.htm">Jira</a></li>
+         <li><a href="https://www.tutorialspoint.com/gerrit/index.htm">Gerrit</a></li>
+         <li><a href="https://www.tutorialspoint.com/ansible/index.htm">Ansible</a></li>
+         <li><a href="https://www.tutorialspoint.com/bugzilla/index.htm">Bugzilla</a></li>
+         <li><a href="https://www.tutorialspoint.com/chef/index.htm">Chef</a></li>
+         <li><a href="https://www.tutorialspoint.com/saltstack/index.htm">SaltStack</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/openshift/index.htm">OpenShift <svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --></a> </li>
+         <li><a href="https://www.tutorialspoint.com/puppet/index.htm">Puppet</a></li>
+         <li><a href="https://www.tutorialspoint.com/unix/index.htm">UNIX</a></li>
+         <li><a href="https://www.tutorialspoint.com/linux_admin/index.htm">Linux Admin</a></li>
+         <li><a href="https://www.tutorialspoint.com/ubuntu/index.htm">Ubuntu</a></li>
+         <li><a href="https://www.tutorialspoint.com/devops_tutorials.htm" class="w100">See all</a></li>
+      </ul>
+   </div>
+
+   <!-- Databases -->
+   <div class="categories-menu-section">
+      <button class="button button--neutral categories-menu-section__back-button">
+          <svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --> Back
+      </button>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/dbms/index.htm">DBMS</a></li>
+         <li><a href="https://www.tutorialspoint.com/sql/index.htm">SQL</a></li>
+         <li><a href="https://www.tutorialspoint.com/plsql/index.htm">PL/SQL</a></li>
+         <li><a href="https://www.tutorialspoint.com/mysql/index.htm">MySQL</a></li>
+         <li><a href="https://www.tutorialspoint.com/tinydb/index.htm">TinyDB</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/ms_sql_server/index.htm">SQL Server</a></li>
+         <li><a href="https://www.tutorialspoint.com/mongodb/index.htm">MongoDB</a></li>
+         <li><a href="https://www.tutorialspoint.com/postgresql/index.htm">Postgrey SQL</a></li>
+         <li><a href="https://www.tutorialspoint.com/sqlite/index.htm">SQLite</a></li>
+         <li><a href="https://www.tutorialspoint.com/redis/index.htm">Redis</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/phpmyadmin/index.htm">PHP MyAdmin</a></li>
+         <li><a href="https://www.tutorialspoint.com/mariadb/index.htm">MariaDB</a></li>
+         <li><a href="https://www.tutorialspoint.com/couchdb/index.htm">CouchDB</a></li>
+         <li><a href="https://www.tutorialspoint.com/db2/index.htm">DB2</a></li>
+         <li><a href="https://www.tutorialspoint.com/database_tutorials.htm" class="w100">See all </a></li>
+      </ul>
+   </div>
+
+   <!-- Computer Science Subjects -->
+   <div class="categories-menu-section">
+      <button class="button button--neutral categories-menu-section__back-button">
+          <svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --> Back
+      </button>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/computer_fundamentals/index.htm" class="h60">Computer Fundamentals</a></li>
+         <li><a href="https://www.tutorialspoint.com/operating_system/index.htm" class="h60">Operating System</a></li>
+         <li><a href="https://www.tutorialspoint.com/dbms/index.htm" class="h60">DBMS</a></li>
+         <li><a href="https://www.tutorialspoint.com/data_structures_algorithms/index.htm" class="h60">DSA</a></li>
+         <li><a href="https://www.tutorialspoint.com/data_communication_computer_network/index.htm" class="h60">Computer Networks</a></li>
+         <li><a href="https://www.tutorialspoint.com/software_engineering/index.htm" class="h60">Software Engineering</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/computer_graphics/index.htm" class="h60">Computer Graphics</a></li>
+         <li><a href="https://www.tutorialspoint.com/data_mining/index.htm" class="h60">Data Mining</a></li>
+         <li><a href="https://www.tutorialspoint.com/digital_marketing/index.htm" class="h60">Digital Marketing</a></li>
+         <li><a href="https://www.tutorialspoint.com/seo/index.htm" class="h60">SEO</a></li>
+         <li><a href="https://www.tutorialspoint.com/digital_circuits/index.htm" class="h60">Digital Circuits</a></li>
+         <li><a href="https://www.tutorialspoint.com/discrete_mathematics/index.htm" class="h60">Discrete Mathematics</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/cryptography/index.htm" class="h60">Cryptography</a></li>
+         <li><a href="https://www.tutorialspoint.com/cloud_computing/index.htm" class="h60">Cloud Computing</a></li>
+         <li><a href="https://www.tutorialspoint.com/compiler_design/index.htm" class="h60">Compiler Design</a></li>
+         <li><a href="https://www.tutorialspoint.com/embedded_systems/index.htm" class="h60">Embedded Systems</a></li>
+         <li><a href="https://www.tutorialspoint.com/microprocessor/index.htm" class="h60">Microprocessors</a></li>
+         <li><a href="https://www.tutorialspoint.com/computer_science_tutorials.htm" class="w100">See all </a></li>
+      </ul>
+   </div>
+
+   <!-- Python Technologies -->
+   <div class="categories-menu-section">
+      <button class="button button--neutral categories-menu-section__back-button">
+          <svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --> Back
+      </button>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/python/index.htm">Python</a></li>
+         <li><a href="https://www.tutorialspoint.com/numpy/index.htm">NumPy</a></li>
+         <li><a href="https://www.tutorialspoint.com/python_pandas/index.htm">Pandas</a></li>
+         <li><a href="https://www.tutorialspoint.com/matplotlib/index.htm">Matplotlib</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/django/index.htm">Django</a></li>
+         <li><a href="https://www.tutorialspoint.com/pyqt/index.htm">PyQt</a></li>
+         <li><a href="https://www.tutorialspoint.com/pycharm/index.htm">PyCharm</a></li>
+         <li><a href="https://www.tutorialspoint.com/python_pillow/index.htm">Pillow</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/opencv/index.htm">OpenCV</a></li>
+         <li><a href="https://www.tutorialspoint.com/seaborn/index.htm">Seaborn</a></li>
+         <li><a href="https://www.tutorialspoint.com/machine_learning_with_python/index.htm">ML with Python</a></li>
+         <li><a href="https://www.tutorialspoint.com/scipy/index.htm">SciPy</a></li>
+         <li><a href="https://www.tutorialspoint.com/python_technologies_tutorials.htm" class="w100">See all </a></li>
+      </ul>
+   </div>
+
+   <!-- Software Testing -->
+   <div class="categories-menu-section">
+      <button class="button button--neutral categories-menu-section__back-button">
+          <svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --> Back
+      </button>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/software_testing/index.htm" title="Software Testing">Software Testing</a></li>
+         <li><a href="https://www.tutorialspoint.com/jira/index.htm" title="Jira">Jira</a></li>
+         <li><a href="https://www.tutorialspoint.com/selenium/index.htm" title="Selenium">Selenium</a></li>
+         <li><a href="https://www.tutorialspoint.com/testrail/index.htm">TestRail</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/postman/index.htm" title="Postman">Postman</a></li>
+         <li><a href="https://www.tutorialspoint.com/cucumber/index.htm">Cucumber</a></li>
+         <li><a href="https://www.tutorialspoint.com/cypress/index.htm">Cypress</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/watir/index.htm">Watir</a></li>
+         <li><a href="https://www.tutorialspoint.com/agile/index.htm" title="Agile">Agile</a></li>
+         <li><a href="https://www.tutorialspoint.com/jmeter/index.htm" title="jMeter">jMeter</a></li>
+      </ul>
+   </div>
+
+   <!-- Cyber Security -->
+   <div class="categories-menu-section">
+      <button class="button button--neutral categories-menu-section__back-button">
+          <svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fasl" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 256l-11.3 11.3-160 160L96 438.6 73.4 416l11.3-11.3L233.4 256 84.7 107.3 73.4 96 96 73.4l11.3 11.3 160 160L278.6 256z"></path></svg><!-- <i class="fa-sharp fa-light fa-angle-right"></i> --> Back
+      </button>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/blockchain/index.htm" title="Blockchain">Blockchain</a></li>
+         <li><a href="https://www.tutorialspoint.com/information_security_cyber_law/index.htm" title="Information Security">Information Security</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/computer_security/index.htm" title="Computer Security">Computer Security</a></li>
+         <li><a href="https://www.tutorialspoint.com/internet_security/index.htm" title="Internet Security">Internet Security</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://www.tutorialspoint.com/network_security/index.htm" title="Network Security">Network Security</a></li>
+         <li><a href="https://www.tutorialspoint.com/wireless_security/index.htm" title="Wireless Security">Wireless Security</a></li>
+      </ul>
+   </div>
+
+   <ul class="categories-menu-static">
+      <li>Full-Stack Engineer</li>
+      <li>Back-End Engineer</li>
+      <li>IOS Developer</li>
+      <li>Front-End Engineer</li>
+      <li>Computer Science</li>
+      <li>Data Scientist</li>
+   </ul>
+
+   </div>
+   </div>
+
+   </div>
+   </div>
+   </div>
+   </li>
+   <li class="nav__item nav__item--left"><a class="nav__link" href="https://www.tutorialspoint.com/tutorialslibrary.htm">Library</a></li>
+   <li class="nav__item"><a class="nav__link" href="https://www.tutorialspoint.com/market/index.asp">Courses</a></li>
+   <li class="nav__item"><a class="nav__link" href="https://www.tutorialspoint.com/latest/certifications">Certifications</a></li>
+   <li class="nav__item nav__item--button"><a class="button nav__signup-link fw-600" href="https://www.tutorialspoint.com/market/login.jsp">Login</a></li>
+   </ul>
+   </nav>
+   <div class="flex-group header__buttons" style="--gap: min(3vw, 1rem);">
+   <div class="nav__search-wrapper nav__search-wrapper--mobile new-search-input-wrapper" id="mobile-search-string" style="border-bottom-left-radius: 23px; border-bottom-right-radius: 23px;">
+   <input type="text" class="search-input" id="mobile-search-strings" placeholder="Search your favourite tutorials ..." autocomplete="off">
+   <ul class="new-search-input-dropdown" id="mobile-search-results" style="display: none;"></ul>
+   </div>
+   <button aria-expanded="false" class="button-reset mobile-search-button header__search-button search-button"><span class="sr-only">Show search</span></button>
+   <button aria-expanded="false" class="nav-toggle editor-nav-toggle"><span class="sr-only">Menu</span></button>
+   </div>
+</header>
+
+
+
+<nav class="library-nav">
+   <div class="library-nav__container">
+   <button style="display: block;" class="library-nav__prev-button library-nav__button button-reset" id="scroll_left_btn" onmousedown="initScroll(-1)" onmouseup="stopScrolling()" onmouseout="stopScrolling()"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 10 17" fill="none"><path d="M8.17969 15.459L0.963867 8.24316L8.17969 1.02734" stroke="white" stroke-width="1.79664" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+   <div class="library-nav__slider">
+      <ul id="library-nav">
+         <li><a class="" href="https://www.tutorialspoint.com/sql/index.htm" title="SQL Tutorial">SQL</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/html/index.htm" title="HTML Tutorial">HTML</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/css/index.htm" title="CSS Tutorial">CSS</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/javascript/index.htm" title="JavaScript Tutorial">Javascript</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/python/index.htm" title="Python Tutorial">Python</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/java/index.htm" title="Java Tutorial">Java</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/cprogramming/index.htm" title="C Tutorial">C</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/cplusplus/index.htm" title="C++ Tutorial">C++</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/php/index.htm" title="PHP Tutorial">PHP</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/scala/index.htm" title="Scala Tutorial">Scala</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/csharp/index.htm" title="C# Tutorial">C#</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/tailwind_css/index.htm" title="Tailwind CSS Tutorial">Tailwind CSS</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/nodejs/index.htm" title="Node.js Tutorial">Node.js</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/mysql/index.htm" title="MySQL">MySQL</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/mongodb/index.htm" title="MongoDB Tutorial">MongoDB</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/plsql/index.htm" title="PL/SQL Tutorial">PL/SQL</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/swift/index.htm" title="Swift Tutorial">Swift</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/bootstrap/index.htm" title="Bootstrap Tutorial">Bootstrap</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/r/index.htm" title="R Programming">R</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/machine_learning/index.htm" title="Machine Learning">Machine Learning</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/blockchain/index.htm" title="Blockchain Tutorial">Blockchain</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/angular4/index.htm" title="Angular Tutorial">Angular</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/react_native/index.htm" title="React Native Tutorial">React Native</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/computer_fundamentals/index.htm" title="Computer Fundamentals Tutorial">Computer Fundamentals</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/compiler_design/index.htm" title="Compiler Design Tutorial">Compiler Design</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/operating_system/index.htm" title="Operating System Tutorial">Operating System</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/data_structures_algorithms/index.htm" title="Data Structure and Algorithms Tutorial">Data Structure and Algorithms</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/data_communication_computer_network/index.htm" title="Computer Network Tutorial">Computer Network</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/dbms/index.htm" title="DBMS Tutorial">DBMS</a></li>
+         <li><a class="" href="https://www.tutorialspoint.com/excel/index.htm" title="Excel Tutorial">Excel</a></li>
+      </ul>
+   </div>
+   <button class="library-nav__next-button library-nav__button button-reset" id="scroll_right_btn" onmousedown="initScroll(1)" onmouseup="stopScrolling()" onmouseout="stopScrolling()"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 10 17" fill="none"><path d="M1.27734 15.459L8.49316 8.24316L1.27734 1.02734" stroke="white" stroke-width="1.79664" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+   </div>
+</nav>
+
+<main>
+   <section class="hero hero-section hero--homepage">
+      <div class="hero__container hero__container">
+         <div class="hero__img-container hero--homepage__img-container"><img src="./image_files/girls.png" alt="Learn with Tutotirlaspoint"></div>
+            <div class="hero__content">
+            <h1 class="hero__title ">Simple &amp; Easy <span class="text-accent-700">Learning</span></h1>
+            <div class="search-input-wrapper search-desktop new-search-input-wrapper" id="search-wrapper-div" style="border-bottom-left-radius: 23px; border-bottom-right-radius: 23px;">
+               <input type="text" class="search-input" id="search-strings" placeholder="Search your favourite tutorials ..." name="key" data-result="search-results" aria-label="Search" autocomplete="off">
+               <ul class="new-search-input-dropdown" id="search-results" style="display: none;"></ul>
+            </div>
+            <div class="fs-500 check-our-courses">
+               <span class="check_out">Check our -  </span><a href="https://www.tutorialspoint.com/market/index.asp" title="Video Courses">Video Courses</a> | <a href="https://www.tutorialspoint.com/latest/certifications" title="Certifications">Certifications</a> | <a href="https://www.tutorialspoint.com/tutorialslibrary.htm" title="Tutorials">Tutorials</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Updates -  September, 2024 -->
+   <section class="container section-shadow" data-spacing="small">
+      <div class="">
+         <h2 class="fs-700">Latest <span class=" text-accent-700">Updates - <br class="mobile-title-break"> September, 2024</span></h2>
+         <p class="mt">Newly Added and Updated Tutorials</p>
+      </div>
+      <div class="section-shadow__container">
+         <div class="section-shadow__grid">
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/amazon-codewhisperer/index.htm">Start learning<br><span>Code Whisperer</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/google-assistant/index.htm">Start learning<br><span>Google Assistant</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/dall-e/index.htm">Start learning<br><span>Dall-E Technologies</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/business-intelligence/index.htm">Start learning<br><span>Business Intelligence</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/claude_ai/index.htm">Start learning<br><span>Claude AI</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/swiftui/index.htm">Start learning<br><span>SwiftUI</span></a></button>
+         </div>
+<!--
+         <img src="/static/images/updated-tutorials-hero.png" alt="">
+-->
+         <img src="./image_files/student_studying.jpeg" alt="Learn Latest Technologies">
+      </div>
+   </section>
+
+   <!-- Start Learning -->
+   <section class="start-learning section-padding container swiper-initialized swiper-horizontal swiper-pointer-events" data-spacing="small">
+      <div class="flex-group justify-between">
+         <h2 class="fs-800">Start <span class=" text-accent-700">Learning</span></h2>
+         <div class="flex-group">
+            <a href="https://www.tutorialspoint.com/tutorialslibrary.htm" class="button">See all</a>
+            <div style="margin-top:0;" class="slider-navigation slider-navigation--white-bg start-learning__navigation">
+               <div class="flex-group">
+                  <button class="icon-button icon-button--neutral start-learning__button-prev swiper-button-disabled" disabled="" tabindex="-1" aria-label="Previous slide" aria-controls="swiper-wrapper-b2c57ec678e71a96" aria-disabled="true"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.1316 19.6245L7.63159 12.1245L15.1316 4.62451" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+                  <button class="icon-button icon-button--neutral start-learning__button-next" style="transform: rotate(180deg);" tabindex="0" aria-label="Next slide" aria-controls="swiper-wrapper-b2c57ec678e71a96" aria-disabled="false"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.1316 19.6245L7.63159 12.1245L15.1316 4.62451" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="start-learning__container swiper-wrapper" id="swiper-wrapper-b2c57ec678e71a96" aria-live="polite">
+         <div class="swiper-slide bg-neutral-750 swiper-slide-active" role="group" aria-label="1 / 2" style="margin-right: 50px;">
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/html/index.htm">Start learning <br> <span>HTML</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/javascript/index.htm">Start learning <br> <span>Javascript</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/python/index.htm">Start learning <br> <span>Python</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/java/index.htm">Start learning <br> <span>Java</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/sql/index.htm">Start learning <br> <span>SQL</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/linux_admin/index.htm">Start learning <br> <span>Linux</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/cplusplus/index.htm">Start learning <br> <span>C++</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/data_structures_algorithms/index.htm">Start learning <br> <span>DSA</span></a></button>
+         </div>
+         <div class="swiper-slide bg-neutral-750 swiper-slide-next" role="group" aria-label="2 / 2" style="margin-right: 50px;">
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/machine_learning/index.htm">Start learning <br> <span>Machine Learning</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/computer_fundamentals/index.htm">Start learning <br> <span>Computer Fundamentals</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/dbms/index.htm">Start learning <br> <span>DBMS</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/basics_of_computer_science/basics_of_computer_science_operating_system.htm">Start learning <br> <span>Operating System</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/computer_fundamentals/computer_networking.htm">Start learning <br> <span>Computer Networks</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/php/index.htm">Start learning <br> <span>PHP</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/css/index.htm">Start learning <br> <span>CSS</span></a></button>
+            <button class="learn-button"><a href="https://www.tutorialspoint.com/cprogramming/index.htm">Start learning <br> <span>C</span></a></button>
+         </div>
+      </div>
+   <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></section>
+
+   <!-- Build Your Careers with us -->
+   <section class="container  section-padding">
+      <div class="flex-group justify-between flex-wrap">
+         <h2 class="fs-800 smaller-title">Build Your <span class="text-accent-700">Careers with us</span></h2>
+         <button class="button" style="display:none;">More Career Options &gt;&gt;&gt;</button>
+      </div>
+      <div class="section-shadow-parent" data-spacing="small">
+         <div class="section-shadow section-shadow--no-image section-shadow--accent" data-spacing="small">
+            <div class="">
+               <h2 class="fs-800"><span class=" text-accent-700">Data Science </span> Technologies</h2>
+            </div>
+            <div class="section-shadow__container">
+               <div class="section-shadow__grid">
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/python/index.htm">Start learning <br> <span>Python</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/r/index.htm">Start learning <br> <span>R</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/power_bi/index.htm">Start learning <br> <span>Power BI</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/powershell/index.htm">Start learning <br> <span>Powershell</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/python_pandas/index.htm">Start learning <br> <span>Python Pandas</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/numpy/index.htm">Start learning <br> <span>NumPy</span></a></button>
+                  <button class="learn-button learn-button--accent" style="display:none;">&gt;&gt;&gt; <br> <span>More <span>Courses</span></span></button>
+               </div>
+            </div>
+         </div>
+         <div class="section-shadow section-shadow--no-image section-shadow--accent" data-spacing="small">
+            <div class="">
+               <h2 class="fs-800"><span class=" text-accent-700"> AI/ML</span> Technologies</h2>
+            </div>
+            <div class="section-shadow__container">
+               <div class="section-shadow__grid">
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/artificial_intelligence/index.htm">Start learning <br> <span>Artificial Intelligence</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/artificial_intelligence_with_python/index.htm">Start learning <br> <span>AI with Python</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/machine_learning/index.htm">Start learning <br> <span>Machine Learning</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/scikit_learn/index.htm">Start learning <br> <span>Scikit-learn</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/tensorflow/index.htm">Start learning <br> <span>TensorFlow</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/natural_language_processing/index.htm">Start learning <br> <span>NLP</span></a></button>
+                  <button class="learn-button learn-button--accent" style="display:none;">&gt;&gt;&gt; <br> <span>More <span>Courses</span></span></button>
+               </div>
+            </div>
+         </div>
+         <div class="section-shadow section-shadow--no-image section-shadow--accent" data-spacing="small">
+            <div class="">
+               <h2 class="fs-800">Full Stack <span class="text-accent-700">Web Developer</span></h2>
+            </div>
+            <div class="section-shadow__container">
+               <div class="section-shadow__grid">
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/html/index.htm">Start learning <br> <span>HTML</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/css/index.htm">Start learning <br> <span>CSS</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/bootstrap/index.htm">Start learning <br> <span>Bootstrap</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/es6/index.htm">Start learning <br> <span>ES6</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/reactjs/index.htm">Start learning <br> <span>ReactJS</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/nodejs/index.htm">Start learning <br> <span>NodeJS</span></a></button>
+                  <button class="learn-button learn-button--accent" style="display:none;">&gt;&gt;&gt; <br> <span>More <span>Courses</span></span></button>
+               </div>
+            </div>
+         </div>
+         <div class="section-shadow section-shadow--no-image section-shadow--accent" data-spacing="small">
+            <div class="">
+               <h2 class="fs-800"><span class=" text-accent-700">Java </span> Full Stack Developer</h2>
+            </div>
+            <div class="section-shadow__container">
+               <div class="section-shadow__grid">
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/java/index.htm">Start learning <br> <span>Java</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/plsql/index.htm">Start learning <br> <span>PL/SQL</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/jdbc/index.htm">Start learning <br> <span>JDBC</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/spring_boot/index.htm">Start learning <br> <span>Spring Boot</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/jsp/index.htm">Start learning <br> <span>JSP</span></a></button>
+                  <button class="learn-button"><a href="https://www.tutorialspoint.com/git/index.htm">Start learning <br> <span>Git</span></a></button>
+                  <button class="learn-button learn-button--accent" style="display:none;">&gt;&gt;&gt; <br> <span>More <span>Courses</span></span></button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Start Coding -->
+   <section class="coding-ground bg-neutral-800 text-white">
+      <div class="container">
+         <div class="coding-ground__image-wrapper">
+            <a href="https://www.tutorialspoint.com/online_java_compiler.php" target="_blank"><img class="coding-ground__img" src="./image_files/java-compiler.jpg" alt="Online Java Compiler" title="Online Java Compiler"></a>
+         </div>
+         <div class="coding-ground__content ">
+            <h2 class="fs-800">Start Coding <span class="text-accent-700">in Seconds</span></h2>
+            <p class="fs-550 fw-600">Coding Ground For Developers</p>
+            <p class="yellow-accent-text">Code, Edit, Run and Share</p>
+            <p class="coding-ground__description fs-300">Ignite your coding potential on Coding Ground - an immersive online platform for hands-on learning, collaboration, and skill development.</p>
+            <div class="coding-ground__buttons">
+               <a href="https://www.tutorialspoint.com/online_java_compiler.php" class="learn-button learn-button--accent" target="_blank"><strong>Java</strong> Compiler</a>
+               <a href="https://www.tutorialspoint.com/online_python_compiler.php" class="learn-button learn-button--accent" target="_blank"><strong>Python</strong> Compiler</a>
+               <a href="https://www.tutorialspoint.com/compile_cpp_online.php" class="learn-button learn-button--accent" target="_blank"><strong>C++</strong> Compiler</a>
+               <a href="https://www.tutorialspoint.com/online_html_editor.php" class="learn-button learn-button--accent" target="_blank"><strong>HTML</strong> Editor</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Tutorials Library -->
+   <section class="library container library-slider swiper-initialized swiper-horizontal swiper-pointer-events">
+      <div>
+         <h2 class="fs-800">Tutorials<span class="text-accent-700">Library</span></h2>
+         <p>Master any technology with our largest free online Library</p>
+      </div>
+      <div class="library__container swiper-wrapper" id="swiper-wrapper-bce3ef0473ecb716" aria-live="polite">
+      <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" style="margin-right: 50px;">
+         <article class="library-item flow">
+            <header class="library-item__header flex-group justify-between">
+               <h3 class="fw-600">Latest Technologies</h3>
+               <a href="https://www.tutorialspoint.com/latest_technologies.htm" class="button">See all</a>
+            </header>
+            <div class="library-item__container">
+               <div class="cls-bitcoin">
+                  <a href="https://www.tutorialspoint.com/bitcoin/index.htm" class="img-sprite" target="_blank" title="Bitcoin Tutorial"><p class="library-item__description sprite-img-title">Bitcoin Tutorial</p></a>
+               </div>
+               <div class="cls-blockchain">
+                  <a href="https://www.tutorialspoint.com/blockchain/index.htm" class="img-sprite" target="_blank" title="Blockchain Tutorial"><p class="library-item__description sprite-img-title">Blockchain Tutorial</p></a>
+               </div>
+               <div class="cls-blue-brism">
+                  <a href="https://www.tutorialspoint.com/blue_prism/index.htm" class="img-sprite" target="_blank" title="Blue Prism Tutorial"><p class="library-item__description sprite-img-title">Blue Prism</p></a>
+               </div>
+               <div class="cls-ethereum">
+                  <a href="https://www.tutorialspoint.com/ethereum/index.htm" class="img-sprite" target="_blank" title="Ethereum Tutorial"><p class="library-item__description sprite-img-title">Ethereum Tutorial</p></a>
+               </div>
+               <div class="cls-python">
+                  <a href="https://www.tutorialspoint.com/python_blockchain/index.htm" class="img-sprite" target="_blank" title="Python Blockchain Tutorial"><p class="library-item__description sprite-img-title">Python Blockchain</p></a>
+               </div>
+            </div>
+         </article>
+         <article class="library-item flow ">
+            <header class="library-item__header flex-group justify-between">
+               <h3 class="fw-600">Computer Science</h3>
+               <a href="https://www.tutorialspoint.com/computer_science_tutorials.htm" class="button">See all</a>
+            </header>
+            <div class="library-item__container">
+               <div class="cls-computer-fundamentals">
+                  <a href="https://www.tutorialspoint.com/computer_fundamentals/index.htm" class="img-sprite" target="_blank" title="Computer Fundamentals Tutorial"><p class="library-item__description sprite-img-title">Computer Fundamentals</p></a>
+               </div>
+               <div class="cls-compiler-design">
+                  <a href="https://www.tutorialspoint.com/compiler_design/index.htm" class="img-sprite" target="_blank" title="Compiler Design Tutorial"><p class="library-item__description sprite-img-title">Compiler Design</p></a>
+               </div>
+               <div class="cls-operating-system">
+                  <a href="https://www.tutorialspoint.com/operating_system/index.htm" class="img-sprite" target="_blank" title="Operating System Tutorial"><p class="library-item__description sprite-img-title">Operating System</p></a>
+               </div>
+               <div class="cls-data-structure">
+                  <a href="https://www.tutorialspoint.com/data_structures_algorithms/index.htm" class="img-sprite" target="_blank" title="Data Structure Tutorial"><p class="library-item__description sprite-img-title">Data Structure</p></a>
+               </div>
+               <div class="cls-dbms-tutorial">
+                  <a href="https://www.tutorialspoint.com/dbms/index.htm" class="img-sprite" target="_blank" title="DBMS Tutorial"><p class="library-item__description sprite-img-title">DBMS Tutorial</p></a>
+               </div>
+            </div>
+         </article>
+      </div>
+
+      <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 5" style="margin-right: 50px;">
+         <article class="library-item flow">
+            <header class="library-item__header flex-group justify-between">
+               <h3 class="fw-600">Machine Learning</h3>
+               <a href="https://www.tutorialspoint.com/machine_learning_tutorials.htm" class="button">See all</a>
+            </header>
+            <div class="library-item__container">
+               <div class="cls-machine-learning">
+                  <a href="https://www.tutorialspoint.com/machine_learning/index.htm" class="img-sprite" target="_blank" title="Machine Learning Tutorial"><p class="library-item__description sprite-img-title">Machine Learning</p></a>
+               </div>
+               <div class="cls-tensorflow">
+                  <a href="https://www.tutorialspoint.com/tensorflow/index.htm" class="img-sprite" target="_blank" title="TensorFlow Tutorial"><p class="library-item__description sprite-img-title">TensorFlow Tutorial</p></a>
+               </div>
+               <div class="cls-ml-with-python">
+                  <a href="https://www.tutorialspoint.com/machine_learning_with_python/index.htm" class="img-sprite" target="_blank" title="ML with Python Tutorial"><p class="library-item__description sprite-img-title">ML with Python</p></a>
+               </div>
+               <div class="cls-ai-with-python">
+                  <a href="https://www.tutorialspoint.com/artificial_intelligence_with_python/index.htm" class="img-sprite" target="_blank" title="AI with Python Tutorial"><p class="library-item__description sprite-img-title">AI with Python</p></a>
+               </div>
+               <div class="cls-time-series">
+                  <a href="https://www.tutorialspoint.com/time_series/index.htm" class="img-sprite" target="_blank" title="Time Series Tutorial"><p class="library-item__description sprite-img-title">Time Series</p></a>
+               </div>
+            </div>
+         </article>
+         <article class="library-item flow ">
+            <header class="library-item__header flex-group justify-between">
+               <h3 class="fw-600">Web Development</h3>
+               <a href="https://www.tutorialspoint.com/web_development_tutorials.htm" class="button">See all</a>
+            </header>
+            <div class="library-item__container">
+               <div class="cls-html-tutorial">
+                  <a href="https://www.tutorialspoint.com/html/index.htm" class="img-sprite" target="_blank" title="HTML Tutorial"><p class="library-item__description sprite-img-title">HTML Tutorial</p></a>
+               </div>
+               <div class="cls-css-tutorial">
+                  <a href="https://www.tutorialspoint.com/css/index.htm" class="img-sprite" target="_blank" title="CSS Tutorial"><p class="library-item__description sprite-img-title">CSS Tutorial</p></a>
+               </div>
+               <div class="cls-javascript">
+                  <a href="https://www.tutorialspoint.com/javascript/index.htm" class="img-sprite" target="_blank" title="Javascript Tutorial"><p class="library-item__description sprite-img-title">Javascript Tutorial</p></a>
+               </div>
+               <div class="cls-php-tutorial">
+                  <a href="https://www.tutorialspoint.com/php/index.htm" class="img-sprite" target="_blank" title="PHP Tutorial"><p class="library-item__description sprite-img-title">PHP Tutorial</p></a>
+               </div>
+               <div class="cls-Angular4">
+                  <a href="https://www.tutorialspoint.com/angular4/index.htm" class="img-sprite" target="_blank" title="Angular 4 Tutorial"><p class="library-item__description sprite-img-title">Angular 4 Tutorial</p></a>
+               </div>
+            </div>
+         </article>
+      </div>
+
+      <div class="swiper-slide" role="group" aria-label="3 / 5" style="margin-right: 50px;">
+         <article class="library-item flow ">
+            <header class="library-item__header flex-group justify-between">
+               <h3 class="fw-600">Programming Tutorials</h3>
+               <a href="https://www.tutorialspoint.com/computer_programming_tutorials.htm" class="button">See all</a>
+            </header>
+            <div class="library-item__container">
+               <div class="cls-html-tutorial">
+                  <a href="https://www.tutorialspoint.com/html/index.htm" class="img-sprite" target="_blank" title="HTML Tutorial"><p class="library-item__description sprite-img-title">HTML Tutorial</p></a>
+               </div>
+               <div class="cls-c-tutorial">
+                  <a href="https://www.tutorialspoint.com/cplusplus/index.htm" class="img-sprite" target="_blank" title="C++ Tutorial"><p class="library-item__description sprite-img-title">C++ Tutorial</p></a>
+               </div>
+               <div class="cls-java8">
+                  <a href="https://www.tutorialspoint.com/java8/index.htm" class="img-sprite" target="_blank" title="Java8 Tutorial"><p class="library-item__description sprite-img-title">Java8 Tutorial</p></a>
+               </div>
+               <div class="cls-python-tutorial">
+                  <a href="https://www.tutorialspoint.com/python/index.htm" class="img-sprite" target="_blank" title="Python Tutorial"><p class="library-item__description sprite-img-title">Python Tutorial</p></a>
+               </div>
+               <div class="cls-scala-tutorial">
+                  <a href="https://www.tutorialspoint.com/scala/index.htm" class="img-sprite" target="_blank" title="Scala Tutorial"><p class="library-item__description sprite-img-title">Scala Tutorial</p></a>
+               </div>
+            </div>
+         </article>
+         <article class="library-item flow ">
+            <header class="library-item__header flex-group justify-between">
+               <h3 class="fw-600">Java Technologies</h3>
+               <a href="https://www.tutorialspoint.com/java_technology_tutorials.htm" class="button">See all</a>
+            </header>
+            <div class="library-item__container">
+               <div class="cls-java8">
+                  <a href="https://www.tutorialspoint.com/java8/index.htm" class="img-sprite" target="_blank" title="Java8 Tutorial"><p class="library-item__description sprite-img-title">Java8 Tutorial</p></a>
+               </div>
+               <div class="cls-jdbc-tutorial">
+                  <a href="https://www.tutorialspoint.com/jdbc/index.htm" class="img-sprite" target="_blank" title="JDBC Tutorial"><p class="library-item__description sprite-img-title">JDBC Tutorial</p></a>
+               </div>
+               <div class="cls-swing-tutorial">
+                  <a href="https://www.tutorialspoint.com/swing/index.htm" class="img-sprite" target="_blank" title="SWING Tutorial"><p class="library-item__description sprite-img-title">SWING Tutorial</p></a>
+               </div>
+               <div class="cls-servlets-tutorial">
+                  <a href="https://www.tutorialspoint.com/servlets/index.htm" class="img-sprite" target="_blank" title="Servlets Tutorial"><p class="library-item__description sprite-img-title">Servlets Tutorial</p></a>
+               </div>
+               <div class="cls-spring-tutorial">
+                  <a href="https://www.tutorialspoint.com/spring/index.htm" class="img-sprite" target="_blank" title="Spring Tutorial"><p class="library-item__description sprite-img-title">Spring Tutorial</p></a>
+               </div>
+            </div>
+         </article>
+      </div>
+
+      <div class="swiper-slide" role="group" aria-label="4 / 5" style="margin-right: 50px;">
+         <article class="library-item flow ">
+            <header class="library-item__header flex-group justify-between">
+               <h3 class="fw-600">Mobile App Development</h3>
+               <a href="https://www.tutorialspoint.com/mobile_development_tutorials.htm" class="button">See all</a>
+            </header>
+            <div class="library-item__container">
+               <div class="cls-android-tutorial">
+                  <a href="https://www.tutorialspoint.com/android/index.htm" class="img-sprite" target="_blank" title="Android Tutorial"><p class="library-item__description sprite-img-title">Android Tutorial</p></a>
+               </div>
+               <div class="cls-swift-tutorial">
+                  <a href="https://www.tutorialspoint.com/swift/index.htm" class="img-sprite" target="_blank" title="Swift Tutorial"><p class="library-item__description sprite-img-title">Swift Tutorial</p></a>
+               </div>
+               <div class="cls-ios-tutorial">
+                  <a href="https://www.tutorialspoint.com/ios/index.htm" class="img-sprite" target="_blank" title="IOS Tutorial"><p class="library-item__description sprite-img-title">IOS Tutorial</p></a>
+               </div>
+               <div class="cls-kotlin-tutorial">
+                  <a href="https://www.tutorialspoint.com/kotlin/index.htm" class="img-sprite" target="_blank" title="Kotlin Tutorial"><p class="library-item__description sprite-img-title">Kotlin Tutorial</p></a>
+               </div>
+               <div class="cls-xamarian-tutorial">
+                  <a href="https://www.tutorialspoint.com/xamarin/index.htm" class="img-sprite" target="_blank" title="Xamarian Tutorial"><p class="library-item__description sprite-img-title">Xamarian Tutorial</p></a>
+               </div>
+            </div>
+         </article>
+         <article class="library-item flow ">
+            <header class="library-item__header flex-group justify-between">
+               <h3 class="fw-600">Database Tutorials</h3>
+               <a href="https://www.tutorialspoint.com/database_tutorials.htm" class="button">See all</a>
+            </header>
+            <div class="library-item__container">
+               <div class="cls-mongodb">
+                  <a href="https://www.tutorialspoint.com/mongodb/index.htm" class="img-sprite" target="_blank" title="Mongo DB Tutorial"><p class="library-item__description sprite-img-title">Mongo DB Tutorial</p></a>
+               </div>
+               <div class="cls-plsql-tutorial">
+                  <a href="https://www.tutorialspoint.com/plsql/index.htm" class="img-sprite" target="_blank" title="PL / SQL Tutorial"><p class="library-item__description sprite-img-title">PL / SQL Tutorial</p></a>
+               </div>
+               <div class="cls-sql-tutorial">
+                  <a href="https://www.tutorialspoint.com/sql/index.htm" class="img-sprite" target="_blank" title="SQL Tutorial"><p class="library-item__description sprite-img-title">SQL Tutorial</p></a>
+               </div>
+               <div class="cls-db2-tutorial">
+                  <a href="https://www.tutorialspoint.com/db2/index.htm" class="img-sprite" target="_blank" title="DB2 Tutorial"><p class="library-item__description sprite-img-title">DB2 Tutorial</p></a>
+               </div>
+               <div class="cls-mysql-tutorial">
+                  <a href="https://www.tutorialspoint.com/mysql/index.htm" class="img-sprite" target="_blank" title="MySQL Tutorial"><p class="library-item__description sprite-img-title">MySQL Tutorial</p></a>
+               </div>
+            </div>
+         </article>
+      </div>
+
+      <div class="swiper-slide" role="group" aria-label="5 / 5" style="margin-right: 50px;">
+         <article class="library-item flow ">
+            <header class="library-item__header flex-group justify-between">
+               <h3 class="fw-600">Microsoft Technologies</h3>
+               <a href="https://www.tutorialspoint.com/microsoft_technologies_tutorials.htm" class="button">See all</a>
+            </header>
+            <div class="library-item__container">
+               <div class="cls-asp-dot-net">
+                  <a href="https://www.tutorialspoint.com/asp.net/index.htm" class="img-sprite" target="_blank" title="ASP.NET"><p class="library-item__description sprite-img-title">ASP.NET</p></a>
+               </div>
+               <div class="cls-entity-framework">
+                  <a href="https://www.tutorialspoint.com/entity_framework/index.htm" class="img-sprite" target="_blank" title="Entity Framework"><p class="library-item__description sprite-img-title">Entity Framework</p></a>
+               </div>
+               <div class="cls-vb-dot-net">
+                  <a href="https://www.tutorialspoint.com/vb.net/index.htm" class="img-sprite" target="_blank" title="VB.NET Tutorial"><p class="library-item__description sprite-img-title">VB.NET Tutorial</p></a>
+               </div>
+               <div class="cls-msproject-tutorial">
+                  <a href="https://www.tutorialspoint.com/ms_project/index.htm" class="img-sprite" target="_blank" title="Microsoft Project"><p class="library-item__description sprite-img-title">Microsoft Project</p></a>
+               </div>
+               <div class="cls-excel-tutorial">
+                  <a href="https://www.tutorialspoint.com/excel/index.htm" class="img-sprite" target="_blank" title="Microsoft Excel"><p class="library-item__description sprite-img-title">Microsoft Excel</p></a>
+               </div>
+            </div>
+         </article>
+         <article class="library-item flow ">
+            <header class="library-item__header flex-group justify-between">
+               <h3 class="fw-600">Big Data and Analytics</h3>
+               <a href="https://www.tutorialspoint.com/big_data_tutorials.htm" class="button">See all</a>
+            </header>
+            <div class="library-item__container">
+               <div class="cls-big-data">
+                  <a href="https://www.tutorialspoint.com/big_data_analytics/index.htm" class="img-sprite" target="_blank" title="Big Data Analytics"><p class="library-item__description sprite-img-title">Big Data Analytics</p></a>
+               </div>
+               <div class="cls-hadoop-tutorial">
+                  <a href="https://www.tutorialspoint.com/hadoop/index.htm" class="img-sprite" target="_blank" title="Hadoop Tutorial"><p class="library-item__description sprite-img-title">Hadoop Tutorial</p></a>
+               </div>
+               <div class="cls-sas-tutorial">
+                  <a href="https://www.tutorialspoint.com/sas/index.htm" class="img-sprite" target="_blank" title="SAS Tutorial"><p class="library-item__description sprite-img-title">SAS Tutorial</p></a>
+               </div>
+               <div class="cls-qlikview-tutorial">
+                  <a href="https://www.tutorialspoint.com/qlikview/index.htm" class="img-sprite" target="_blank" title="QlikView Tutorial"><p class="library-item__description sprite-img-title">QlikView Tutorial</p></a>
+               </div>
+               <div class="cls-powerbi-tutorial">
+                  <a href="https://www.tutorialspoint.com/power_bi/index.htm" class="img-sprite" target="_blank" title="Power BI Tutorial"><p class="library-item__description sprite-img-title">Power BI Tutorial</p></a>
+               </div>
+            </div>
+         </article>
+      </div>
+      </div>
+
+      <div class="slider-navigation slider-navigation--white-bg library__navigation">
+         <div class="slider-navigation__pagination library__pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span></div>
+         <div class="flex-group">
+            <button class="icon-button library__button-prev swiper-button-disabled" disabled="" tabindex="-1" aria-label="Previous slide" aria-controls="swiper-wrapper-bce3ef0473ecb716" aria-disabled="true">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="https://www.w3.org/2000/svg"><path d="M15.1316 19.6245L7.63159 12.1245L15.1316 4.62451" stroke="#363A3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </button>
+            <button class="icon-button library__button-next" style="transform: rotate(180deg);" tabindex="0" aria-label="Next slide" aria-controls="swiper-wrapper-bce3ef0473ecb716" aria-disabled="false">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="https://www.w3.org/2000/svg"><path d="M15.1316 19.6245L7.63159 12.1245L15.1316 4.62451" stroke="#363A3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </button>
+         </div>
+      </div>
+   <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></section>
+
+   <!-- Most Popular Tools -->
+   <section class="tools section-padding">
+      <div class="container ">
+         <div class="flex-group justify-between">
+              <h2 class="fs-800">Most Popular <span class="text-accent-700">Tools</span></h2>
+              <div class="flex-group">
+                   <a href="https://www.tutorialspoint.com/online_dev_tools.htm" class="button">See all</a>
+              </div>
+         </div>
+         <p class="mt">Utilize the frequently used tools for your needs </p>
+         <div class="popular-tools-slider swiper-initialized swiper-horizontal swiper-pointer-events">
+            <div class="swiper-wrapper" id="swiper-wrapper-58284d8f0b980f6f" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
+               <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 4" style="width: 342px; margin-right: 15px;">
+                  <a href="https://www.tutorialspoint.com/qr_code_generator.htm" class="popular-tools-item flow text-center bg-white" title="QR Code Generator">
+                  <img src="./image_files/qrcode.svg" alt="QR Code Generator" style="width:150px; margin:auto;" class="invert">
+                  <h3 class="fs-500 fw-600">QR Code Generator</h3>
+                  </a>
+                  <a href="https://www.tutorialspoint.com/online_java_formatter.htm" class="popular-tools-item flow text-center bg-white" title="JAVA Formatter">
+                  <img src="./image_files/java-formatter-devtools.jpg" alt="JAVA Formatter" style="width:150px; margin:auto;">
+                  <h3 class="fs-500 fw-600">JAVA Formatter</h3>
+                  </a>
+               </div>
+               <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 4" style="width: 342px; margin-right: 15px;">
+                  <a href="https://www.tutorialspoint.com/online_image_optimizer.htm" class="popular-tools-item flow text-center bg-white" title="Image Optimizer">
+                  <img src="./image_files/img-optimizer-devtools.jpg" alt="Image Optimizer" style="width:150px; margin:auto;">
+                  <h3 class="fs-500 fw-600">Image Optimizer</h3>
+                  </a>
+                  <a href="https://www.tutorialspoint.com/whiteboard.htm" class="popular-tools-item flow text-center bg-white" title="White Board">
+                  <img src="./image_files/whiteboard-devtools.jpg" alt="White Board" style="width:150px; margin:auto;">
+                  <h3 class="fs-500 fw-600">White Board</h3>
+                  </a>
+               </div>
+               <div class="swiper-slide" role="group" aria-label="3 / 4" style="width: 342px; margin-right: 15px;">
+                  <a href="https://www.tutorialspoint.com/online_image_editor.htm" class="popular-tools-item flow text-center bg-white" title="Image Editor">
+                  <img src="./image_files/image-editor-devtools.jpg" alt="Image Editor" style="width:150px; margin:auto;">
+                  <h3 class="fs-500 fw-600">Image Editor</h3>
+                  </a>
+                  <a href="https://www.tutorialspoint.com/online_javascript_minifier.htm" class="popular-tools-item flow text-center bg-white" title="Javascript Minifier">
+                  <img src="./image_files/javascript-minifier-devtools.jpg" alt="Javascript Minifier" style="width:150px; margin:auto;">
+                  <h3 class="fs-500 fw-600">Javascript Minifier</h3>
+                  </a>
+               </div>
+               <div class="swiper-slide" role="group" aria-label="4 / 4" style="width: 342px; margin-right: 15px;">
+                  <a href="https://www.tutorialspoint.com/online_document_viewer.php" class="popular-tools-item flow text-center bg-white" title="Document Viewer">
+                  <img src="./image_files/image-document-viewer.jpg" alt="Document Viewer" style="width:150px; margin:auto;">
+                  <h3 class="fs-500 fw-600">Document Viewer</h3>
+                  </a>
+                  <a href="https://www.tutorialspoint.com/online_python_formatter.htm" class="popular-tools-item flow text-center bg-white" title="Python Formatter">
+                  <img src="./image_files/python-formatter-devtools.jpg" alt="Python Formatter" style="width:150px; margin:auto;">
+                  <h3 class="fs-500 fw-600">Python Formatter</h3>
+                  </a>
+               </div>
+         </div>
+         <div class="slider-navigation slider-navigation--centered slider-navigation--white-bg popular-tools__navigation">
+         <div class="slider-navigation__pagination popular-tools__pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-lock"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span></div>
+         </div>
+         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+      </div>
+   </section>
+
+   <section class="section-padding bg-orange-200">
+      <div class="container ads_row">
+         <div class="column">
+            <div id="ezoic-pub-ad-placeholder-118"><div><span class="ezoic-ad" style="align-items: center; justify-content: center; line-height: 0px; min-height: 280px; min-width: 300px; padding: 0px; display: flex !important; flex-direction: column !important; float: none !important; margin: 0px auto !important; max-width: 100% !important; text-align: center !important;" data-ez-name="Footer/aff37698d2735c5174f7a0d6135c4b9d"><span id="div-gpt-ad-Footer/aff37698d2735c5174f7a0d6135c4b9d-0" ezaw="300" ezah="250" style="position: relative; z-index: 0; padding: 0px; min-height: 280px; min-width: 336px;" class="ezoic-ad"><div id="google_ads_iframe_/1254144,60931893/Footer/aff37698d2735c5174f7a0d6135c4b9d_0__container__" style="border: 0pt none;"></div></span><span data-nosnippet="" style="display:block;height:14px;margin:2px auto;position:relative; width:100%" class="reportline" data-ez-ph-owner-id=""><span style="text-align:center;font-size:12px !important;font-family: arial!important;float:right;line-height:normal;" class="ezoicwhat"><img src="./image_files/ezoicbwa.png" alt="Ezoic" loading="lazy" style="height:14px !important; padding:2px !important; border:0px !important; cursor:pointer !important; width: 14px !important; margin:0 !important; box-sizing: content-box !important;" title="ezoic" name="?pageview_id=ced5b5e7-6cf8-495c-44a2-120eb09dba1d&amp;ad_position_id=118&amp;impression_group_id=Footer/aff37698d2735c5174f7a0d6135c4b9d/2024-09-17/8926645673151300&amp;ad_size=300x250&amp;domain_id=658615&amp;url=https://www.tutorialspoint.com/index.htm"></span></span></span></div></div>
+            <script>
+               ezstandalone.cmd.push(function() {
+                  ezstandalone.showAds(118);
+               });
+            </script>
+         </div>
+         <div class="column">
+            <div id="ezoic-pub-ad-placeholder-119"><div><span class="ezoic-ad" style="align-items:center;display:flex !important;flex-direction:column !important;float:none !important;justify-content:center;line-height:0px;margin-bottom:0px !important;margin-left:auto !important;margin-right:auto !important;margin-top:0px !important;max-width:100% !important;min-height:250px;min-width:300px;padding:0;text-align:center !important;" data-ez-name="Content_2/aff37698d2735c5174f7a0d6135c4b9d"><span id="div-gpt-ad-Content_2/aff37698d2735c5174f7a0d6135c4b9d-0" ezaw="300" ezah="250" style="position: relative; z-index: 0; padding: 0px; min-height: 250px; min-width: 300px;" class="ezoic-ad"><div id="google_ads_iframe_/1254144,60931893/Content_2/aff37698d2735c5174f7a0d6135c4b9d_0__container__" style="border: 0pt none;"></div></span><span data-nosnippet="" style="display:block;height:14px;margin:2px auto;position:relative; width:100%" class="reportline" data-ez-ph-owner-id=""><span style="text-align:center;font-size:12px !important;font-family: arial!important;float:right;line-height:normal;" class="ezoicwhat"><img src="./image_files/ezoicbwa.png" alt="Ezoic" loading="lazy" style="height:14px !important; padding:2px !important; border:0px !important; cursor:pointer !important; width: 14px !important; margin:0 !important; box-sizing: content-box !important;" title="ezoic" name="?pageview_id=ced5b5e7-6cf8-495c-44a2-120eb09dba1d&amp;ad_position_id=119&amp;impression_group_id=Content_2/aff37698d2735c5174f7a0d6135c4b9d/2024-09-17/4999464741090774&amp;ad_size=300x250&amp;domain_id=658615&amp;url=https://www.tutorialspoint.com/index.htm"></span></span></span></div></div>
+            <script>
+               ezstandalone.cmd.push(function() {
+                  ezstandalone.showAds(119);
+               });
+            </script>
+         </div>
+         <div class="column">
+            <div id="ezoic-pub-ad-placeholder-120"><div><span class="ezoic-ad" style="align-items:center;display:flex !important;flex-direction:column !important;float:none !important;justify-content:center;line-height:0px;margin-bottom:0px !important;margin-left:auto !important;margin-right:auto !important;margin-top:0px !important;max-width:100% !important;min-height:250px;min-width:300px;padding:0;text-align:center !important;" data-ez-name="Content_1/aff37698d2735c5174f7a0d6135c4b9d"><span id="div-gpt-ad-Content_1/aff37698d2735c5174f7a0d6135c4b9d-0" ezaw="300" ezah="250" style="position: relative; z-index: 0; padding: 0px; min-height: 250px; min-width: 300px;" class="ezoic-ad"><div id="google_ads_iframe_/1254144,60931893/Content_1/aff37698d2735c5174f7a0d6135c4b9d_0__container__" style="border: 0pt none;"></div></span><span data-nosnippet="" style="display:block;height:14px;margin:2px auto;position:relative; width:100%" class="reportline" data-ez-ph-owner-id=""><span style="text-align:center;font-size:12px !important;font-family: arial!important;float:right;line-height:normal;" class="ezoicwhat"><img src="./image_files/ezoicbwa.png" alt="Ezoic" loading="lazy" style="height:14px !important; padding:2px !important; border:0px !important; cursor:pointer !important; width: 14px !important; margin:0 !important; box-sizing: content-box !important;" title="ezoic" name="?pageview_id=ced5b5e7-6cf8-495c-44a2-120eb09dba1d&amp;ad_position_id=120&amp;impression_group_id=Content_1/aff37698d2735c5174f7a0d6135c4b9d/2024-09-17/2916437445121524&amp;ad_size=300x250&amp;domain_id=658615&amp;url=https://www.tutorialspoint.com/index.htm"></span></span></span></div></div>
+            <script>
+               ezstandalone.cmd.push(function() {
+                  ezstandalone.showAds(120);
+               });
+            </script>
+         </div>
+         <div class="column">
+            <div id="ezoic-pub-ad-placeholder-121"><div><span class="ezoic-ad" style="line-height: 0px; min-height: 250px; min-width: 336px; padding: 0px; display: block !important; float: none !important; margin: 0px auto !important; max-width: 100% !important; text-align: center !important; width: 100%; height: auto;" data-ez-name="Content_3/aff37698d2735c5174f7a0d6135c4b9d"><span id="div-gpt-ad-Content_3/aff37698d2735c5174f7a0d6135c4b9d-0" ezaw="336" ezah="280" style="position: relative; z-index: 0; padding: 0px; width: 100%; max-width: 1200px; margin-left: auto !important; margin-right: auto !important; height: auto;" class="ezoic-ad"><div id="google_ads_iframe_/1254144,60931893/Content_3/aff37698d2735c5174f7a0d6135c4b9d_0__container__" style="border: 0pt none;"></div></span><span data-nosnippet="" style="display:block;height:14px;margin:2px auto;position:relative; width:100%" class="reportline" data-ez-ph-owner-id=""><span style="text-align:center;font-size:12px !important;font-family: arial!important;float:right;line-height:normal;" class="ezoicwhat"><img src="./image_files/ezoicbwa.png" alt="Ezoic" loading="lazy" style="height:14px !important; padding:2px !important; border:0px !important; cursor:pointer !important; width: 14px !important; margin:0 !important; box-sizing: content-box !important;" title="ezoic" name="?pageview_id=ced5b5e7-6cf8-495c-44a2-120eb09dba1d&amp;ad_position_id=121&amp;impression_group_id=Content_3/aff37698d2735c5174f7a0d6135c4b9d/2024-09-17/974894995158207&amp;ad_size=336x280&amp;domain_id=658615&amp;url=https://www.tutorialspoint.com/index.htm"></span></span></span></div></div>
+            <script>
+               ezstandalone.cmd.push(function() {
+                  ezstandalone.showAds(121);
+               });
+            </script>
+         </div>
+      </div>
+   </section>
+
+   <section class="cta ff-nunito container">
+      <div class="cta-card bg-blue-200">
+         <div class="cta-card__content flow" data-spacing="small">
+            <h3 class="fs-700 fw-700">Annual Membership</h3>
+            <p>Become a valued member of Tutorials Point and enjoy unlimited access to our vast library of top-rated Video Courses</p>
+            <a href="https://www.tutorialspoint.com/market/business/subscription.jsp" class="button fw-500  button--blue"><svg width="12" height="15" viewBox="0 0 12 15" fill="none" xmlns="https://www.w3.org/2000/svg"><path d="M5.64477 14.9166C5.4609 14.8807 5.27401 14.8538 5.09317 14.8069C4.03425 14.5311 3.25566 13.9053 2.7506 12.9327C1.91223 11.3184 1.06933 9.70671 0.225288 8.09543C0.0459626 7.75305 0.0898481 7.56994 0.417098 7.36413C0.6963 7.18859 0.96945 6.99716 1.30162 6.93398C2.08059 6.78605 2.72487 7.01532 3.22539 7.63463C3.24809 7.66301 3.27117 7.691 3.31846 7.74926C3.31846 7.66679 3.31846 7.61761 3.31846 7.56843C3.31846 6.20457 3.31695 4.84071 3.31922 3.47686C3.32035 2.81177 3.71948 2.29157 4.33993 2.13532C5.1363 1.93481 5.94478 2.50986 5.9864 3.33007C6.01326 3.85745 5.99623 4.38673 5.99888 4.91524C5.99888 4.97048 5.99888 5.02534 5.99888 5.08814C6.72413 4.86228 7.29691 5.04766 7.73122 5.64692C8.53024 5.19255 9.45411 5.53267 9.78552 6.35287C9.94441 6.31617 10.101 6.2651 10.2614 6.24505C11.0434 6.14744 11.7842 6.77243 11.7868 7.56048C11.7914 8.87705 11.7967 10.1944 11.7532 11.5098C11.6991 13.1525 10.3644 14.609 8.73908 14.8621C8.63239 14.8788 8.52608 14.8984 8.41977 14.917H5.64439L5.64477 14.9166ZM1.1117 7.94183C1.14007 7.99404 1.16504 8.03944 1.18888 8.08484C1.94628 9.53949 2.71276 10.9892 3.45806 12.4503C3.99679 13.5062 4.84386 14.0483 6.02423 14.0654C6.6897 14.0748 7.35517 14.0688 8.02064 14.0658C8.18521 14.065 8.35092 14.0563 8.51435 14.0374C9.784 13.8906 10.8755 12.7276 10.9072 11.4481C10.9386 10.1743 10.9349 8.89974 10.9421 7.62555C10.9439 7.31835 10.7037 7.08304 10.4071 7.08077C10.1063 7.0785 9.86837 7.31949 9.86421 7.63425C9.86156 7.84649 9.86421 8.05911 9.86345 8.27135C9.86269 8.56569 9.6864 8.76658 9.4333 8.76241C9.18361 8.75825 9.01487 8.56266 9.01449 8.27513C9.01374 7.79391 9.01752 7.3123 9.0126 6.83107C9.00996 6.55036 8.81323 6.33547 8.54083 6.29877C8.27714 6.26359 8.02745 6.42324 7.95557 6.68201C7.9359 6.75314 7.93476 6.83107 7.93438 6.90598C7.93249 7.37775 7.93665 7.8499 7.93173 8.32167C7.92946 8.56001 7.77359 8.73026 7.54963 8.75901C7.3582 8.7836 7.16147 8.6561 7.10472 8.4624C7.08656 8.40036 7.08505 8.33226 7.08467 8.26681C7.08315 7.65317 7.08467 7.03991 7.08315 6.42627C7.0824 6.12815 6.91404 5.90607 6.65603 5.85311C6.29813 5.78009 6.00229 6.03054 5.99964 6.4187C5.99548 7.02288 5.99888 7.62669 5.99775 8.23087C5.99775 8.29216 5.99774 8.3542 5.98677 8.41398C5.93229 8.71929 5.58008 8.86078 5.32773 8.68032C5.1764 8.57212 5.14765 8.41625 5.14803 8.24298C5.14992 6.68542 5.14917 5.12824 5.14841 3.57068C5.14841 3.4954 5.14841 3.41897 5.1363 3.34482C5.09166 3.07092 4.81586 2.89235 4.54612 2.95818C4.3021 3.01757 4.16742 3.20182 4.16742 3.48329C4.16704 5.36167 4.16742 7.24004 4.16704 9.11842C4.16704 9.17516 4.16893 9.23229 4.16174 9.28791C4.1345 9.49523 3.98544 9.64845 3.78304 9.66736C3.59539 9.68477 3.45806 9.597 3.3597 9.43923C3.10584 9.03065 2.85615 8.61941 2.59397 8.21611C2.2618 7.705 1.60579 7.58318 1.11094 7.94107L1.1117 7.94183Z" fill="white"></path><path d="M4.52283 0.416992C6.33614 0.42418 7.7121 1.77404 7.7469 3.45039C7.75333 3.74889 7.58725 3.94826 7.33037 3.95129C7.08408 3.95432 6.91081 3.76251 6.89832 3.47233C6.85066 2.38238 6.136 1.53229 5.0801 1.30946C3.74159 1.02685 2.41822 2.07291 2.38909 3.44093C2.38455 3.65809 2.32326 3.83363 2.11064 3.91951C1.82993 4.03263 1.53446 3.82342 1.53862 3.51054C1.55072 2.54279 1.93359 1.74566 2.67321 1.12673C3.2441 0.649283 3.91222 0.422667 4.52283 0.416992Z" fill="white"></path></svg> Subscribe now!</a>
+         </div>
+         <picture>
+            <source srcset="/static/images/home/annual-membership.jpg" media="(min-width: 40em)">
+            <img src="./image_files/annual-membership.jpg" alt="Annual Membership">
+         </picture>
+      </div>
+      <div class="cta-card bg-orange-200">
+         <div class="cta-card__content flow" data-spacing="small">
+            <h3 class="fs-700 fw-700">Online Certifications</h3>
+            <p>Master prominent technologies at full length and become a valued certified professional.</p>
+            <a href="https://www.tutorialspoint.com/latest/certifications" class="button fw-500 button--orange"><svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="https://www.w3.org/2000/svg"><path d="M11.7819 1.7166L3.85473 9.64379L0.221436 6.0105L1.15288 5.07905L3.85473 7.7743L10.8505 0.785156L11.7819 1.7166Z" fill="white"></path></svg> Explore Now</a>
+         </div>
+         <picture>
+            <source srcset="/static/images/home/traning-for-a-team.jpg" media="(min-width: 40em)">
+            <img src="./image_files/traning-for-a-team.jpg" alt="Online Certifications">
+         </picture>
+      </div>
+   </section>
+
+</main>
+<footer class="footer bg-neutral-800">
+   <div class="container">
+      <div>
+         <h5>TOP TUTORIALS</h5>
+         <ul>
+            <li><a href="https://www.tutorialspoint.com/python/index.htm" title="Python Tutorial">Python Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/java/index.htm" title="Java Tutorial">Java Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/cplusplus/index.htm" title="C++ Tutorial">C++ Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/cpp/index.htm" title="C Programming Tutorial">C Programming Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/csharp/index.htm" title="C# Tutorial">C# Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/php/index.htm" title="PHP Tutorial">PHP Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/r/index.htm" title="R Tutorial">R Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/html/index.htm" title="HTML Tutorial">HTML Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/css/index.htm" title="CSS Tutorial">CSS Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/javascript/index.htm" title="JavaScript Tutorial">JavaScript Tutorial</a></li>
+         </ul>
+      </div>
+      <div>
+         <h5>TRENDING TECHNOLOGIES</h5>
+         <ul>
+            <li><a href="https://www.tutorialspoint.com/cloud_computing/index.htm" title="Cloud Computing Tutorial">Cloud Computing Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/amazon_web_services/index.htm" title="Amazon Web Services Tutorial">Amazon Web Services Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/microsoft_azure/index.htm" title="Microsoft Azure Tutorial">Microsoft Azure Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/git/index.htm" title="Git Tutorial">Git Tutorial</a></li>
+            <li> <a href="https://www.tutorialspoint.com/ethical_hacking/index.htm" title="Ethical Hacking Tutorial">Ethical Hacking Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/docker/index.htm" title="Docker Tutorial">Docker Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/kubernetes/index.htm" title="Kubernetes Tutorial">Kubernetes Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/dsa/index.htm" title="DSA Tutorial">DSA Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/spring_boot/index.htm" title="Spring Boot Tutorial">Spring Boot Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/sdlc/index.htm" title="SDLC Tutorial">SDLC Tutorial</a></li>
+            <li><a href="https://www.tutorialspoint.com/unix/index.htm" title="Unix Tutorial">Unix Tutorial</a></li>
+         </ul>
+      </div>
+      <div>
+         <h5>CERTIFICATIONS</h5>
+         <ul>
+            <li><a href="https://www.tutorialspoint.com/certification/business-analytics-certification-2023/index.asp" title="Business Analytics Certification">Business Analytics Certification</a></li>
+            <li><a href="https://www.tutorialspoint.com/certification/java-prime-pack/index.asp" title="Java &amp; Spring Boot Advanced Certification">Java &amp; Spring Boot Advanced Certification</a></li>
+            <li><a href="https://www.tutorialspoint.com/certification/data-science-advanced-certification/index.asp" title="Data Science Advanced Certification">Data Science Advanced Certification</a></li>
+            <li><a href="https://www.tutorialspoint.com/certification/cloud-computing-and-devops-advanced-certification/index.asp" title="Cloud Computing And DevOps">Cloud Computing And DevOps</a></li>
+            <li><a href="https://www.tutorialspoint.com/certification/advanced-certification-in-business-analytics/index.asp" title="Advanced Certification In Business Analytics">Advanced Certification In Business Analytics</a></li>
+            <li><a href="https://www.tutorialspoint.com/certification/artificial-intelligence-and-machine-learning-certification/index.asp" title="Artificial Intelligence And Machine Learning">Artificial Intelligence And Machine Learning</a></li>
+            <li><a href="https://www.tutorialspoint.com/certification/devops-certification/index.asp" title="DevOps Certification">DevOps Certification</a></li>
+            <li><a href="https://www.tutorialspoint.com/certification/game-development-prime-pack/index.asp" title="Game Development Certification">Game Development Certification</a></li>
+            <li><a href="https://www.tutorialspoint.com/certification/frontend-developer-certification/index.asp" title="Front-End Developer Certification">Front-End Developer Certification</a></li>
+            <li><a href="https://www.tutorialspoint.com/certification/aws-prime-pack/index.asp" title="AWS Certification Training">AWS Certification Training</a></li>
+            <li><a href="https://www.tutorialspoint.com/certification/complete-python-prime-pack/index.asp" title="Python Programming Certification">Python Programming Certification</a></li>
+         </ul>
+      </div>
+      <div>
+         <h5>COMPILERS &amp; EDITORS</h5>
+         <ul>
+            <li><a href="https://www.tutorialspoint.com/online_java_compiler.php" title="Online Java Compiler">Online Java Compiler</a></li>
+            <li><a href="https://www.tutorialspoint.com/online_python_compiler.php" title="Online Python Compiler">Online Python Compiler</a></li>
+            <li><a href="https://www.tutorialspoint.com/online_go_compiler.php" title="Online Go Compiler">Online Go Compiler</a></li>
+            <li><a href="https://www.tutorialspoint.com/online_c_compiler.php" title="Online C Compiler">Online C Compiler</a></li>
+            <li><a href="https://www.tutorialspoint.com/online_c++_compiler.php" title="Online C++ Compiler">Online C++ Compiler</a></li>
+            <li><a href="https://www.tutorialspoint.com/online_c#_compiler.php" title="Online C# Compiler">Online C# Compiler</a></li>
+            <li><a href="https://www.tutorialspoint.com/online_php_compiler.php" title="Online PHP Compiler">Online PHP Compiler</a></li>
+            <li><a href="https://www.tutorialspoint.com/online_matlab_compiler.php" title="Online MATLAB Compiler">Online MATLAB Compiler</a></li>
+            <li><a href="https://www.tutorialspoint.com/online_bash_compiler.php" title="Online Bash Compiler">Online Bash Compiler</a></li>
+            <li><a href="https://www.tutorialspoint.com/online_sql_compiler.php" title="Online SQL Compiler">Online SQL Compiler</a></li>
+            <li><a href="https://www.tutorialspoint.com/online_html_compiler.php" title="Online Html Compiler">Online Html Compiler</a></li>
+         </ul>
+      </div>
+   </div>
+   <ul class="footer__list container">
+      <li><a href="https://www.tutorialspoint.com/about/index.htm" title="ABOUT US">ABOUT US</a> | </li>
+      <li><a href="https://www.tutorialspoint.com/about/about_team.htm" title="OUR TEAM">OUR TEAM</a> | </li>
+      <li><a href="https://www.tutorialspoint.com/about/about_careers.htm" title="CAREERS">CAREERS</a> | </li>
+      <li><a href="https://www.tutorialspoint.com/about/about_careers.htm" title="JOBS">JOBS</a> | </li>
+      <li><a href="https://www.tutorialspoint.com/about/contact_us.htm" title="CONTACT US">CONTACT US</a> | </li>
+      <li><a href="https://www.tutorialspoint.com/about/about_terms_of_use.htm" title="TERMS OF USE">TERMS OF USE</a> | </li>
+      <li><a href="https://www.tutorialspoint.com/about/about_privacy.htm" title="PRIVACY POLICY">PRIVACY POLICY</a> | </li>
+      <li><a href="https://www.tutorialspoint.com/about/return_refund_policy.htm" title="REFUND POLICY">REFUND POLICY</a> | </li>
+      <li><a href="https://www.tutorialspoint.com/about/about_cookies.htm" title="COOKIES POLICY">COOKIES POLICY</a> | </li>
+      <li><a href="https://www.tutorialspoint.com/about/faq.htm" title="FAQ&#39;S">FAQ'S</a></li>
+   </ul>
+   <div class="footer__socials container">
+      <img class="footer__logo" src="./image_files/logo-footer.svg" alt="tutorials point logo">
+      <div>
+         <svg class="svg-inline--fa fa-facebook fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"></path></svg><!-- <i class="fab fa-2x fa-facebook"></i> -->
+         <svg class="svg-inline--fa fa-twitter fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-2x fa-twitter"></i> -->
+         <svg class="svg-inline--fa fa-youtube fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg><!-- <i class="fab fa-2x fa-youtube"></i> -->
+         <svg class="svg-inline--fa fa-linkedin fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg><!-- <i class="fab fa-2x fa-linkedin"></i> -->
+         <svg class="svg-inline--fa fa-instagram fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fab fa-2x fa-instagram"></i> -->
+      </div>
+      <div class="flex-group">
+         <button class="button-reset"><a href="https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer" target="_blank" title="Download Android App" rel="nofollow"><img src="./image_files/googleplay.svg" alt="Download Android App"></a></button>
+         <button class="button-reset"><a href="https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&amp;mt=8" target="_blank" title="Download IOS App" rel="nofollow"><img src="./image_files/appstore.svg" alt="Download IOS App"></a></button>
+      </div>
+   </div>
+   <div class="footer__legal-wrapper">
+      <div class="footer__legal ff-nunito">
+         <p>
+         </p><p class="">Tutorials Point is a leading Ed Tech company striving to provide the best
+            learning material on
+            technical and non-technical subjects.</p>
+         <p></p>
+         <p class="footer__copyright ">© Copyright 2024. All Rights Reserved.</p>
+      </div>
+   </div>
+</footer>
+
+<script src="./image_files/home-script-index.js.download"></script>
+<script src="./image_files/client" async="" defer=""></script>
+<script>
+if(getCookie('user_id') == '' || getCookie('user_id') == null){
+   window.onload = function() {
+      initializeGoogleOneTap();
+    };
+}
+</script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="./image_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-EX9ZP4VY84');
+</script><iframe allow="join-ad-interest-group" data-tagging-id="G-EX9ZP4VY84" data-load-time="1726597206290" height="0" width="0" src="./image_files/rul.html" style="display: none; visibility: hidden;"></iframe>
+
+
+<script src="./image_files/ezjitscroll.js.download" async=""></script><script src="./image_files/ezicsticky.js.download" async=""></script><script src="./image_files/ezjitpos.js.download" async=""></script><iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="11b4ab8c8b16e8" width="0" height="0" src="./image_files/saved_resource.html" name="__pb_locator__" style="display: none; height: 0px; width: 0px; border: 0px;"></iframe><script src="./image_files/ezadloadhb.js.download" async=""></script><iframe name="googlefcPresent" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;" src="./image_files/saved_resource(1).html"></iframe><iframe name="__tcfapiLocator" src="./image_files/saved_resource(2).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="./image_files/saved_resource(3).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="./image_files/saved_resource(4).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe src="./image_files/aframe.html" width="0" height="0" style="display: none;"></iframe><script src="./image_files/ezadfilled.js.download" async=""></script><script src="./image_files/ezidentity.js.download" async=""></script></body><iframe name="goog_topics_frame" src="./image_files/topics_frame.html" style="display: none;"></iframe><iframe sandbox="allow-scripts allow-same-origin" id="36fa23ebd86dc1d" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./image_files/async_usersync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="37bf9a58506fbb6" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./image_files/usync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="38b67a79e787d13" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./image_files/isyn.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="39fa2e05e79c411" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./image_files/syncframe.html">
+    </iframe></html>
