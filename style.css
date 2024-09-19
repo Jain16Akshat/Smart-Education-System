@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -7,23 +6,25 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #48CFCB, #f5f5f5);
+    background-color: #F5F5F5;
     color: #333;
 }
 
 /* Navigation Bar */
 .top-banner {
-    background-color: #4b2ac7;
-    color: white;
+    background-color: #114C4D;
+    color: #F5F5F5;
     text-align: center;
     padding: 10px;
     position: relative;
-    font-size: 40px; /* Increased font size */
-    font-weight: bold; /* Bold text */
+    font-size: 40px;
+    font-weight: bold;
 }
-.bannerr{
+
+.bannerr {
     size: 5px;
 }
+
 .top-banner strong {
     font-weight: bold;
 }
@@ -32,8 +33,8 @@ body {
     background-color: #1a1a1a;
     padding: 7px 12px;
     border-radius: 5px;
-    font-size: 18px; /* Increased size for the coupon */
-    font-weight: bold; /* Bold coupon code */
+    font-size: 18px;
+    font-weight: bold;
     display: inline-block;
     margin-left: 5px;
 }
@@ -43,18 +44,18 @@ body {
     right: 20px;
     top: 10px;
     cursor: pointer;
-    font-size: 20px; /* Bigger close button */
+    font-size: 20px;
     color: white;
 }
 
 /* Header */
 header {
-    background-color: #1b1b1b;
-    color: white;
+    background-color: white;
+    color: #2ABEC0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px;
+    padding: 0 50px;
 }
 
 .logo-section {
@@ -63,17 +64,17 @@ header {
 }
 
 .logo-icon {
-    font-size: 28px; /* Slightly bigger logo */
-    color: #4a66ff;
-    margin-right: 10px;
+    font-size: 40px;
+    margin-right: 5px;
+    
 }
 
 .logo-text {
-    font-size: 26px; /* Bigger logo text */
+    font-size: 40px;
 }
 
 .logo-text strong {
-    color: #4a66ff;
+    color: #0A2C2C;
 }
 
 .nav-links {
@@ -82,53 +83,55 @@ header {
 }
 
 .nav-links li {
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .nav-links li a {
-    color: white;
+    color: black;
     text-decoration: none;
-    font-size: 18px; /* Increased font size for nav links */
+    font-size: 18px;
+    font-weight: 600 ;
 }
 
 .nav-links li a:hover {
-    color: #7d7d7d;
+    color: #48CFCB;
 }
 
 .login-btn {
-    background-color: #4a66ff;
+    background-color: #43c3bf;
     border: none;
     padding: 10px 25px;
     color: white;
-    font-size: 18px; /* Slightly larger login button */
+    font-size: 22px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .login-btn:hover {
-    background-color: #3a50cc;
+    background-color: #229799;
 }
+
 /* Main Section */
 .main-section {
     height: 500px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 100px 40px;
-    margin: -30px 0px 3px;
-    background-color: white;
-    margin-top: 20px;
+    padding: 270px 40px;
+    background-image: url(image/background.png);
+    background-size: cover;
+    background-color: #F5F5F5;
     min-height: 300px;
 }
-.spec{
-    height: 250px;;
-    width: 138.3;
-    color: #6674cc;
+
+.spec {
+    color: #48CFCB;
     font: 50px barlow;
 }
+
 .content {
-    padding-left: 20%;
-    flex-basis: 50%;
+    padding-left: 10%;
+    flex-basis: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,10 +146,10 @@ header {
 }
 
 .content h1 {
-    font-size: 48px;
+    font-size: 68px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #6c63ff;
+    color: #0C3E32;
 }
 
 .content p {
@@ -157,19 +160,18 @@ header {
 }
 
 .explore-btn {
-    background-color: #6674cc;
+    background-color: #48CFCB;
     color: #ffffff;
-    font: 18px inter;
+    font-size: 18px;
     width: 50%;
     border-radius: 10px;
-    font-size: 18px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .explore-btn:hover {
-    background-color: #5751d9;
+    background-color: #229799;
 }
 
 .image-container {
@@ -181,9 +183,10 @@ header {
 .instructor-img {
     border-radius: 50%;
     width: 400px;
-    height: 400px;
+    height: 450px;
     object-fit: cover;
 }
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-bar {
@@ -204,12 +207,13 @@ header {
         margin-top: 30px;
     }
 }
+/* cccccccccccccccccccccccccccc */
 .banner-section {
     padding-top: 10px;
-    background-color: #5c67d7;
+    background-color: #229799;
     padding: 30px 0;
     text-align: center;
-    color: white;
+    color: #F5F5F5;
 }
 
 .banner-container {
@@ -251,7 +255,7 @@ header {
 }
 
 .new-batch {
-    color: #5c67d7;
+    color: #48CFCB;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -263,12 +267,12 @@ h3 {
 
 p {
     font-size: 16px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .explore-button {
     display: inline-block;
-    background-color: #5c67d7;
+    background-color: #229799;
     color: white;
     padding: 12px 25px;
     border-radius: 5px;
@@ -289,17 +293,15 @@ p {
     }
 }
 
-
-
-
 /* Latest Updates Section */
 .latest-updates {
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 20px ;
     padding: 50px 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px #5c67d7(0, 0, 0, 0.1);
+    background-color: white;
+    border: 4px solid #105342;
+    border-radius: 25px;
+    box-shadow: -12px 12px 2px #229799;
     text-align: center;
 }
 
@@ -325,7 +327,7 @@ p {
 }
 
 .update-card {
-    background-color:  #6c63ff;
+    background-color: #48CFCB;
     color: white;
     padding: 10px;
     border-radius: 8px;
@@ -349,8 +351,9 @@ p {
     max-width: 400px;
     border-radius: 10px;
 }
-.update-card:hover{
-    background-color: #5c67d7;
+
+.update-card:hover {
+    background-color: #229799;
     color: white;
     transform: translateY(-5px);
 }
@@ -362,12 +365,11 @@ p {
         gap: 20px;
     }
 }
-
 /* advantage section */
 
 .containername {
     text-align: center;
-    background-color: #fff;
+    background-color: white;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -447,11 +449,13 @@ para {
 
 .learning-header h2 {
     font-size: 2.2rem;
-    color:greenyellow;
+    color: #2B9092;
+
 }
 
 .learning-header h2 span {
-    color:greenyellow;
+    color: #071952;
+
 }
 
 .see-all {
@@ -511,7 +515,7 @@ para {
     display: flex;
     justify-content: center;
     background-color: #f9f9f9;
-    padding: 40px 0;
+    padding: 0;
 }
 
 .custom-card-container {
@@ -604,7 +608,6 @@ para {
 }
 
 /* course details */
-
 .career-section {
     text-align: center;
     padding: 40px;
@@ -616,7 +619,7 @@ para {
 }
 
 .highlightt {
-    color: #24b24a;
+    color: #0ec195;
 }
 
 .containernnn {
@@ -627,10 +630,11 @@ para {
 
 .cardneee {
     background-color: white;
+    border: 4px solid #105342;
     padding: 20px;
     border-radius: 25px;
     width: 45%;
-    box-shadow: -12px 12px 0px black;
+    box-shadow: -12px 12px 8px #3DC2EC;
 }
 
 .cardneee h2 {
@@ -650,13 +654,13 @@ para {
     border-radius: 8px;
     font-size: 1.2rem;
     text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);  /* Added black shadow */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .box:hover {
-    transform: translateY(-5px); /* Adds a lift effect on hover */
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Intensifies shadow on hover */
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .box:nth-child(2n) {
@@ -675,114 +679,115 @@ strong {
     font-weight: bold;
 }
 
-/* footer */
+/* Footer */
 footer {
-    background-color: #1a1a1a;
+    background-color: #424242;
     color: #fff;
     padding: 40px 20px;
     font-family: Arial, sans-serif;
-  }
-  
-  .footer-container {
+}
+
+.footer-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-  
-  .footer-section {
+}
+
+.footer-section {
     flex: 1;
     min-width: 220px;
     margin-bottom: 20px;
-  }
-  
-  .footer-section h3 {
+}
+
+.footer-section h3 {
     font-size: 18px;
     margin-bottom: 20px;
     text-transform: uppercase;
-  }
-  
-  .footer-section ul {
+}
+
+.footer-section ul {
     list-style: none;
-  }
-  
-  .footer-section ul li {
+}
+
+.footer-section ul li {
     margin-bottom: 10px;
-  }
-  
-  .footer-section ul li a {
+}
+
+.footer-section ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
-  }
-  
-  .footer-section ul li a:hover {
-    color: #00aeef;
-  }
-  
-  /* Social Media and App Store Buttons */
-  .social-media {
+}
+
+.footer-section ul li a:hover {
+    color: #48CFCB;
+}
+
+/* Social Media and App Store Buttons */
+.social-media {
     text-align: center;
     margin: 20px 0;
-  }
-  
-  .social-media a {
+}
+
+.social-media a {
     margin: 0 10px;
     display: inline-block;
-  }
-  
-  .social-media img {
+}
+
+.social-media img {
     width: 32px;
     height: 32px;
-  }
-  .twitter{
+}
+
+.twitter {
     background-color: black;
     color: #000;
     border-radius: 1px;
-  }
-  
-  .app-store-buttons {
+}
+
+.app-store-buttons {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  .app-store-buttons a {
+}
+
+.app-store-buttons a {
     margin: 0 10px;
-  }
-  
-  .app-store-buttons img {
+}
+
+.app-store-buttons img {
     height: 50px;
     width: auto;
-  }
-  
-  /* Footer bottom section */
-  .footer-bottom {
+}
+
+/* Footer bottom section */
+.footer-bottom {
     text-align: center;
     padding-top: 20px;
     border-top: 1px solid #444;
-  }
-  
-  .footer-bottom ul {
+}
+
+.footer-bottom ul {
     list-style: none;
     padding: 10px 0;
-  }
-  
-  .footer-bottom ul li {
+}
+
+.footer-bottom ul li {
     display: inline;
     margin: 0 10px;
-  }
-  
-  .footer-bottom ul li a {
+}
+
+.footer-bottom ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
-  }
-  
-  .footer-bottom ul li a:hover {
-    color: #00aeef;
-  }
-  
-  .footer-bottom p {
+}
+
+.footer-bottom ul li a:hover {
+    color: #48CFCB;
+}
+
+.footer-bottom p {
     font-size: 12px;
     color: #ccc;
     margin-top: 10px;
-  }
+}
