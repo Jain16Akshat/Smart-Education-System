@@ -296,12 +296,12 @@ p {
 /* Latest Updates Section */
 .latest-updates {
     max-width: 1500px;
-    margin: 20px ;
+    margin: 30px ;
     padding: 50px 20px;
     background-color: white;
     border: 4px solid #105342;
     border-radius: 25px;
-    box-shadow: -12px 12px 2px #229799;
+    box-shadow: -12px 12px 4px #3DC2EC;
     text-align: center;
 }
 
@@ -327,7 +327,7 @@ p {
 }
 
 .update-card {
-    background-color: #48CFCB;
+    background-color: #437f7d;
     color: white;
     padding: 10px;
     border-radius: 8px;
@@ -515,14 +515,14 @@ para {
     display: flex;
     justify-content: center;
     background-color: #f9f9f9;
-    padding: 0;
+    padding: 0 20px; /* Adding side padding to align with other sections */
 }
 
 .custom-card-container {
     display: flex;
     gap: 20px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1200px; /* Align with above section */
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap;
@@ -531,13 +531,14 @@ para {
 .custom-card {
     background-color: #fff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px; /* Increase padding for larger card size */
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 48%;
+    width: 49%; /* Adjust width of the cards */
 }
+
 .custom-card-left {
     background-color: #d0ecff; /* Light blue */
 }
@@ -547,27 +548,27 @@ para {
 }
 
 .custom-card-content {
-    max-width: 60%;
+    max-width: 65%; /* Increase the content area width */
 }
 
 .custom-card-content h3 {
-    font-size: 1.8rem;
+    font-size: 2rem; /* Increase heading size */
     color: #000;
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* Adjust margin */
 }
 
 .custom-card-content p {
-    font-size: 1rem;
+    font-size: 1.1rem; /* Slightly larger paragraph text */
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .custom-card-button {
-    padding: 10px 20px;
+    padding: 12px 24px; /* Larger button */
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.1rem;
     transition: background-color 0.3s ease;
 }
 
@@ -586,7 +587,7 @@ para {
 }
 
 .custom-card-image {
-    width: 30%;
+    width: 35%; /* Increase image size */
     border-radius: 10px;
 }
 
@@ -595,6 +596,7 @@ para {
         flex-direction: column;
         text-align: center;
         width: 100%;
+        padding: 20px;
     }
 
     .custom-card-content, .custom-card-image {
@@ -604,6 +606,7 @@ para {
 
     .custom-card-image {
         margin-top: 20px;
+        width: 100%; /* Full width for small screens */
     }
 }
 
