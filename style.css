@@ -64,7 +64,7 @@ header {
 }
 
 .logo-icon {
-    font-size: 40px;
+    /* font-size: 40px; */
     margin-right: 5px;
     
 }
@@ -98,11 +98,12 @@ header {
 }
 
 .login-btn {
-    background-color: #43c3bf;
+    background-color: #03765b;
     border: none;
     padding: 10px 25px;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: bolder;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -160,18 +161,20 @@ header {
 }
 
 .explore-btn {
-    background-color: #48CFCB;
+    background-color: #104d4e;
     color: #ffffff;
     font-size: 18px;
+    padding: 5px 0px 5px;
     width: 50%;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px #1e8789;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .explore-btn:hover {
-    background-color: #229799;
+    background-color: #1e8789;
 }
 
 .image-container {
@@ -515,7 +518,7 @@ para {
     display: flex;
     justify-content: center;
     background-color: #f9f9f9;
-    padding: 0 20px; /* Adding side padding to align with other sections */
+    padding: 20px 0; /* Adding side padding to align with other sections */
 }
 
 .custom-card-container {
@@ -528,10 +531,16 @@ para {
     flex-wrap: wrap;
 }
 
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1424px;
+    }
+}
+
 .custom-card {
     background-color: #fff;
     border-radius: 10px;
-    padding: 30px; /* Increase padding for larger card size */
+    padding: 10px; /* Increase padding for larger card size */
     display: flex;
     align-items: center;
     justify-content: space-between;
