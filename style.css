@@ -188,7 +188,7 @@ header {
   }
   
   .spec {
-    height: 250px;
+    height: 150px;
     color: #6674cc;
     font-family: 'Barlow', sans-serif;
   }
@@ -510,9 +510,8 @@ p {
 
 /* Latest Updates Section */
 .latest-updates {
-    max-width: 1500px;
     margin: 30px ;
-    padding: 50px 20px;
+    padding: 20px 20px;
     background-color: white;
     border: 4px solid #105342;
     border-radius: 25px;
@@ -916,6 +915,7 @@ strong {
 .sectio50 h2 {
     color: #00c2e8;
     font-size: 36px;
+    padding-bottom: 4px;
 }
 
 .section50 p {
