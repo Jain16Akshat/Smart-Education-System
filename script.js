@@ -2,8 +2,15 @@
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('nav-links');
 
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active'); // Show/hide the navigation links
+    hamburger.classList.toggle('open');  // Change the hamburger to 'X' and vice versa
+});
+
+// Close banner functionality
 function closeBanner() {
-    document.querySelector('.bannerr').style.display = 'none';
+    const banner = document.querySelector('.top-banner');
+    banner.style.display = 'none'; // Hide the banner
 }
 const words = ["C++-Data structure", "java-Web development"];
 let wordIndex = 0;
