@@ -16,11 +16,17 @@
     </div>
     <header>
         <div class="logo-section">
-            <span class="logo-icon"><img src="image\logo2.png" alt=""></span>
+            <img src="image/logo2.png" alt="Logo" class="logo-icon">
             <span class="logo-text">Config<strong>Systems</strong></span>
         </div>
+        
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+
         <nav>
-            <ul class="nav-links">
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Courses▾</a></li>
                 <li><a href="#">Explore▾</a></li>
@@ -33,21 +39,22 @@
         <button class="login-btn">Login | SignUp</button>
     </header>
 
-    <section class="main-section">
-        <div class="content">
-          <div class="spec">
+    <section class="main-section"> 
+        <div class="content-wrapper"> <!-- Added a wrapper for flexibility -->
+          <div class="content">
+            <div class="spec">
                 <h1>ConfigSystems</h1>
                 <h2>Learn & become the top 1% software developer</h2>
-            <p id="typing-text" class="typing-animation"></p> <!-- Typing effect text -->
+                <p id="typing-text" class="typing-animation"></p> <!-- Typing effect text -->
+            </div>
+            <button class="explore-btn">Explore new batches</button>
           </div>
-          <button class="explore-btn">Explore new batches</button>
-
+          <div class="image-container">
+            <img src="image/instructor.jpeg" alt="Instructor Image" class="instructor-img">
+          </div>
         </div>
-        <div class="image-container">
-          <img src="image/instructor.jpeg" alt="Instructor Image" class="instructor-img">
-        </div>
-
-    </section>
+      </section>
+      
     
     <div class="promo-section">
         <p class="new-batch">NEW BATCH 🔥</p>
