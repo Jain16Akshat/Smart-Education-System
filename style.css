@@ -78,8 +78,9 @@ header {
 }
 
 .nav-links {
-    list-style-type: none;
+    list-style: none;
     display: flex;
+    gap: 20px; /**/
 }
 
 .nav-links li {
@@ -111,16 +112,15 @@ header {
 .login-btn:hover {
     background-color: #229799;
 }
-
-@media (max-width: 768px) {
-    .nav-bar {
-        padding: 15px 20px;
-    }
-
-    .nav-bar nav ul {
-        gap: 20px;
-    }
+.hamburger {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
+
 .banner-section {
     padding-top: 10px;
     background-color: #5c67d7;
