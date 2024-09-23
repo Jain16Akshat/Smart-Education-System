@@ -12,18 +12,24 @@
 
     <div class="top-banner">
         <p>
-            <span class="bannerr">ConfigSystem is now <strong>600K</strong> Students Strong. Claim your 10% <strong>discount</strong> coupon: </span>
+            <span class="bannerr">ConfigSystems is now <strong>600K</strong> Students Strong. Claim your 10% <strong>discount</strong> coupon: </span>
             <span id="coupon">SEP10</span>
             <span class="close-banner" onclick="closeBanner()">&#10006;</span>
         </p>
     </div>
     <header>
         <div class="logo-section">
-            <span class="logo-icon"><img src="image\logo2.jpg" alt=""></span>
+            <img src="image/logo2.png" alt="Logo" class="logo-icon">
             <span class="logo-text">Config<strong>Systems</strong></span>
         </div>
+        
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+
         <nav>
-            <ul class="nav-links">
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Courses▾</a></li>
                 <li><a href="#">Explore▾</a></li>
@@ -36,20 +42,22 @@
         <button class="login-btn">Login | SignUp</button>
     </header>
 
-    <section class="main-section">
-        <div class="content">
-          <div class="spec">
-                <h1>ConfigSystem</h1>
+    <section class="main-section"> 
+        <div class="content-wrapper"> <!-- Added a wrapper for flexibility -->
+          <div class="content">
+            <div class="spec">
+                <h1>ConfigSystems</h1>
+                <h2>Learn & become the top 1% software developer</h2>
                 <p id="typing-text" class="typing-animation">-</p> <!-- Typing effect text -->
+            </div>
+            <button class="explore-btn">Explore new batches</button>
           </div>
-          <button class="explore-btn">Explore new batches</button>
-
+          <div class="image-container">
+            <img src="image/instructor.jpeg" alt="Instructor Image" class="instructor-img">
+          </div>
         </div>
-        <div class="image-container">
-          <img src="image/instructor.jpeg" alt="Instructor Image" class="instructor-img">
-        </div>
-
-    </section>
+      </section>
+      
     
     <div class="promo-section">
         <p class="new-batch">NEW BATCH 🔥</p>
@@ -265,7 +273,7 @@
 
 <!-- training service section -->
 <section class="section50">
-    <h2>Our <span style="color:#00c2e8;">Training</span> Services</h2>
+    <h1 class="high">Our <span style="color:#00c2e8;">Training</span> Services</h2>
     <p>From Basic to Advanced...<br>
     We Offer Classroom, Online, Weekend, and Corporate Training on a Wide Range of Software Courses.</p>
 
