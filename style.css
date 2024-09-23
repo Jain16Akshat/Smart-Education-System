@@ -11,22 +11,19 @@ body {
 }
 
 /* Navigation Bar */
+/* Top Banner */
 .top-banner {
     background-color: #114C4D;
     color: #F5F5F5;
     text-align: center;
     padding: 10px;
     position: relative;
-    font-size: 40px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .bannerr {
-    size: 5px;
-}
-
-.top-banner strong {
-    font-weight: bold;
+    font-size: 14px;
 }
 
 #coupon {
@@ -55,7 +52,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1px 50px;
+    padding: 10px 50px;
 }
 
 .logo-section {
@@ -64,9 +61,7 @@ header {
 }
 
 .logo-icon {
-    /* font-size: 40px; */
     margin-right: 5px;
-    
 }
 
 .logo-text {
@@ -90,7 +85,7 @@ header {
     color: black;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 600 ;
+    font-weight: 600;
 }
 
 .nav-links li a:hover {
@@ -142,7 +137,6 @@ header {
     font-size: 30px;
 }
 
-
 .login-btn {
     background-color: #03765b;
     border: none;
@@ -158,6 +152,7 @@ header {
     background-color: #229799;
 }
 
+/* Additional Styles for Mobile View */
 @media (max-width: 768px) {
     .nav-bar {
         padding: 15px 20px;
@@ -166,47 +161,7 @@ header {
     .nav-bar nav ul {
         gap: 20px;
     }
-}
-.banner-section {
-    padding-top: 10px;
-    background-color: #5c67d7;
-    padding: 30px 0;
-    text-align: center;
-    color: white;
-}
-
-.banner-container {
-    height: 70px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.banner-container h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.stats {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-
-.stat-item {
-    text-align: center;
-}
-
-.stat-item i {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.stat-item p {
-    margin: 5px 0;
-    font-size: 16px;
-}
-.main-section {
+}.main-section {
     height: 500px;
     display: flex;
     justify-content: space-evenly;
@@ -215,10 +170,7 @@ header {
     background: linear-gradient(30deg, rgb(48, 241, 244) 30%, rgb(4, 78, 94) 80%); /* Diagonal teal gradient */
     background-color: #F5F5F5;
     min-height: 300px;
-}
-
-
-/* New Wrapper for flexibility */
+}/* New Wrapper for flexibility */
 .content-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -777,7 +729,7 @@ para {
 
 
 /* learning section */
-.learning-section {
+/* .learning-section {
     max-width: 1500px;
     background-color: var(#ded30854);
     border: 1px solid 071952 ;
@@ -856,6 +808,103 @@ para {
 .card h3 {
     font-size: 1.5rem;
 }
+    /* Main Layout for Learning Section *//* Main Layout for Learning Section */
+.learning-section {
+    max-width: 1000px;  /* Fixed width for larger screens */
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+/* Header Section Alignment */
+.learning-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.learning-header h2 {
+    font-size: 1.8rem; /* Consistent font size for laptop and desktop */
+    color: #071952;
+    font-weight: bold;
+}
+
+.learning-header h2 span {
+    color: #1abc9c;
+}
+
+.see-all {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Learning Grid */
+.learning-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four-column layout for laptop and desktop */
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.card h3 {
+    font-size: 1.5rem; /* Consistent font size for laptop and desktop */
+    color: #333;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design for Tablets */
+@media (max-width: 1024px) {
+    .learning-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two-column layout for tablets */
+    }
+
+    .card h3 {
+        font-size: 1.4rem; /* Slightly smaller font for tablets */
+    }
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .learning-grid {
+        grid-template-columns: 1fr; /* Single-column layout for mobile */
+    }
+
+    .card {
+        width: 100%; /* Full-width cards for mobile */
+    }
+
+    .card h3 {
+        font-size: 1.2rem; /* Smaller font for mobile */
+    }
+}
+
 
 /* Unique Styles for the Membership and Certification Section */
 #membership-certification-section {
@@ -863,34 +912,30 @@ para {
     display: flex;
     justify-content: center;
     background-color: #f9f9f9;
-    padding: 20px 0; /* Adding side padding to align with other sections */
+    padding: 20px 0;
 }
 
 .custom-card-container {
     display: flex;
     gap: 20px;
     width: 100%;
-    max-width: 1200px; /* Align with above section */
+    max-width: 1200px;
     justify-content: space-between;
     align-items: stretch;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Ensures cards wrap properly on smaller screens */
 }
 
-@media (min-width: 1400px) {
-    .container {
-        max-width: 1424px;
-    }
-}
-
+/* Card Styles */
 .custom-card {
     background-color: #fff;
     border-radius: 10px;
-    padding: 10px; /* Increase padding for larger card size */
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 49%; /* Adjust width of the cards */
+    width: 49%; /* Keeps cards side by side on larger screens */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .custom-card-left {
@@ -902,23 +947,24 @@ para {
 }
 
 .custom-card-content {
-    max-width: 65%; /* Increase the content area width */
+    max-width: 65%; /* Keeps text width manageable */
 }
 
 .custom-card-content h3 {
-    font-size: 2rem; /* Increase heading size */
+    font-size: 2rem;
     color: #000;
-    margin-bottom: 15px; /* Adjust margin */
+    margin-bottom: 15px;
 }
 
 .custom-card-content p {
-    font-size: 1.1rem; /* Slightly larger paragraph text */
+    font-size: 1.1rem;
     color: #333;
     margin-bottom: 25px;
 }
 
+/* Button Styles */
 .custom-card-button {
-    padding: 12px 24px; /* Larger button */
+    padding: 12px 24px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -940,11 +986,34 @@ para {
     opacity: 0.9;
 }
 
+/* Image Styling */
 .custom-card-image {
-    width: 35%; /* Increase image size */
+    width: 35%; /* Image occupies 35% of the card width on larger screens */
     border-radius: 10px;
 }
 
+/* Hover Effects */
+.custom-card:hover {
+    transform: translateY(-5px); /* Adds a lift effect */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Tablet View (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .custom-card {
+        width: 100%; /* Full width for tablets */
+    }
+
+    .custom-card-content {
+        max-width: 100%; /* Content takes full width */
+    }
+
+    .custom-card-image {
+        width: 30%; /* Reduce image width slightly for tablets */
+    }
+}
+
+/* Mobile View (max-width: 768px) */
 @media (max-width: 768px) {
     .custom-card {
         flex-direction: column;
@@ -952,19 +1021,16 @@ para {
         width: 100%;
         padding: 20px;
     }
-
-    .custom-card-content, .custom-card-image {
+    .custom-card-content {
         max-width: 100%;
-        width: 100%;
+        margin-bottom: 20px; /* Adds spacing between content and image */
     }
-
     .custom-card-image {
         margin-top: 20px;
-        width: 100%; /* Full width for small screens */
+        width: 100%; /* Full-width image on small screens */
     }
 }
-
-/* course details */
+/* course details *//* Main Career Section Styling */
 .career-section {
     text-align: center;
     padding: 40px;
@@ -979,21 +1045,24 @@ para {
     color: #0ec195;
 }
 
+/* Container that holds both cards */
 .containernnn {
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
+/* Individual Card Styling */
 .cardneee {
-    max-width:  1893.6px;
-    width: 1200px;
+    max-width: 100%;
     background-color: white;
     border: 4px solid #105342;
     padding: 20px;
     border-radius: 25px;
     width: 45%;
     box-shadow: -12px 12px 8px #3DC2EC;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cardneee h2 {
@@ -1001,12 +1070,14 @@ para {
     margin-bottom: 20px;
 }
 
+/* Grid for the Learning Boxes */
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
     gap: 20px;
 }
 
+/* Individual Box Styling */
 .box {
     background-color: #eaf5e9;
     padding: 20px;
@@ -1022,6 +1093,7 @@ para {
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
 }
 
+/* Alternate Background Colors */
 .box:nth-child(2n) {
     background-color: #dcecf6;
 }
@@ -1038,7 +1110,49 @@ strong {
     font-weight: bold;
 }
 
-/* training services */
+/* Responsive Styles for Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .cardneee {
+        width: 100%; /* Full width for each card on tablet */
+        margin-bottom: 20px; /* Adds space between stacked cards */
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr; /* Maintain two columns for tablets */
+    }
+
+    .high {
+        font-size: 2rem;
+    }
+}
+
+/* Responsive Styles for Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .containernnn {
+        flex-direction: column; /* Stack cards vertically */
+    }
+
+    .cardneee {
+        width: 100%; /* Full width for mobile */
+        margin-bottom: 20px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr; /* Single column for mobile */
+    }
+
+    .box {
+        font-size: 1rem; /* Reduce font size on mobile */
+        padding: 15px; /* Adjust padding for better fit */
+    }
+
+    .high {
+        font-size: 1.8rem; /* Reduce heading size */
+    }
+}
+
+
+
 .section50 {
     text-align: center;
     padding: 50px 20px;
@@ -1048,24 +1162,46 @@ strong {
     color: #00c2e8;
     font-size: 36px;
 }
+/* Heading Alignment */
+/* Main Layout for Training Section */
+.section50 {
+    text-align: center;
+    padding: 50px 20px;
+}
 
+/* Heading Alignment */
+.section50 h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section50 h2 span {
+    color: #00c2e8;
+}
+
+/* Paragraph Alignment */
 .section50 p {
     color: #6f6f6f;
     font-size: 18px;
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
+    max-width: 700px;
+    line-height: 1.5;
+    text-align: center;
 }
 
+/* Grid Layout for Services */
 .grid-container50 {
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
     gap: 20px;
     max-width: 1200px;
-    width: 1893.6px;
     margin: 0 auto;
     padding: 20px 20px;
     background-color:white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
-
 }
 
 .grid-item50 {
@@ -1075,12 +1211,13 @@ strong {
     box-shadow: 0 2px 10px black;
     text-align: left;
     height: 500px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .grid-item50 img {
     height: 350px;
     width: 100%;
-   
+    object-fit: cover;
 }
 
 .grid-item-content50 {
@@ -1103,6 +1240,7 @@ strong {
     color: #00c2e8;
     font-size: 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .explore-btn200 {
@@ -1115,18 +1253,26 @@ strong {
     border-radius: 5px;
     margin-top: 40px;
 }
+
+/* Hover Effects */
 .grid-item50:hover {
     transform: translateY(-5px); /* Adds a lift effect on hover */
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Intensifies shadow on hover */
 }
 
-@media (max-width: 768px) {
+/* Responsive Design for Tablets */
+@media (max-width: 1024px) {
+    .grid-container50 {
+        grid-template-columns: repeat(2, 1fr); /* Two-column layout for tablets */
+    }
+
     .section50 h2 {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .section50 p {
         font-size: 16px;
+        max-width: 600px; /* Adjust max-width for tablets */
     }
 
     .grid-item-content50 h3 {
@@ -1138,6 +1284,33 @@ strong {
     }
 }
 
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+    .grid-container50 {
+        grid-template-columns: 1fr; /* Single-column layout for mobile */
+    }
+
+    .section50 h2 {
+        font-size: 28px;
+    }
+
+    .section50 p {
+        font-size: 16px;
+        max-width: 100%; /* Full width for mobile */
+    }
+
+    .grid-item50 {
+        height: auto; /* Allow auto height for mobile */
+    }
+
+    .grid-item-content50 h3 {
+        font-size: 18px;
+    }
+
+    .grid-item-content50 p {
+        font-size: 14px;
+    }
+}
  /* about us  */
  .bottom1 {
     display: flex;
