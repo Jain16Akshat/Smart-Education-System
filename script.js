@@ -1,3 +1,7 @@
+// JavaScript to toggle the menu
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
 function closeBanner() {
     document.querySelector('.bannerr').style.display = 'none';
 }
@@ -55,10 +59,29 @@ const cardWrapper = document.getElementById('cardWrapper0');
   });
 }
 
-        function scrollRight() {
-          console.log('right arrow clicked'); 
-            cardWrapper.scrollBy({
-                left: 300, // Adjust this value for how much you want to scroll right
-                behavior: 'smooth'
-            });
-        }
+function scrollRight() {
+  console.log('right arrow clicked'); 
+    cardWrapper.scrollBy({
+        left: 300, // Adjust this value for how much you want to scroll right
+        behavior: 'smooth'
+    });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  // Toggle the 'active' class on click to open/close menu
+  hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('open');  // Optional class for hamburger icon animation
+  });
+
+  // Optional: Close the menu when clicking outside
+  document.addEventListener('click', (event) => {
+      if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+          navLinks.classList.remove('active');
+          hamburger.classList.remove('open');
+      }
+  });
+});
