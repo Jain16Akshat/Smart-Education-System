@@ -1062,8 +1062,8 @@ strong {
     max-width: 1200px;
     width: 1893.6px;
     margin: 0 auto;
-    padding: 0 20px;
-    background-color:black;
+    padding: 20px 20px;
+    background-color:white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
 
 }
@@ -1072,7 +1072,7 @@ strong {
     background-color: #f9f9f9;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px black;
     text-align: left;
     height: 500px;
 }
@@ -1149,9 +1149,10 @@ strong {
     border-radius: 5px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.bottom1:hover {
+.bottom11:hover {
     transform: translateX(-20px); /* Adds a lift effect on hover */
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Intensifies shadow on hover */
+    background-color: white;
 }
 .bottom11{
     display: flex;
@@ -1160,11 +1161,11 @@ strong {
     max-width: 1200px;
     padding: 50px;
     margin: auto;
-    background-color: #000;
+    background-color: rgba(44, 247, 237, 0.041);
 }
 .text-content1 {
     width: 60%;
-    color: white;
+    color: black;
 }
 
 .text-content1 h1 {

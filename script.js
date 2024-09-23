@@ -5,7 +5,7 @@ const navLinks = document.getElementById('nav-links');
 function closeBanner() {
     document.querySelector('.bannerr').style.display = 'none';
 }
-const words = ["C++-Data structure", "java-Web development"];
+const words = ["Data Structures in C++", "Data Structures in Java.", "Web Development."];
 let wordIndex = 0;
 let charIndex = 0;
 let currentWord = "";
