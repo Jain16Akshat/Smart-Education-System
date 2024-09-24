@@ -10,37 +10,68 @@
 
     
 
-    <div class="top-banner">
-        <p>
-            <span class="bannerr">ConfigSystems is now <strong>600K</strong> Students Strong. Claim your 10% <strong>discount</strong> coupon: </span>
-            <span id="coupon">SEP10</span>
-            <span class="close-banner" onclick="closeBanner()">&#10006;</span>
-        </p>
-    </div>
-    <header>
-        <div class="logo-section">
-            <img src="image/logo2.png" alt="Logo" class="logo-icon">
-            <span class="logo-text">Config<strong>Systems</strong></span>
-        </div>
-        
-        <!-- Hamburger Menu Icon -->
-        <div class="hamburger" id="hamburger">
-            &#9776;
-        </div>
+<!-- Top Banner -->
+<div class="top-banner">
+    <p>
+        <span class="bannerr">ConfigSystems is now <strong>600K</strong> Students Strong. Claim your 10% <strong>discount</strong> coupon: </span>
+        <span id="coupon">SEP10</span>
+        <span class="close-banner" onclick="closeBanner()">&#10006;</span>
+    </p>
+</div>
 
-        <nav>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Courses▾</a></li>
-                <li><a href="#">Explore▾</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Notes▾</a></li>
-                <li><a href="#">Tutorials▾</a></li>
-                <li><a href="#">Certifications</a></li>
-            </ul>
-        </nav>
-        <button class="login-btn">Login | SignUp</button>
-    </header>
+<!-- Header Section -->
+<header class="navbar">
+    <div class="logo-section">
+        <img src="image/logo2.png" alt="Logo" class="logo-icon">
+        <span class="logo-text">Config<strong>Systems</strong></span>
+    </div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <nav>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Courses▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Data Structure</a></li>
+                    <li><a href="#">Full stack development</a></li>
+                    <li><a href="#">Data Science</a></li>
+                    <li><a href="#">AI & ML</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Explore▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Workshops</a></li>
+                    <li><a href="#">Webinars</a></li>
+                    <li><a href="#">Hackathons</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Notes▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">C Notes</a></li>
+                    <li><a href="#">Data Structures</a></li>
+                    <li><a href="#">Java Notes</a></li>
+                    <li><a href="#">Python Notes</a></li>
+                    <li><a href="#">C++ Notes</a></li>
+                    <li><a href="#">Node.js</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Tutorials▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">HTML Tutorial</a></li>
+                    <li><a href="#">CSS Tutorial</a></li>
+                    <li><a href="#">JavaScript Tutorial</a></li>
+                    <li><a href="#">React.js Tutorial</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Certifications</a></li>
+        </ul>
+    </nav>
+    <button class="login-btn">Login | SignUp</button>
+</header>
 
     <section class="main-section"> 
         <div class="content-wrapper"> <!-- Added a wrapper for flexibility -->
@@ -291,7 +322,7 @@
             <img src="image/phoot2.jpg" alt="Internships">
             <div class="grid-item-content50">
                 <h3>Internships</h3>
-                <p>Supercharge Your Career: Join NareshIT's Exciting IT Internship Program</p>
+                <p>Supercharge Your Career: Join ConfigSystem's Exciting IT Internship Program</p>
                 <a href="#">View more →</a>
             </div>
         </div>
@@ -309,7 +340,7 @@
             <img src="image/weekeend traing.jpeg" alt="Weekend Training">
             <div class="grid-item-content50">
                 <h3>Weekend Training</h3>
-                <p>Supercharge Your Weekends with NareshIT's IT Training Programs</p>
+                <p>Supercharge Your Weekends with ConfigSystem's IT Training Programs</p>
                 <a href="#">View more →</a>
             </div>
         </div>
@@ -318,13 +349,13 @@
     <a href="#" class="explore-btn200">Explore Services</a>
 </section>
 
-    <div class="containername">
-        <h1  class="para">Welcome to Our Coding Family</h1>
+<div class="containername">
+        <h1 class="para">Welcome to Our Coding Family</h1>
         <p class="subtext">
             Join a supportive community of passionate coders, where learning, collaboration, and innovation come together.
             Embark on your coding journey with us.
         </p>
-
+    
         <div class="social-links">
             <a href="https://www.youtube.com" target="_blank" class="slinks">
                 <img src="image/youtube.png" alt="YouTube">
@@ -344,7 +375,7 @@
             </a>
         </div>
     </div>
-
+    
   <!-- about us -->
     <div class="bottom1">
         <div class="bottom11">
@@ -360,114 +391,146 @@
         </div>
     </div>
     </div>
+
+<!-- dummy enroll section -->
+<div class="enroll-section0">
+    <div class="image-content0">
+        <img src="image/dummy.png" alt="Enroll for Bright Career">
+    </div>
+    <div class="form-content0">
+        <h2>Enroll for <span class="highlight00">Bright Career</span></h2>
+        <form>
+            <div class="input-group0">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email address">
+            </div>
+            <input type="text" placeholder="Mobile Number">
+            <div class="input-group0">
+                <select>
+                    <option>Select Course</option>
+                    <option>Full Stack</option>
+                    <option>Data structure</option>
+                    <option>python</option>
+                   
+                </select>
+                <select>
+                    <option>Mode of Training</option>
+                    <option>onsite</option>
+                    <option>Hybrid</option>
+                </select>
+            </div>
+            <textarea placeholder="Describe message here"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
 <!-- 
    footer -->
-    <footer>
-        <div class="footer-container">
-          <div class="footer-section">
-            <h3>TOP TUTORIALS</h3>
-            <ul>
-              <li><a href="#">Python Tutorial</a></li>
-              <li><a href="#">Java Tutorial</a></li>
-              <li><a href="#">C++ Tutorial</a></li>
-              <li><a href="#">C Programming Tutorial</a></li>
-              <li><a href="#">C# Tutorial</a></li>
-              <li><a href="#">PHP Tutorial</a></li>
-              <li><a href="#">R Tutorial</a></li>
-              <li><a href="#">HTML Tutorial</a></li>
-              <li><a href="#">CSS Tutorial</a></li>
-              <li><a href="#">JavaScript Tutorial</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h3>TRENDING TECHNOLOGIES</h3>
-            <ul>
-              <li><a href="#">Cloud Computing Tutorial</a></li>
-              <li><a href="#">Amazon Web Services Tutorial</a></li>
-              <li><a href="#">Microsoft Azure Tutorial</a></li>
-              <li><a href="#">Git Tutorial</a></li>
-              <li><a href="#">Ethical Hacking Tutorial</a></li>
-              <li><a href="#">Docker Tutorial</a></li>
-              <li><a href="#">Kubernetes Tutorial</a></li>
-              <li><a href="#">DSA Tutorial</a></li>
-              <li><a href="#">Spring Boot Tutorial</a></li>
-              <li><a href="#">SDLC Tutorial</a></li>
-              <li><a href="#">Unix Tutorial</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h3>CERTIFICATIONS</h3>
-            <ul>
-              <li><a href="#">Business Analytics Certification</a></li>
-              <li><a href="#">Java & Spring Boot Certification</a></li>
-              <li><a href="#">Data Science Advanced Certification</a></li>
-              <li><a href="#">Cloud Computing and DevOps</a></li>
-              <li><a href="#">Business Analytics</a></li>
-              <li><a href="#">AI & Machine Learning</a></li>
-              <li><a href="#">DevOps Certification</a></li>
-              <li><a href="#">Game Development Certification</a></li>
-              <li><a href="#">AWS Certification</a></li>
-              <li><a href="#">Python Certification</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h3>COMPILERS & EDITORS</h3>
-            <ul>
-              <li><a href="#">Online Java Compiler</a></li>
-              <li><a href="#">Online Python Compiler</a></li>
-              <li><a href="#">Online Go Compiler</a></li>
-              <li><a href="#">Online C Compiler</a></li>
-              <li><a href="#">Online C++ Compiler</a></li>
-              <li><a href="#">Online C# Compiler</a></li>
-              <li><a href="#">Online PHP Compiler</a></li>
-              <li><a href="#">Online MATLAB Compiler</a></li>
-              <li><a href="#">Online Bash Compiler</a></li>
-              <li><a href="#">Online SQL Compiler</a></li>
-              <li><a href="#">Online HTML Compiler</a></li>
-            </ul>
-          </div>
-        </div>
-        
-        <!-- Social Media and App Store Links -->
-        <div class="social-media">
-          <a href="#"><img src="image/telegram.png" alt="Facebook"></a>
-          <a href="#" ><img src="image/twitter.jpeg" alt="Twitter" class="twitter"></a>
-          <a href="#"><img src="image/youtube.png" alt="YouTube"></a>
-          <a href="#"><img src="image/linkdin.png" alt="LinkedIn"></a>
-          <a href="#"><img src="image/discord.png" alt="Instagram"></a>
-        </div>
-        
-        <div class="app-store-buttons">
-          <a href="#"><img src="google-play-badge.png" alt="Get it on Google Play"></a>
-          <a href="#"><img src="app-store-badge.png" alt="Download on the App Store"></a>
-        </div>
-      
-        <div class="footer-bottom">
-          <ul>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">OUR TEAM</a></li>
-            <li><a href="#">CAREERS</a></li>
-            <li><a href="#">JOBS</a></li>
-            <li><a href="#">CONTACT US</a></li>
-            <li><a href="#">TERMS OF USE</a></li>
-            <li><a href="#">PRIVACY POLICY</a></li>
-            <li><a href="#">REFUND POLICY</a></li>
-            <li><a href="#">COOKIES POLICY</a></li>
-            <li><a href="#">FAQ'S</a></li>
-          </ul>
-          <p>© Copyright 2024. All Rights Reserved.</p>
-          <div class="counter">
-            <h3 class="counter_text">WELCOME</h3>
-         <a href="https://www.hitwebcounter.com" target="_blank" class="counter1">
-           <img src="https://hitwebcounter.com/counter/counter.php?page=11934752&style=0009&nbdigits=5&type=ip&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>                                    
-                 
-       </div>
-               
-        </div>
-                   
-      </footer>
-       
-    <script src="script.js"></script>
+   <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>TOP TUTORIALS</h3>
+        <ul>
+          <li><a href="#">Python Tutorial</a></li>
+          <li><a href="#">Java Tutorial</a></li>
+          <li><a href="#">C++ Tutorial</a></li>
+          <li><a href="#">C Programming Tutorial</a></li>
+          <li><a href="#">C# Tutorial</a></li>
+          <li><a href="#">PHP Tutorial</a></li>
+          <li><a href="#">R Tutorial</a></li>
+          <li><a href="#">HTML Tutorial</a></li>
+          <li><a href="#">CSS Tutorial</a></li>
+          <li><a href="#">JavaScript Tutorial</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>TRENDING TECHNOLOGIES</h3>
+        <ul>
+          <li><a href="#">Cloud Computing Tutorial</a></li>
+          <li><a href="#">Amazon Web Services Tutorial</a></li>
+          <li><a href="#">Microsoft Azure Tutorial</a></li>
+          <li><a href="#">Git Tutorial</a></li>
+          <li><a href="#">Ethical Hacking Tutorial</a></li>
+          <li><a href="#">Docker Tutorial</a></li>
+          <li><a href="#">Kubernetes Tutorial</a></li>
+          <li><a href="#">DSA Tutorial</a></li>
+          <li><a href="#">Spring Boot Tutorial</a></li>
+          <li><a href="#">SDLC Tutorial</a></li>
+          <li><a href="#">Unix Tutorial</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>CERTIFICATIONS</h3>
+        <ul>
+          <li><a href="#">Business Analytics Certification</a></li>
+          <li><a href="#">Java & Spring Boot Certification</a></li>
+          <li><a href="#">Data Science Advanced Certification</a></li>
+          <li><a href="#">Cloud Computing and DevOps</a></li>
+          <li><a href="#">Business Analytics</a></li>
+          <li><a href="#">AI & Machine Learning</a></li>
+          <li><a href="#">DevOps Certification</a></li>
+          <li><a href="#">Game Development Certification</a></li>
+          <li><a href="#">AWS Certification</a></li>
+          <li><a href="#">Python Certification</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>COMPILERS & EDITORS</h3>
+        <ul>
+          <li><a href="#">Online Java Compiler</a></li>
+          <li><a href="#">Online Python Compiler</a></li>
+          <li><a href="#">Online Go Compiler</a></li>
+          <li><a href="#">Online C Compiler</a></li>
+          <li><a href="#">Online C++ Compiler</a></li>
+          <li><a href="#">Online C# Compiler</a></li>
+          <li><a href="#">Online PHP Compiler</a></li>
+          <li><a href="#">Online MATLAB Compiler</a></li>
+          <li><a href="#">Online Bash Compiler</a></li>
+          <li><a href="#">Online SQL Compiler</a></li>
+          <li><a href="#">Online HTML Compiler</a></li>
+        </ul>
+      </div>
+    </div>
     
+    <!-- Social Media and App Store Links -->
+    <div class="social-media">
+      <a href="#"><img src="image/telegram.png" alt="Facebook"></a>
+      <a href="#"><img src="image/youtube.png" alt="YouTube"></a>
+      <a href="#"><img src="image/linkdin.png" alt="LinkedIn"></a>
+      <a href="#"><img src="image/discord.png" alt="Instagram"></a>
+    </div>
+    
+    <div class="app-store-buttons">
+      <a href="https://play.google.com/store/apps"><img src="image/playstore.jpeg" alt=""></a>
+      <a href="https://play.google.com/store/apps"><img src="image/ios.jpeg" alt=""></a>
+    </div>
+  
+    <div class="footer-bottom">
+      <ul>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">OUR TEAM</a></li>
+        <li><a href="#">CAREERS</a></li>
+        <li><a href="#">JOBS</a></li>
+        <li><a href="">CONTACT US</a></li>
+        <li><a href="#">TERMS OF USE</a></li>
+        <li><a href="#">PRIVACY POLICY</a></li>
+        <li><a href="#">REFUND POLICY</a></li>
+        <li><a href="#">COOKIES POLICY</a></li>
+        <li><a href="#">FAQ'S</a></li>
+      </ul>
+      <p>© Copyright 2024. All Rights Reserved.</p>
+      <div class="counter">
+     <a href="https://www.hitwebcounter.com" target="_blank" class="counter1">
+       <img src="https://hitwebcounter.com/counter/counter.php?page=11934752&style=0009&nbdigits=5&type=ip&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>                                    
+             
+   </div>
+           
+    </div>
+               
+  </footer>
+   
+    <script src="script.js"></script>
+           
 </body>
 </html>
