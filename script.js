@@ -1,9 +1,15 @@
-// JavaScript to toggle the menu
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('nav-links');
 
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active'); 
+     
+});
+
 function closeBanner() {
-    document.querySelector('.bannerr').style.display = 'none';
+    const banner = document.querySelector('.top-banner');
+    banner.style.display = 'none'; // Hide the banner
 }
 const words = ["Data Structures in C++", "Data Structures in Java.", "Web Development."];
 let wordIndex = 0;
@@ -24,37 +30,36 @@ function typeEffect() {
   
   // Check if we're deleting or typing
   if (isDeleting) {
-    currentWord = word.substring(0, charIndex--); // Delete characters
+    currentWord = word.substring(0, charIndex--); 
   } else {
-    currentWord = word.substring(0, charIndex++); // Add characters
+    currentWord = word.substring(0, charIndex++); 
   }
   
-  typingElement.textContent = currentWord; // Set the text
+  typingElement.textContent = currentWord;
   
-  // If word is complete, wait before starting delete animation
+  
   if (!isDeleting && currentWord === word) {
     isDeleting = true;
-    setTimeout(typeEffect, delayBeforeStartDeleting); // Wait before starting to delete
+    setTimeout(typeEffect, delayBeforeStartDeleting); 
   } 
   // If word is deleted, move to the next word
   else if (isDeleting && currentWord === "") {
     isDeleting = false;
-    wordIndex = (wordIndex + 1) % words.length; // Loop back to first word
-    setTimeout(typeEffect, delayBeforeNextWord); // Start typing the next word after a pause
+    wordIndex = (wordIndex + 1) % words.length;
+    setTimeout(typeEffect, delayBeforeNextWord); 
   } 
-  // Continue the typing/deleting animation with slower speed
+
   else {
-    setTimeout(typeEffect, isDeleting ? deletingSpeed : typingSpeed); // Adjust typing/deleting speed
+    setTimeout(typeEffect, isDeleting ? deletingSpeed : typingSpeed); 
   }
 }
 
-// Start the typing effect
 typeEffect();
 const cardWrapper = document.getElementById('cardWrapper0');
 
  function scrollleft() {
   cardWrapper.scrollBy({
-      left: -300, // Adjust this value for how much you want to scroll left
+      left: -300,
       behavior: 'smooth'
   });
 }
@@ -62,7 +67,7 @@ const cardWrapper = document.getElementById('cardWrapper0');
 function scrollRight() {
   console.log('right arrow clicked'); 
     cardWrapper.scrollBy({
-        left: 300, // Adjust this value for how much you want to scroll right
+        left: 300, 
         behavior: 'smooth'
     });
 }
@@ -71,10 +76,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.getElementById('nav-links');
 
-  // Toggle the 'active' class on click to open/close menu
+
   hamburger.addEventListener('click', () => {
       navLinks.classList.toggle('active');
-      hamburger.classList.toggle('open');  // Optional class for hamburger icon animation
+      hamburger.classList.toggle('open');  
   });
 
   // Optional: Close the menu when clicking outside
