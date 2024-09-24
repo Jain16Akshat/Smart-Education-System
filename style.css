@@ -28,7 +28,7 @@ html, body {
     overflow-x: hidden;
     width: 100%;
     font-family: 'Arial', sans-serif;
-    background-color: #F5F5F5;
+    background-color: #e7eaea8e;
     color: #333;
     line-height: 1.6;
 }
@@ -553,9 +553,9 @@ p {
     font-size: 30px;
     cursor: pointer;
     user-select: none;
-    position: absolute;
+    /* position: absolute; */
     z-index: 100;
-    top: 50%;
+    /* top: 50%; */
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -563,12 +563,21 @@ p {
     border-radius: 50%;
 }
 
+span.arrow:hover{
+    background-color: rgba(0, 0, 0,);
+
+}
+
 .arrow.left0 {
     left: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 .arrow.right0 {
     right: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .card-wrapper0{
@@ -877,12 +886,13 @@ p {
 }
 
 .see-all {
-    background-color: #1abc9c;
     color: white;
     border: none;
     padding: 8px 20px;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
 }
 
 /* Learning Grid */
@@ -949,17 +959,18 @@ p {
 /* Unique Styles for the Membership and Certification Section */
 #membership-certification-section {
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     background-color: #f9f9f9;
-    padding: 20px 0;
+    padding: 10px 0px;
 }
 
 .custom-card-container {
     display: flex;
-    gap: 20px;
+    /* gap: 20px; */
     width: 100%;
-    max-width: 1200px;
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap; /* Ensures cards wrap properly on smaller screens */
@@ -1358,7 +1369,7 @@ strong {
 /* Container for the whole section */
 .bottom1 {
     background-color: #f9f9f9;
-    /* padding: 50px; */
+    padding: 50px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -1373,7 +1384,7 @@ strong {
     border-radius: 5px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.bottom11:hover {
+.bottom1:hover {
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Intensifies shadow on hover */
     background-color: white;
 }
