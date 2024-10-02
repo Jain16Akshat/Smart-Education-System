@@ -104,7 +104,42 @@ header.navbar {
     color: #48CFCB;
 }
 
+
+
 /* Hamburger Menu */
+
+
+.nav-new {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* position: absolute; */
+    display: none;
+}
+
+.nav-new i {
+    font-weight: 600;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.nav-new a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    transition: all .25s linear;
+}
+
+.nav-new a:hover {
+    color: rgba(0, 0, 0, 0.505);
+    text-decoration: underline;
+}
+
 .hamburger {
     display: none;
     font-size: 30px;
@@ -355,7 +390,7 @@ header.navbar {
 }
 
 /* Mobile View (max-width: 600px) */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .main-section {
         flex-direction: column;
         text-align: center;
@@ -364,11 +399,24 @@ header.navbar {
         background-size: cover;
     }
 
+
+
+    .content-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
     .content {
         padding-left: 0;
         padding-right: 0;
         width: 100%;
         flex-basis: auto;
+    }
+
+    .content .explore-btn{
+        margin-right: 50px;
     }
 
     .spec h1 {

@@ -1,11 +1,17 @@
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('nav-links');
-
+let topBaneer = document.querySelector(".top-banner");
+let navBar = document.querySelector(".navbar");
+let navNew = document.querySelector(".nav-new");
+let cross = document.querySelector(".cross");
 
 hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active'); 
-     
+    navNew.style.display = "flex";
 });
+
+cross.addEventListener("click",()=>{
+  navNew.style.display = "none";
+ })
 
 function closeBanner() {
     const banner = document.querySelector('.top-banner');
