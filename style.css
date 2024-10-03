@@ -1472,6 +1472,7 @@ strong {
     margin: auto;
     border-radius: 5px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
 }
 .bottom11:hover {
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Intensifies shadow on hover */
@@ -1762,13 +1763,13 @@ footer {
 
 .footer-section {
     flex: 1;
-    min-width: 220px;
+    min-width: 150px;
     margin-bottom: 20px;
 }
 
 .footer-section h3 {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     text-transform: uppercase;
 }
 
@@ -1788,6 +1789,11 @@ footer {
 
 .footer-section ul li a:hover {
     color: #48CFCB;
+}
+
+.footer-section hr{
+    width: 75%;
+    margin-bottom: 10px;
 }
 
 /* Social Media and App Store Buttons */
@@ -1873,4 +1879,13 @@ footer {
 .counter_text{
     padding-top: .5rem;
     text-align: center;
+}
+
+@media(max-width:768px){
+    .footer-section ul li a{
+        font-size: small;
+    }
+    .footer-section h3{
+        width: 100px;
+    }
 }
