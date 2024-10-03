@@ -573,6 +573,7 @@ h3 {
 }
 
 p {
+    margin-bottom: 18px;
     font-size: 16px;
     /* margin-bottom: 30px; */
 }
@@ -587,7 +588,6 @@ p {
     font-size: 16px;
     font-weight: bold;
 }
-
 .explore-button i {
     margin-left: 8px;
 }
@@ -1441,7 +1441,7 @@ strong {
     }
 
     .service-item50 img {
-        height: 120px; /* Smaller image height */
+        height: 179px; /* Smaller image height */
     }
 
     .service-conten50t h3 {
