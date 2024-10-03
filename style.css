@@ -33,6 +33,20 @@ html, body {
     line-height: 1.6;
 }
 
+body::-webkit-scrollbar{
+    width: 5px;
+ }
+ 
+ body::-webkit-scrollbar-track{
+     background-color: #c6c4c4;
+     border-radius: 5px;
+ }
+ 
+ body::-webkit-scrollbar-thumb{
+     background-color: #397f81; 
+     border-radius: 5px; 
+ }
+
 /* Top Banner */
 .top-banner {
     background-color: #114C4D;
