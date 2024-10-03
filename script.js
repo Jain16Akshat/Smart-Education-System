@@ -14,6 +14,8 @@ hamburger.addEventListener('click', () => {
 
 cross.addEventListener("click",()=>{
   navNew.style.display = "none";
+  body.style.height = "auto";
+  body.style.overflowY = "auto";
  })
 
 function closeBanner() {
