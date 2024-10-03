@@ -1,5 +1,6 @@
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('nav-links');
+let body = document.querySelector("body");
 let topBaneer = document.querySelector(".top-banner");
 let navBar = document.querySelector(".navbar");
 let navNew = document.querySelector(".nav-new");
@@ -7,6 +8,8 @@ let cross = document.querySelector(".cross");
 
 hamburger.addEventListener('click', () => {
     navNew.style.display = "flex";
+    body.style.height = "100vh";
+    body.style.overflow = "hidden";
 });
 
 cross.addEventListener("click",()=>{
@@ -83,10 +86,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const navLinks = document.getElementById('nav-links');
 
 
-  hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
-      hamburger.classList.toggle('open');  
-  });
+  // hamburger.addEventListener('click', () => {
+  //     navLinks.classList.toggle('active');
+  //     hamburger.classList.toggle('open');  
+  // });
 
   // Optional: Close the menu when clicking outside
   document.addEventListener('click', (event) => {
