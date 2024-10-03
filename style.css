@@ -504,7 +504,7 @@ header.navbar {
 }
 
 .banner-container {
-    height: 70px;
+    height: 130px;
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -512,7 +512,7 @@ header.navbar {
   .banner-container h2 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .stats {
@@ -541,7 +541,7 @@ header.navbar {
 /* Promo Section */
 .promo-section {
     text-align: center;
-    padding: 50px 20px;
+    padding: 35px 20px;
 }
 
 .new-batch {
@@ -557,7 +557,7 @@ h3 {
 
 p {
     font-size: 16px;
-    /* margin-bottom: 30px; */
+    margin-bottom: 10px;
 }
 
 .explore-button {
@@ -1296,8 +1296,7 @@ strong {
 /* Grid Layout for Services */
 .grid-container50 {
     display: grid;
-    grid-template-columns: repeat(2, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(2, minmax(300px, 0.4599fr));
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 20px;
@@ -1362,7 +1361,6 @@ strong {
     transform: translateY(-5px); /* Adds a lift effect on hover */
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Intensifies shadow on hover */
 }
-
 /* Responsive Design for Tablets */
 @media (max-width: 1024px) {
     .grid-container50 {
@@ -1485,6 +1483,7 @@ strong {
     font-size: 1.1rem;
     text-decoration: none;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 .contact-btn11:hover {
