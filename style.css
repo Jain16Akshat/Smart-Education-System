@@ -1763,7 +1763,7 @@ footer {
 
 .footer-section {
     flex: 1;
-    min-width: 150px;
+    min-width: 120px;
     margin-bottom: 20px;
 }
 
@@ -1886,6 +1886,10 @@ footer {
         font-size: small;
     }
     .footer-section h3{
-        width: 100px;
+        /* width: 100px; */
+        font-size: 16px;
+    }
+    .footer{
+        padding: 25px 15px;
     }
 }
