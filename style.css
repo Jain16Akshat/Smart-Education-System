@@ -48,6 +48,11 @@ body::-webkit-scrollbar{
  }
 
 /* Top Banner */
+
+.close-banner{
+    cursor: pointer;
+}
+
 .top-banner {
     background-color: #114C4D;
     color: #F5F5F5;
@@ -1385,6 +1390,7 @@ strong {
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .explore-btn200 {
