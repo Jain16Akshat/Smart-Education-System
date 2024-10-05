@@ -77,9 +77,9 @@ header.navbar {
     justify-content: space-between;
     align-items: center;
     padding: 5px 30px;
-    flex-wrap: wrap;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     position: relative;
+    width: 100%;
 }
 
 /* Logo Section */
@@ -558,7 +558,7 @@ header.navbar {
 /* Promo Section */
 .promo-section {
     text-align: center;
-    padding: 50px 20px;
+    padding: 35px 20px;
 }
 
 .new-batch {
@@ -575,7 +575,7 @@ h3 {
 p {
     margin-bottom: 18px;
     font-size: 16px;
-    /* margin-bottom: 30px; */
+    margin-bottom: 10px;
 }
 
 .explore-button {
@@ -1530,6 +1530,7 @@ strong {
     font-size: 1.1rem;
     text-decoration: none;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 .contact-btn11:hover {
