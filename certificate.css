@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ActiveCourses{
+    text-align: center;
+    margin-top: 20px;
+    color:#aa5962 ;
+    font-size: 30px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.box-container{
+    height: 400px;
+    width: 80%;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    height: 90%;
+    width: 30%;
+    border: 2.5px solid #34c6cb;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.box .img-section{
+    height: 70%;
+    border: 1.4px solid #aa5962;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.box .course-name{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box .about{
+    position: relative;
+    top: 35px;
+    left: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #34c6cb;
+    color: #fff;
+}
+
+.box1 .img-section{
+    background-image: url('image/C Program.png');
+    background-position: center;
+    background-size: cover;
+}
+.box2 .img-section{
+    background-image: url('image/java-programming new.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.box3 .img-section{
+    background-image: url('image/New Web.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.atClickAbt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.atClickAbt i{
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    margin-bottom: 10px;
+}
+
+.atClickAbt h5{
+   font-size: 14px;
+   color: #000;
+}
+
+
+@media (max-width:768px){
+    .box-container{
+        display: block;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .box-container::-webkit-scrollbar{
+        width: 5px;
+    }
+    .box-container::-webkit-scrollbar-thumb{
+        border-radius: 4px;
+        background-color: #34c6cb;
+    }
+    .box-container::-webkit-scrollbar-track{
+        background-color: #fff;
+    }
+    .box{
+        height: 94%;
+        width: 97%;
+        margin: 10px;
+        margin: 5px;
+    }
+}

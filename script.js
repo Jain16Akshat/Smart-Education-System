@@ -108,17 +108,20 @@ function toggleText(element){
   let parent = element.parentElement;
   let dots = parent.querySelector(".dots");
   let more = parent.querySelector(".more");
+  let anchor = parent.querySelector("a");
 
   // view less situation
   if(dots.style.display === "none"){
     element.innerHTML = "View More →";
     dots.style.display = "inline";
     more.style.display = "none";
+    anchor.style.textDecoration = "none";
   }
   // view more situation
   else{
     element.innerHTML = "View Less";
     dots.style.display = "none";
     more.style.display = "inline"
+    anchor.style.textDecoration = "none";
   }
 }
