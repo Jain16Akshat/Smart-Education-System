@@ -244,7 +244,7 @@ header.navbar {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 /* Courses Grid */
@@ -296,6 +296,14 @@ header.navbar {
 }
 
 .new-price {
+    font-weight: bold;
+    color: green;
+}
+.old-price1 {
+    color: red;
+}
+
+.new-price1 {
     font-weight: bold;
     color: green;
 }
