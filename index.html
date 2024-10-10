@@ -411,20 +411,21 @@
                 <input type="email" placeholder="Email address" name="email">
             </div>
             <input type="text" placeholder="Mobile Number" name="phone">
-            <!-- <div class="input-group0" name="course"> 
-                <select>
+            <div class="input-group0" name="course"> 
+                <select name="course">
                     <option>Select Course</option>
                     <option>Full Stack</option>
                     <option>Data structure</option>
                     <option>python</option>
                    
                 </select>
-                <select>
+                <select name="mode">
                     <option>Mode of Training</option>
+                    <option>Online</option>
                     <option>onsite</option>
                     <option>Hybrid</option>
                 </select>
-            </div> -->
+            </div>
             <textarea placeholder="Describe message here" name="message"></textarea>
             <button type="submit" name="btn">Submit</button>
         </form>
@@ -573,7 +574,7 @@
            
 </body>
 <script>
-    let url='https://script.google.com/macros/s/AKfycbyOf6_q0-jZ4oDI6iHFx0iVPWE-qHr6GG5cDA9YH57GghOSxIIlXKbPGMJqgruPS2Vwcw/exec';
+    let url='https://script.google.com/macros/s/AKfycbyo1fkcYyxmv4iUozxcYlHSSvUaC4ORFg80qh6GRxgu2NLqRmtNjMd9XWk78zCgM0PcGw/exec';
     let form=document.querySelector('#form');
     form.addEventListener("submit",(e)=>{
         e.target.btn.innerHTML="submitting...";
