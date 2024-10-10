@@ -143,28 +143,29 @@
     </div>
     <div class="form-content0">
         <h2>Enroll for <span class="highlight00">Bright Career</span></h2>
-        <form>
+        <form method="post" id="form">
             <div class="input-group0">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email address">
+                <input type="text" placeholder="Full Name" name="name">
+                <input type="email" placeholder="Email address" name="email">
             </div>
-            <input type="text" placeholder="Mobile Number">
-            <div class="input-group0">
-                <select>
+            <input type="text" placeholder="Mobile Number" name="phone">
+            <div class="input-group0" name="course"> 
+                <select name="course">
                     <option>Select Course</option>
                     <option>Full Stack</option>
                     <option>Data structure</option>
                     <option>python</option>
                    
                 </select>
-                <select>
+                <select name="mode">
                     <option>Mode of Training</option>
+                    <option>Online</option>
                     <option>onsite</option>
                     <option>Hybrid</option>
                 </select>
             </div>
-            <textarea placeholder="Describe message here"></textarea>
-            <button type="submit">Submit</button>
+            <textarea placeholder="Describe message here" name="message"></textarea>
+            <button type="submit" name="btn">Submit</button>
         </form>
     </div>
 </div>
@@ -283,4 +284,26 @@
            
            
 </body>
+<script>
+    let url='https://script.google.com/macros/s/AKfycbyo1fkcYyxmv4iUozxcYlHSSvUaC4ORFg80qh6GRxgu2NLqRmtNjMd9XWk78zCgM0PcGw/exec';
+    let form=document.querySelector('#form');
+    form.addEventListener("submit",(e)=>{
+        e.target.btn.innerHTML="submitting...";
+       let d=new FormData(form);
+         fetch(url,{
+            method:"POST",
+            body:d
+         }).then((res)=>res.text())
+         .then((finalRes)=>{
+            e.target.btn.innerHTML="submit";
+            document.getElementById("res").innerHTML=finalRes;
+            form.reset();
+            setTimeout(()=>{
+           document.getElementById("res").innerHTML='';
+            },5000)
+        })
+            
+            e.preventDefault(); 
+    })
+</script>
 </html>
