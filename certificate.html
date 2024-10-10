@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certification</title>
+    <title>Courses Page</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,83 +16,211 @@
         rel="stylesheet">
     <link rel="stylesheet" href="certificate.css">
 </head>
-
 <body>
-    <h2 class="ActiveCourses">Active Courses</h2>
 
-    <div class="box-container">
 
-        <div class="box1 box">
-            <div class="img-section"></div>
-            <div class="course-name">C Course</div>
+    <div class="nav-new">
+        <a href="index.html">Home</a>
+        <a href="about us.html">About us▾</a>
+        <a href="#">Courses </a>
+        <a href="#">Explore</a>
+        <a href="#">Notes</a>
+        <a href="certificate.html">Video Tutorials</a>
+        <i class="fa-solid fa-xmark cross"></i>
+</div>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo-section">
+            <img src="image/logo2.png" alt="Logo" class="logo-icon">
+            <span class="logo-text">Config<strong>Systems</strong></span>
+        </div>
+        <span class="hamburger" id="hamburger">&#9776;</span>
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="certificate.html">Courses</a>
+                    <!-- <ul class="dropdown-content">
+                        <li><a href="#">C Language</a></li>
+                        <li><a href="#">Java Langauge</a></li>
+                        <li><a href="#">Full stack development</a></li>
+                        <li><a href="#">Data Structure</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">AI & ML</a></li>
+                    </ul> -->
+                </li>
+                <li class="dropdown">
+                    <a href="#">Notes▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">C Notes</a></li>
+                        <li><a href="#">Data Structures</a></li>
+                        <li><a href="#">Java Notes</a></li>
+                        <li><a href="#">Python Notes</a></li>
+                        <li><a href="#">C++ Notes</a></li>
+                        <li><a href="#">Node.js</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Video Tutorials▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">C Language</a></li>
+                        <li><a href="#">Java Language</a></li>
+                        <li><a href="#">Full stack development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">AI and ML</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Explore▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Workshops</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">Hackathons</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">About us▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="about us.html">About config systems</a></li>
+                        <li><a href="#">Trainers profile</a></li>
+                        <li><a href="#">Theme</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">news and events</a></li>
+                    </ul>
+                </li>
+                <li>  <button class="login-btn">Login | SignUp</button>
+                </li>
+    
+            </ul>
+        </nav>
+    </header>
 
-            <div class="atClickAbt" style="display: none">
-                <i class="fa-solid fa-arrow-left"></i>
-                <h4>These Chapters Should Be Completed.</h4>
-                <ul>
-                    <li>Basic C</li>
-                    <li>Conditional Statement</li>
-                    <li>Loop</li>
-                    <li>Function</li>
-                    <li>Array</li>
-                    <li>String</li>
-                    <li>Structure</li>
-                </ul>
-                <h5>This C course covers detailed programming concepts, including variables, loops, functions, pointers,
-                    and memory management, offering hands-on exercises for in-depth understanding.</h5>
+    <!-- Category Filter Section -->
+    <div class="category-section">
+        <button class="category-btn">Courses</button>
+    </div>
+
+    <!-- Courses Section -->
+    <section class="courses-grid" data-aos="fade-up">
+        <!-- Course Card 1 -->
+        <div class="course-card" data-course="C Programming" data-period="3 months" data-certificate="Yes">
+            <img src="image/c prog.png" alt="Course Image">
+            <h3>C Programming</h3>
+            <p><span class="old-price">₹2,499</span> <span class="new-price">free</span></p>
+            <div class="timer">
+                Offer Expires In: <span id="timer1"></span>
             </div>
-
-            <button class="about" onclick="showAbout(this)">About This Course </button>
+            <button class="enroll-btn">Enroll Now</button>
         </div>
 
-
-        <div class="box2 box">
-            <div class="img-section"></div>
-            <div class="course-name">Java Course</div>
-
-            <div class="atClickAbt" style="display: none">
-                <i class="fa-solid fa-arrow-left"></i>
-                <h4>These Chapters Should Be Completed</h4>
-                <ul>
-                    <li>Basic Java</li>
-                    <li>Conditional Statement</li>
-                    <li>Loop</li>
-                    <li>Function</li>
-                    <li>Array</li>
-                    <li>String</li>
-                    <li>OOPS</li>
-                    <li>Structure</li>
-                </ul>
-                <h5>This Java course provides an in-depth exploration of core programming concepts, including OOPS
-                    principles (inheritance, encapsulation, polymorphism, abstraction), data structures, and hands-on
-                    coding exercises.</h5>
+        <!-- Course Card 2 -->
+        <div class="course-card" data-course="Java Programming" data-period="4 months" data-certificate="Yes">
+            <div class="badge">Best Seller</div>
+            <img src="image/java.jpg" alt="Course Image">
+            <h3>Java Programming</h3>
+            <p><span class="old-price">8,999</span> <span class="new-price">free</span></p>
+            <div class="timer">
+                Offer Expires In: <span id="timer2"></span>
             </div>
-            <button class="about" onclick="showAbout(this)">About This Course </button>
+            <button class="enroll-btn">Enroll Now</button>
         </div>
-        <div class="box3 box">
 
-            <div class="img-section"></div>
-            <div class="course-name">Web Devlopment Course</div>
-
-            <div class="atClickAbt" style="display: none">
-                <i class="fa-solid fa-arrow-left"></i>
-                <h4>These Chapters Should Be Completed.</h4>
-                <ul>
-                    <li>Basic HTML</li>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>Bootstrap</li>
-                    <li>Git and Github</li>
-                </ul>
-                <h5>This web development course covers the basics of front-end technologies, including HTML, CSS, and
-                    JavaScript, with practical exercises to build responsive and interactive websites.</h5>
+        <!-- Course Card 3 -->
+        <div class="course-card" data-course="DSA Mastery" data-period="2 months" data-certificate="YES">
+            <div class="badge">Best Seller</div>
+            <img src="image/dta structure.jpeg" alt="Course Image">
+            <h3>DSA Mastery</h3>
+            <p><span class="old-price1">₹7,499</span> <span class="new-price"></span></p>
+            <div class="timer">
+                Offer Expires In: <span id="timer3"></span>
             </div>
-            <button class="about" onclick="showAbout(this)">About This Course </button>
+            <button class="enroll-btn">Enroll Now</button>
+        </div>
+
+        <!-- Course Card 4 -->
+        <div class="course-card" data-course="Web Development Mastery" data-period="6 months" data-certificate="Yes">
+            <div class="badge">Best Seller</div>
+            <img src="image/mern.jpeg" alt="Course Image">
+            <h3>Web Develop. mastery</h3>
+            <p><span class="old-price1">₹6,999</span> <span class="new-price"></span></p>
+            <div class="timer">
+                Offer Expires In: <span id="timer4"></span>
+            </div>
+            <button class="enroll-btn">Enroll Now</button>
+        </div>
+    </section>
+
+    <!-- social proof section -->
+<!-- Social Proof Section -->
+<section class="social-proof">
+    <h2>What Our Students Say</h2>
+    <div class="testimonials">
+        <!-- Testimonial 1 -->
+        <div class="testimonial">
+            <img src="image/avatar-1.png" alt="">
+            <p>"The Web Development Mastery course helped me land my dream job!"</p>
+            <h4>Hemanta Khora</h4>
+            <p>SDE-I at APPLE</p>
+        </div>
+        
+        <!-- Testimonial 2 -->
+        <div class="testimonial">
+            <img src="image/avatar-2.png" alt="Student 2">
+            <p>"Data structure course made me confident in coding fundamentals."</p>
+            <h4>Akshat Kumar Jain</h4>
+            <p>SDE-I at GOLDMAN SACHS</p>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial">
+            <img src="image/avatar-3.png" alt="Student 3">
+            <p>"DSA Mastery course provided me confident in coding fundamentals."</p>
+            <h4>Subhajit Sahu</h4>
+            <p>SWE at WELLS FARGO</p>
         </div>
     </div>
 
-    <script src="certificate.js"></script>
-</body>
+    <!-- Enrollment Stats Section -->
+    <div class="enrollment-stats">
+        <div class="stat">
+            <h3>10,000+</h3>
+            <p>Total Enrollments</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 100%;"></div>
+            </div>
+        </div>
+        <div class="stat">
+            <h3>95%</h3>
+            <p>Job Placement Rate</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="stat">
+            <h3>50+</h3>
+            <p>Countries Represented</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+        </div>
+    </div>
+</section>
 
+
+
+    <!-- Dashboard Modal -->
+    <div id="course-dashboard" class="dashboard-modal">
+        <div class="dashboard-content">
+            <span class="close-btn">&times;</span>
+            <div id="dashboard-info">
+                <!-- Course dashboard content will be injected here -->
+            </div>
+        </div>
+    </div>
+    <a href="#top" class="scroll-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="certificate.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
