@@ -22,7 +22,7 @@ function closeBanner() {
     const banner = document.querySelector('.top-banner');
     banner.style.display = 'none'; // Hide the banner
 }
-const words = ["Data Structures in C++", "Data Structures in Java.", "Web Development."];
+const words = ["C-Language", "Java Language","Web Development","Data Science", "AI-Machine Learning"];
 let wordIndex = 0;
 let charIndex = 0;
 let currentWord = "";

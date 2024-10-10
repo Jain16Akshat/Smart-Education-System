@@ -83,10 +83,11 @@ header.navbar {
     justify-content: space-between;
     align-items: center;
     padding: 5px 30px;
-    flex-wrap: wrap;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
-    position: relative;
-    /* position: fixed; */
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin-bottom: auto;
 }
 
 /* Logo Section */
@@ -94,6 +95,10 @@ header.navbar {
 .logo-section {
     display: flex;
     align-items: center;
+}
+
+.logo-section img{
+    height: 70px;
 }
 
 .logo-icon {
@@ -108,6 +113,8 @@ header.navbar {
 .nav-links {
     list-style-type: none;
     display: flex;
+    align-content: center;
+    align-items: center;
     gap: 25px;
     margin: 0;
     padding: 0;
@@ -186,7 +193,7 @@ header.navbar {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
    
     .nav-links {
         display: none;
@@ -197,7 +204,6 @@ header.navbar {
         left: 0;
         width: 100%;
         padding: 20px;
-        align-items: center;
     }
 
    
@@ -207,8 +213,8 @@ header.navbar {
 
     
     .hamburger {
-        align-items: right;
         display: block;
+        margin-left: auto;        
     }
     .nav-links li {
         margin: 10px 0;
@@ -298,6 +304,7 @@ header.navbar {
     background: linear-gradient(30deg, rgb(48, 241, 244) 30%, rgb(4, 78, 94) 80%); /* Diagonal teal gradient */
     background-color: #F5F5F5;
     min-height: 300px;
+    margin-top: 80px;
 }
 
 /* New Wrapper for flexibility */
@@ -331,7 +338,7 @@ header.navbar {
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 20px;
-    color: #333;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .spec h1 {
@@ -343,7 +350,7 @@ header.navbar {
 
 #typing-text {
     font-size: 32px;
-    color: #333;
+    color: rgba(0, 0, 0, 0.8);
     white-space: nowrap;
     overflow: hidden;
     font-weight: bold;
@@ -358,7 +365,7 @@ header.navbar {
     font-size: 68px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #033025;
+    color: rgba(0, 0, 0, 0.842);
 }
 
 .content p {
@@ -565,7 +572,7 @@ header.navbar {
 /* Promo Section */
 .promo-section {
     text-align: center;
-    padding: 50px 20px;
+    padding: 35px 20px;
 }
 
 .new-batch {
@@ -582,7 +589,7 @@ h3 {
 p {
     margin-bottom: 18px;
     font-size: 16px;
-    /* margin-bottom: 30px; */
+    margin-bottom: 10px;
 }
 
 .explore-button {
@@ -865,6 +872,7 @@ span.arrow:hover{
     background-color: white;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -1071,7 +1079,6 @@ span.arrow:hover{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background-color: #f9f9f9;
     padding: 10px 0px;
 }
 
@@ -1268,6 +1275,7 @@ span.arrow:hover{
 }
 
 strong {
+    color: #033025e3;
     font-weight: bold;
 }
 
@@ -1472,12 +1480,13 @@ strong {
 /* Container for the whole section */
 .bottom1 {
     background-color: #f9f9f9;
-    padding: 50px;
+    padding: 30px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -1518,6 +1527,7 @@ strong {
     line-height: 1.6;
     color: #333;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .text-content1 a {
@@ -1540,7 +1550,6 @@ strong {
     border-radius: 5px;
     font-size: 1.1rem;
     text-decoration: none;
-    margin-top: 10px;
 }
 
 .contact-btn11:hover {
@@ -1552,6 +1561,7 @@ strong {
     flex: 1;
     display: flex;
     justify-content: center;
+    padding-left: 20px;
 }
 
 .image-content11 img {
@@ -1616,12 +1626,12 @@ strong {
 .enroll-section0 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px 0 0 0;
     box-sizing: border-box;
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 /* Styling for the image section */
@@ -1632,6 +1642,8 @@ strong {
 }
 
 .image-content0 img {
+    /* width: 500px;
+    height: 445px; */
     max-width: 100%;
     border-radius: 10px;
     object-fit: cover;
