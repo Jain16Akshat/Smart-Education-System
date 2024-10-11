@@ -25,6 +25,7 @@ enrollButtons.forEach(button => {
             <h2>${courseName}</h2>
             <p><strong>Course Duration:</strong> ${coursePeriod}</p>
             <p><strong>Certificate Provided:</strong> ${courseCertificate}</p>
+             <p><strong>google form : </strong></p>
             <button class="certificate-btn">Get Certificate</button>
         `;
 
