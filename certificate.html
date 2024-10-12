@@ -150,7 +150,6 @@
         </div>
     </section>
 
-    <!-- social proof section -->
 <!-- Social Proof Section -->
 <section class="social-proof">
     <h2>What Our Students Say</h2>
@@ -222,5 +221,51 @@
     </a>
     <script src="certificate.js"></script>
     <script src="script.js"></script>
+
+    <script>
+        const apiKey = 'AIzaSyDBvnh0j7OwuW8JGFevUpLzaKbLk6doyZA';  // Replace with your Google API Key
+const sheetId = '1hRIaw0EmnniSsdnG_8vmgW16GTPVowZACDdQ2tTB_3Q';  // Your Google Sheet ID
+const range = 'Sheet1!A1:F10';  // Adjust range based on your sheet data
+
+// Fetch course data from Google Sheets
+
+fetch(`https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`)
+  .then(response => response.json())  // Parse the JSON response
+  .then(data => {
+    const courses = data.values.slice(1);  // Get the rows of data, ignoring the header
+    const coursesGrid = document.querySelector('.courses-grid');  // Reference the course grid container
+
+    // No coursesGrid.innerHTML = ''; here so that existing HTML remains intact
+
+    // Loop through each course and dynamically create the course cards
+    courses.forEach(course => {
+      const [name, oldPrice, newPrice, imageUrl, offerExpiry, bestSeller] = course;  // Destructure the course details
+
+      const courseCard = `
+        <div class="course-card" data-course="${name}">
+          ${bestSeller.trim().toLowerCase() === 'yes'? '<div class="badge">Best Seller</div>' : ''}
+          <img src="${imageUrl}" alt="${name} Image">
+          <h3>${name}</h3>
+          <p><span class="old-price">₹${oldPrice}</span> <span class="new-price">${newPrice}</span></p>
+          <div class="timer">
+            Offer Expires In: <span>${offerExpiry}</span>
+          </div>
+          <button class="enroll-btn">Enroll Now</button>
+        </div>
+      `;
+
+      // Append the dynamically created course card to the course grid container
+      coursesGrid.innerHTML += courseCard;
+    });
+  })
+  .catch(error => console.error('Error fetching data:', error));  // Handle any errors
+  
+
+    </script>
+   
+    
+    
+    
+
 </body>
 </html>
